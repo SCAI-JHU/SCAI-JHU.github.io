@@ -27,7 +27,7 @@
 
 - title: VirtualHome 2 (VirtualHome-Social)
   # subtitle: a subtitle
-  image: http://virtual-home.org/images/doc/multiagent.gif
+  image: ./images/projects/virtualhome-social.gif
   link: http://virtual-home.org/
   description: An open-sourced mulit-agent household embodied simulator.
 

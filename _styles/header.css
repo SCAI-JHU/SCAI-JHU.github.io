@@ -46,7 +46,8 @@ header a {
 }
 
 .title {
-  font-size: var(--large);
+  font-size: var(--xl);
+  font-weight: var(--bold);
 }
 
 .subtitle {
@@ -88,6 +89,7 @@ nav {
   flex-wrap: wrap;
   gap: 10px;
   font-family: var(--heading);
+  font-size: var(--large);
   text-transform: uppercase;
 }
 
@@ -136,7 +138,8 @@ header[data-big] .title-text {
   text-align: center;
 }
 header[data-big] .title {
-  font-size: var(--xxl);
+  font-size: var(--xxxl);
+  font-weight: var(--bold);
 }
 header[data-big] .subtitle {
   font-size: var(--large);

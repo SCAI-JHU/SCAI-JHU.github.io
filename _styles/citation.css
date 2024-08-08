@@ -13,13 +13,14 @@
 
 .citation-image {
   position: relative;
-  width: 180px;
+  width: 250px;
   flex-shrink: 0;
 }
 
 .citation-image img {
   position: absolute;
   inset: 0;
+  padding-left: 10px;
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -32,8 +33,8 @@
   gap: 10px;
   max-width: 100%;
   height: min-content;
-  padding: 20px;
-  padding-left: 30px;
+  padding: 5px;
+  padding-left: 15px;
   text-align: left;
   overflow-wrap: break-word;
   z-index: 0;
@@ -90,7 +91,7 @@
   }
   .citation-image {
     width: unset;
-    height: 180px;
+    height: 250px;
   }
 }
 

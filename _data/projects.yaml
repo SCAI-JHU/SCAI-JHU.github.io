@@ -17,13 +17,19 @@
   group: featured
   image: https://www.tshu.io/images/PFP.png
   # link: https://chuanyangjin.com/mmtom-qa
-  description: Learning and adapting to human perferences from human feedback. <br> <span>&#8226;</span> Pragmatic Feature Preferences (<a href="https://arxiv.org/pdf/2405.14769">ICML 2024</a>). 
+  description: Learning and adapting to human perferences from human feedback. <br> <span>&#8226;</span> Pragmatic Feature Preferences (<a href="https://arxiv.org/pdf/2405.14769">ICML 2024</a>) <br> <span>&#8226;</span> Diagnosis, Feedback, Adaptation (<a href="https://andipeng.com/counterfactual-adaptation/">ICML 2023</a>) <br> <span>&#8226;</span> Graph-based Active Reward Learning (<a href="https://www.tshu.io/GEM/index.html">ICML 2022</a>)
 
 - title: NeurIPS 2023 Tutorial on Language Models Meet World Models
   # subtitle: a subtitle
   image: https://www.tshu.io/images/law.png
   link: https://sites.google.com/view/neurips2023law
   description: This tutorial aims to summarize and present a unified view of connecting WMs and LMs and highlight the various opportunities for improved machine reasoning and planning based on (or even beyond) large LMs through world modeling.
+
+- title: VirtualHome 2 (VirtualHome-Social)
+  # subtitle: a subtitle
+  image: http://virtual-home.org/images/doc/multiagent.gif
+  link: http://virtual-home.org/
+  description: An open-sourced mulit-agent household embodied simulator.
 
 # - title: Cool Web App
 #   subtitle: a subtitle

@@ -1,1 +1,1 @@
-Sitemap: https://scai-jhu.github.io/SCAI.github.io/sitemap.xml
+Sitemap: https://scai-jhu.github.io/sitemap.xml

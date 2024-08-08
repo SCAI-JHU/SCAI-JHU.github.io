@@ -4,7 +4,7 @@
 
 pi:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: Assistant Professor
 
 postdoc:
   icon: fa-solid fa-glasses
@@ -13,6 +13,10 @@ postdoc:
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
+
+master:
+  icon: fa-solid fa-graduation-cap
+  description: Master's Student
 
 undergrad:
   icon: fa-solid fa-user-graduate
@@ -190,10 +194,20 @@ docs:
   text: Documentation
   tooltip: Documentation
 
-source:
+code:
   icon: fa-solid fa-code
-  text: Source
+  text: Code
   tooltip: Source code
+
+supp:
+  icon: fa-solid fa-code
+  text: Supp
+  tooltip: Supplementary Material
+
+blog:
+  icon: fa-solid fa-code
+  text: Blog
+  tooltip: Blog
 
 server:
   icon: fa-solid fa-server

@@ -1,247 +1,583 @@
-# DO NOT EDIT, GENERATED AUTOMATICALLY
-
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- title: "GOMA: Proactive Embodied Cooperative Communication via Goal-Oriented Mental Alignment"
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  - Lance Ying
+  - Kunal Jha
+  - Shivam Aarya
+  - Joshua B. Tenenbaum
+  - Antonio Torralba
+  - Tianmin Shu
+  date: '2024-10-14'
+  publisher: IROS 2024
+  image: https://www.tshu.io/images/intro_GOMA.png
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+  - type: paper
+    link: https://arxiv.org/pdf/2403.11075
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - Embodied AI
+  - Theory of Mind
+  - Human-AI Cooperation
+
+
+- title: "MMToM-QA: Multimodal Theory of Mind Question Answering"
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+  - Chuanyang Jin
+  - Yutong Wu
+  - Jing Cao
+  - Jiannan Xiang
+  - Yen-Ling Kuo
+  - Zhiting Hu
+  - Tomer D. Ulman
+  - Antonio Torralba
+  - Joshua B. Tenenbaum
+  - Tianmin Shu
+  publisher: ACL 2024
+  date: '2024-08-01'
+  image: https://www.tshu.io/images/MMToMQA.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2401.08743
+  - type: website
+    link: https://chuanyangjin.com/mmtom-qa
+  - type: code
+    link: https://github.com/chuanyangjin/MMToM-QA
+  - type: data
+    link: http://virtual-home.org/release/MMToMQA/benchmark.zip
+  tags:
+  - Theory of Mind
+
+- title: "Pragmatic Feature Preferences: Learning Reward-Relevant Preferences from Human Input"
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  - Andi Peng
+  - Yuying Sun
+  - Tianmin Shu
+  - David Abel
+  publisher: ICML 2024
+  date: '2024-07-01'
+  image: https://www.tshu.io/images/PFP.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2405.14769
+  - type: code
+    link: https://github.com/andipeng/feature-preference
+  tags:
+  - Social Learning
+
+
+- title: "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation"
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Hongxin Zhang
+  - Zeyuan Wang
+  - Qiushi Lyu
+  - Zheyuan Zhang
+  - Sunli Chen
+  - Tianmin Shu
+  - Yilun Du
+  - Chuang Gan
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: https://www.tshu.io/images/intro_COMBO.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2404.10775
+  - type: website
+    link: https://vis-www.cs.umass.edu/combo/
+  - type: code
+    link: https://github.com/UMass-Foundation-Model/COMBO
+  tags:
+  - Embodied AI
+  - Multi-Agent Cooperation
+
+
+- title: "Building Cooperative Embodied Agents Modularly with Large Language Models"
+  authors:
+  - Hongxin Zhang
+  - Weihua Du 
+  - Jiaming Shan
+  - Qinhong Zhou
+  - Yilun Du
+  - Joshua B. Tenenbaum
+  - Tianmin Shu
+  - Chuang Gan
+  date: '2024-06-01'
+  publisher: ICLR 2024
+  image: https://www.tshu.io/images/intro_CoELA.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2307.02485.pdf
+  - type: website
+    link: https://vis-www.cs.umass.edu/Co-LLM-Agents/
+  - type: code
+    link: https://github.com/UMass-Foundation-Model/Co-LLM-Agents
+  tags:
+  - Embodied AI
+  - Human-Agent Cooperation
+
+- title: "Neural Amortized Inference for Nested Multi-agent Reasoning"
+  authors:
+  - Kunal Jha 
+  - Tuan Anh Le
+  - Chuanyang Jin
+  - Yen-Ling Kuo
+  - Joshua B. Tenenbaum
+  - Tianmin Shu
+  date: '2024-02-01'
+  publisher: AAAI 2024
+  image: https://www.tshu.io/images/nested_reasoning.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/nested_reasoning/Nested_Reasoning_Camera_Ready.pdf
+  - type: website
+    link: https://www.tshu.io/nested_reasoning/
+  - type: code
+    link: https://github.com/KJha02/AmortizedNestedReasoning
+  - type: supp
+    link: https://www.tshu.io/nested_reasoning/Nested_Reasoning_Supplementary.pdf
+  tags:
+  - Theory of Mind
+
+- title: "Risk-Bounded Online Team Interventions via Theory of Mind"
+  authors:
+  - Yuening Zhang
+  - Paul Robertson
+  - Tianmin Shu
+  - Sungkweon Hong 
+  - Brian C. Williams
+  date: '2024-05-01'
+  publisher: ICRA 2024
+  image: https://www.tshu.io/images/risk_bounded_ToM.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/papers/ICRA_2024__Risk_bounded_Interventions.pdf
+  tags:
+  - Theory of Mind
+  - Human-AI Cooperation
+
+- title: "An asynchronous, automated workflow for looking time experiments with infants"
+  authors:
+  - Gal Raz
+  - Sabrina Piccolo
+  - Janine Medrano
+  - Shari Liu
+  - Kirsten Lydic
+  - Catherine Mei
+  - Victoria Nguyen
+  - Tianmin Shu
+  - Rebecca Saxe
+  date: '2024-06-20'
+  publisher: Developmental Psychology
+  image: https://www.tshu.io/images/automated_workflow_infants.png
+  buttons:
+  - type: paper
+    link: https://psycnet.apa.org/fulltext/2024-97072-001.html
+  tags:
+  - Theory of Mind
+  - Social Cognition
+
+- title: "Language Models, Agent Models, and World Models: The LAW for Machine Reasoning and Planning"
+  authors:
+  - Zhiting Hu\*
+  - Tianmin Shu\*
+  date: '2023-12-10'
+  publisher: arXiv preprent
+  image: https://www.tshu.io/images/law.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2312.05230
+  - type: website
+    link: https://sites.google.com/view/neurips2023law
+  tags:
+  - Embodied AI
+
+- title: "Language Models Meet World Models: Embodied Experiences Enhance Language Models"
+  authors:
+  - Jiannan Xiang
+  - Tianhua Tao 
+  - Yi Gu 
+  - Tianmin Shu
+  - Zirui Wang
+  - Zichao Yang 
+  - Zhiting Hu
+  date: '2023-12-01'
+  publisher: NeurIPS 2023
+  image: https://www.tshu.io/images/intro_WM4LLM.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2305.10626.pdf
+  - type: code
+    link: https://github.com/szxiangjn/world-model-for-language-model
+  tags:
+  - Embodied AI
+
+- title: "NOPA: Neurally-guided Online Probabilistic Assistance for Building Socially Intelligent Home Assistants"
+  authors:
+  - Xavier Puig\*
+  - Tianmin Shu\*
+  - Joshua B. Tenenbaum
+  - Antonio Torralba 
+  date: '2023-05-31'
+  publisher: ICRA 2023
+  image: https://www.tshu.io/online_watch_and_help/icon.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2301.05223.pdf
+  - type: website
+    link: https://www.tshu.io/online_watch_and_help/
+  - type: code
+    link: https://github.com/xavierpuigf/online_watch_and_help
+  tags:
+  - Embodied AI
+  - Theory of Mind
+  - Human-AI Cooperation
+
+- title: "Diagnosis, Feedback, Adaptation: A Human-in-the-Loop Framework for Test-Time Policy Adaptation"
+  authors:
+  - Andi Peng
+  - Aviv Netanyahu
+  - Mark Ho
+  - Tianmin Shu 
+  - Andreea Bobu 
+  - Julie Shah
+  - Pulkit Agrawal 
+  date: '2023-07-20'
+  publisher: ICML 2023
+  image: https://www.tshu.io/images/intro_DFA.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2307.06333.pdf
+  - type: website
+    link: https://andipeng.com/counterfactual-adaptation/
+  tags:
+  - Embodied AI
+  - Social Learning
+
+- title: "Stateful Active Facilitator: Coordination and Environmental Heterogeneity in Cooperative Multi-Agent Reinforcement Learning"
+  authors:
+  - Dianbo Liu\*
+  - Vedant Shah\*
+  - Oussama Boussif\*
+  - Cristian Meo
+  - Anirudh Goyal
+  - Tianmin Shu
+  - Michael Mozer
+  - Nicolas Heess
+  - Yoshua Bengio
+  date: '2023-06-20'
+  publisher: ICLR 2023
+  image: https://www.tshu.io/images/cover_fig_stateful.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2210.03022.pdf
+  - type: code
+    link: https://github.com/jaggbow/saf
+  tags:
+  - Multi-Agent Cooperation
+
+- title: "Zero-shot linear combinations of grounded social interactions with Linear Social MDPs"
+  authors:
+  - Ravi Tejwani\*
+  - Yen-Ling Kuo\*
+  - Tianmin Shu
+  - Bennett Stankovits
+  - Dan Gutfreund
+  - Joshua B. Tenenbaum
+  - Boris Katz
+  - Andrei Barbu
+  date: '2023-02-20'
+  publisher: AAAI 2023
+  image: https://www.tshu.io/images/intro_linear_social_mdp.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/papers/AAAI_2023__Linear_Social_MDPs.pdf
+  tags:
+  - Theory of Mind
+  - Multi-Agent Cooperation
+
+- title: "Discovering Generalizable Spatial Goal Representations via Graph-based Active Reward Learning"
+  authors:
+  - Aviv Netanyahu\*
+  - Tianmin Shu\*
+  - Joshua B. Tenenbaum
+  - Pulkit Agrawal
+  date: '2022-07-20'
+  publisher: ICML 2022
+  image: https://www.tshu.io/GEM/intro.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/GEM/GEM.pdf
+  - type: website
+    link: https://www.tshu.io/GEM/index.html
+  - type: code
+    link: https://github.com/MicroSTM/GEM
+  tags:
+  - Social Learning
+
+- title: "RLPrompt: Optimizing Discrete Text Prompts with Reinforcement Learning"
+  authors:
+  - Mingkai Deng
+  - Jianyu Wang
+  - Cheng-Ping Hsieh
+  - Yihan Wang
+  - Han Guo
+  - Tianmin Shu
+  - Meng Song
+  - Eric Xing
+  - Zhiting Hu
+  date: '2022-06-20'
+  publisher: EMNLP 2022
+  image: https://www.tshu.io/images/intro_RLPrompt.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2205.12548.pdf
+  - type: code
+    link: https://github.com/mingkaid/rl-prompt
+  - type: blog
+    link: https://blog.ml.cmu.edu/2023/02/24/rlprompt-optimizing-discrete-text-prompts-with-reinforcement-learning/
+
+- title: "Show Me What You Can Do: Capability Calibration on Reachable Workspace for Human-Robot Collaboration"
+  authors:
+  - Xiaofeng Gao 
+  - Luyao Yuan 
+  - Tianmin Shu 
+  - Hongjing Lu 
+  - Song-Chun Zhu
+  date: '2022-05-20'
+  publisher: IEEE Robotics and Automation Letters (RA-L)
+  image: https://www.tshu.io/images/intro_calibration.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/papers/RAL_2022_CapCali_Final.pdf
+  - type: website
+    link: https://www.tshu.io/publications.html
+  tags:
+  - Embodied AI
+  - Theory of Mind 
+  - Human-AI Cooperation
+  
+- title: "Incorporating Rich Social Interactions Into MDPs"
+  authors:
+  - Ravi Tejwani\*
+  - Yen-Ling Kuo\*
+  - Tianmin Shu
+  - Bennett Stankovits
+  - Dan Gutfreund
+  - Joshua B. Tenenbaum
+  - Boris Katz
+  - Andrei Barbu
+  date: '2022-05-10'
+  publisher: ICRA 2022 (<span style="color:red">Excellent Paper Award at IROS Cognitive and Social Aspects of Human Multi-Robot Interaction Workshop, 2022</span>)
+  image: https://www.tshu.io/images/rich_smdp.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2110.10298.pdf
+  - type: website
+    link: https://social-interactions-mdp.github.io/
+  tags:
+  - Theory of Mind 
+  - Social Scene Understanding
+
+- title: "Social Interactions as Recursive MDPs"
+  authors:
+  - Ravi Tejwani\*
+  - Yen-Ling Kuo\*
+  - Tianmin Shu
+  - Boris Katz
+  - Andrei Barbu
+  date: '2021-10-10'
+  publisher: CoRL 2021 
+  image: https://www.tshu.io/images/smdp.png
+  buttons:
+  - type: paper
+    link: https://openreview.net/pdf?id=3HZLte8gMYS
+  - type: website
+    link: https://social-mdp.github.io/
+  tags:
+  - Theory of Mind 
+  - Social Scene Understanding
+
+- title: "AGENT: A Benchmark for Core Psychological Reasoning"
+  authors:
+  - Tianmin Shu
+  - Abhishek Bhandwaldar
+  - Chuang Gan
+  - Kevin A. Smith
+  - Shari Liu
+  - Dan Gutfreund
+  - Elizabeth Spelke
+  - Joshua B. Tenenbaum
+  - Tomer D. Ullman
+  date: '2021-07-20'
+  publisher: ICML 2021 
+  image: https://www.tshu.io/AGENT/icon.gif
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/AGENT/AGENT.pdf
+  - type: supp
+    link: https://www.tshu.io/AGENT/AGENT_supp.pdf
+  - type: website
+    link: https://www.tshu.io/AGENT
+  - type: code
+    link: https://github.com/MicroSTM/AGENT-synthesis
+  - type: blog
+    link: https://github.com/MicroSTM/AGENT-synthesis
+  tags:
+  - Theory of Mind 
+  - Social Cognition
+
+- title: "Watch-And-Help: A Challenge for Social Perception and Human-AI Collaboration"
+  authors:
+  - Xavier Puig
+  - Tianmin Shu
+  - Shuang Li
+  - Zilin Wang
+  - Yuan-Hong Liao
+  - Joshua B. Tenenbaum
+  - Sanja Fidler
+  - Antonio Torralba
+  - Andrei Barbu
+  date: '2021-06-20'
+  publisher: ICLR 2021 (<span style="color:red">Best Paper Award at NeurIPS Cooperative AI Workshop, 2020</span>)
+  image: https://www.tshu.io/images/cover_fig_wah.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2010.09890.pdf
+  - type: website
+    link: http://virtual-home.org/watch_and_help/
+  - type: code
+    link: https://github.com/xavierpuigf/watch_and_help
+  tags:
+  - Human-AI Cooperation 
+  - Embodied AI
+  - Theory of Mind 
+
+- title: "PHASE: PHysically-grounded Abstract Social Events for Machine Social Perception"
+  authors:
+  - Aviv Netanyahu\*
+  - Tianmin Shu\*
+  - Boris Katz
+  - Andrei Barbu
+  - Joshua B. Tenenbaum
+  date: '2021-02-20'
+  publisher: AAAI 2021 (<span style="color:red">Best Paper Award at NeurIPS Shared Visual Representations in Human and Machine Intelligence Workshop, 2020</span>)
+  image: https://www.tshu.io/PHASE/phase_competing.gif
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/PHASE/PHASE.pdf
+  - type: supp
+    link: https://www.tshu.io/PHASE/PHASE_supp.pdf
+  - type: website
+    link: https://www.tshu.io/PHASE
+  - type: code
+    link: https://github.com/MicroSTM/PHASE
+  tags:
+  - Social Scene Understanding
+  - Theory of Mind 
+  - Social Cognition
+
+
+- title: "A Unified Psychological Space for Human Perception of Physical and Social Events"
+  authors:
+  - Tianmin Shu
+  - Yujia Peng
+  - Song-Chun Zhu
+  - Hongjing Lu
+  date: '2021-01-20'
+  publisher: Cognitive Psychology
+  image: https://www.tshu.io/HeiderSimmel/PSF/intro.png
+  buttons:
+  - type: paper
+    link: https://psyarxiv.com/ar6j9
+  - type: code
+    link: https://github.com/MicroSTM/PSF
+  - type: data
+    link: https://osf.io/5sxuw/
+  tags:
+  - Social Scene Understanding
+  - Social Cognition
+
+- title: "Exploring Biological Motion Perception in Two-stream Convolutional Neural Networks"
+  authors:
+  - Yujia Peng
+  - Hannah Lee
+  - Tianmin Shu
+  - Hongjing Lu
+  date: '2021-01-01'
+  publisher: Vision Research
+  image: https://www.tshu.io/images/biomotion_twostream_2020.png
+  buttons:
+  - type: paper
+    link: https://www.sciencedirect.com/science/article/pii/S0042698920301656?dgcid=coauthor
+
+- title: "Adventures in Flatland: Perceiving Social Interactions Under Physical Dynamics"
+  authors:
+  - Tianmin Shu
+  - Marta Kryven
+  - Tomer D. Ullman
+  - Joshua B. Tenenbaum
+  date: '2020-07-01'
+  publisher: CogSci 2020
+  image: https://www.tshu.io/HeiderSimmel/CogSci20/intro.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/HeiderSimmel/CogSci20/Flatland_CogSci20.pdf
+  - Social Scene Understanding
+  - Theory of Mind
+  - Social Cognition
+
+- title: "Joint Mind Modeling for Explanation Generation in Complex Human-Robot Collaborative Tasks"
+  authors:
+  - Xiaofeng Gao\*
+  - Ran Gong\*
+  - Yizhou Zhao
+  - Shu Wang
+  - Tianmin Shu
+  - Song-Chun Zhu
+  date: '2020-06-01'
+  publisher: RO-MAN 2020
+  image: https://www.tshu.io/images/intro_xCooking.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2007.12803.pdf
+  - type: website
+    link: https://xfgao.github.io/xCookingWeb
+  - type: code
+    link: https://github.com/xfgao/xCooking
+  tags:
+  - Human-AI Cooperation
+  - Theory of Mind
+  - Embodied AI
+
+- title: "Active Visual Information Gathering for Vision-Language Navigations"
+  authors:
+  - Hanqing Wang
+  - Wenguan Wang
+  - Tianmin Shu
+  - Wei Liang
+  - Jianbing Shen
+  date: '2020-05-01'
+  publisher: ECCV 2020
+  image: https://www.tshu.io/images/intro_explore_VLN.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2007.08037.pdf
+  - type: code
+    link: https://github.com/HanqingWangAI/Active_VLN
+  tags:
+  - Embodied AI
+
+- title: "Learning to Infer Human Attention in Daily Activities"
+  authors:
+  - Zhixiong Nan
+  - Tianmin Shu
+  - Ran Gong
+  - Shu Wang
+  - Ping Wei
+  - Song-Chun Zhu
+  - Nanning Zheng
+  date: '2020-04-01'
+  publisher: Pattern Recognition
+  image: https://www.tshu.io/images/intro_infer_attention.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/papers/PR_Infer.pdf
+  tags:
+  - Theory of Mind

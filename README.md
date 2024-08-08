@@ -1,5 +1,5 @@
 
-# SCAI-JHUDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# Social Cognitive AI Lab @JHU
 
 Visit **[scai-jhu.github.io/SCAI-lab-website](https://scai-jhu.github.io/SCAI-lab-website)** 🚀
 

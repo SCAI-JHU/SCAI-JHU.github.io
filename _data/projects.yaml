@@ -1,47 +1,44 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Multimodal Theory of Mind Reasoning
+  # subtitle: a subtitle
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: https://www.tshu.io/images/MMToMQA.png
+  # link: https://chuanyangjin.com/mmtom-qa
+  description: Reasoning about people's mental states based on their behaviors observed from multimodal inputs. <br> <span>&#8226;</span> Multimodal ToM QA (<a href="https://chuanyangjin.com/mmtom-qa">ACL 2024</a>). 
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Multimodal Embodied Assistance
+  # subtitle: a subtitle
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  image: https://www.tshu.io/online_watch_and_help/icon.jpg
+  # link: 
+  description: Assisting humans with physical actions and verbal communication in complex embodied settings. <br> <span>&#8226;</span> Goal-Oriented Mental Alignment (<a href="https://arxiv.org/pdf/2403.11075">IROS 2024</a>) <br> <span>&#8226;</span> Compositional World Models (<a href="https://vis-www.cs.umass.edu/combo/">arXiv 2024</a>) <br> <span>&#8226;</span>  Modular LLM-based Embodied Agents (<a href="https://vis-www.cs.umass.edu/Co-LLM-Agents/">ICLR 2024</a>) <br> <span>&#8226;</span> Neurally-guided Online Probabilistic Assistance (<a href="https://www.tshu.io/online_watch_and_help/">ICRA 2023</a>) <br> <span>&#8226;</span> Watch-And-Help (<a href="http://virtual-home.org/watch_and_help/">ICLR 2021</a>)
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
+- title: Learning from Human Feedback
+  # subtitle: a subtitle
+  group: featured
+  image: https://www.tshu.io/images/PFP.png
+  # link: https://chuanyangjin.com/mmtom-qa
+  description: Learning and adapting to human perferences from human feedback. <br> <span>&#8226;</span> Pragmatic Feature Preferences (<a href="https://arxiv.org/pdf/2405.14769">ICML 2024</a>). 
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: NeurIPS 2023 Tutorial on Language Models Meet World Models
+  # subtitle: a subtitle
+  image: https://www.tshu.io/images/law.png
+  link: https://sites.google.com/view/neurips2023law
+  description: This tutorial aims to summarize and present a unified view of connecting WMs and LMs and highlight the various opportunities for improved machine reasoning and planning based on (or even beyond) large LMs through world modeling.
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+# - title: Cool Web App
+#   subtitle: a subtitle
+#   image: images/photo.jpg
+#   link: https://github.com/
+#   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   repo: greenelab/lab-website-template
+#   tags:
+#     - software
+
+# - title: Cool Web Server
+#   subtitle: a subtitle
+#   image: images/photo.jpg
+#   link: https://github.com/
+#   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   repo: greenelab/lab-website-template
+#   tags:
+#     - software

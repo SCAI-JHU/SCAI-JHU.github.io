@@ -1,9 +1,9 @@
 ---
 ---
 
-# SCAI-JHUDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+<!-- # Website for the Social Cognitive AI (SCAI) lab at Johns Hopkins University -->
 
-
+Welcome to the website for the Social Cognitive AI (SCAI) Lab at Johns Hopkins University. The lab is led by Dr. <a href="https://www.tshu.io/">Tianmin Shu</a>. Our goal is to advance human-centered AI by engineering machine social intelligence to build socially intelligent systems that can understand, reason about, and interact with humans in real-world settings. We work at the intersection of Embodied AI, Machine Learning, and Computational Social Cognition.
 
 {% include section.html %}
 
@@ -11,12 +11,12 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Research
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -24,58 +24,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}

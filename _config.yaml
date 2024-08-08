@@ -1,19 +1,18 @@
 # site properties and page defaults
-title: SCAI-JHUDESCRIPTION=An engaging 1-3 sentence description of your lab.
+title: SCAI Lab
 subtitle: 
 description: 
-header: images/background.jpg
-footer: images/background.jpg
+header: 
+footer: 
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@SCAI-JHUDESCRIPTION=An engaging 1-3 sentence description of your lab..com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: SCAI-JHUDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  twitter: SCAI-JHUDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  youtube: SCAI-JHUDESCRIPTION=An engaging 1-3 sentence description of your lab.
+  email: tianmin.shu@jhu.edu
+  google-scholar: YT_ffdwAAAAJ
+  github: SCAI-JHU
+  twitter: tianminshu
+  youtube: TianminShu
 
 ### jekyll settings
 

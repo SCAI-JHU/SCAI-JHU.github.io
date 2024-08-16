@@ -30,9 +30,9 @@
   - Antonio Torralba
   - Joshua B. Tenenbaum
   - Tianmin Shu
-  publisher: ACL 2024
+  publisher: ACL 2024 (<span style="color:red">Outstanding Paper Award</span>)
   date: '2024-08-01'
-  image: https://www.tshu.io/images/MMToMQA.png
+  image: ./images/projects/MMToMQA.gif
   buttons:
   - type: paper
     link: https://arxiv.org/pdf/2401.08743

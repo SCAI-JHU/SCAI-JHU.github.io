@@ -1,7 +1,7 @@
 - title: Multimodal Theory of Mind Reasoning
   # subtitle: a subtitle
   group: featured
-  image: https://www.tshu.io/images/MMToMQA.png
+  image: ./images/projects/MMToMQA.gif
   # link: https://chuanyangjin.com/mmtom-qa
   description: Reasoning about people's mental states based on their behaviors observed from multimodal inputs. <br> <span>&#8226;</span> Multimodal ToM QA (<a href="https://chuanyangjin.com/mmtom-qa">ACL 2024</a>). 
 

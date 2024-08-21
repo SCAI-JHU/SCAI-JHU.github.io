@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="MuMA-ToM: Multi-modal Multi-Agent Theory of Mind">
+  <meta name="keywords" content="Multi-modal Multi-Agent ToM">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MuMA-ToM: Multi-modal Multi-Agent Theory of Mind</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">MuMA-ToM: Multi-modal Multi-Agent Theory of Mind</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="">Haojun Shi</a><sup> 1*</sup>,</span>
+            <span class="author-block">
+              <a href="">Suyu Ye</a><sup> 1*</sup>,</span>
+            <span class="author-block">
+              <a href="">Xinyu Fang</a><sup> 1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://chuanyangjin.com">Chuanyang Jin</a><sup> 1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://cogsci.jhu.edu/directory/leyla-isik/">Leyla Isik</a><sup> 1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://engineering.virginia.edu/faculty/yen-ling-kuo">Yen-Ling Kuo</a><sup> 2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://engineering.jhu.edu/faculty/tianmin-shu/">Tianmin Shu</a><sup> 1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Johns Hopkins University</span>
+            <span class="author-block"><sup>2</sup>University of Virginia</span>
+          </div>
+
+          <div class="is-size-6 has-text-centered">
+            <sup>*</sup>Equal contribution
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/stonehj05/MuMA-ToM"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <figure class="image">
+          <img src="./static/media/questions_png.png" alt="sample questions">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Image -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Understanding people's social interactions in complex real-world scenarios often relies on intricate mental reasoning. To truly understand how and why people interact with one another, we must infer the underlying mental states that give rise to the social interactions, i.e., Theory of Mind reasoning in multi-agent interactions. Additionally, social interactions are often multi-modal -- we can watch people's actions, hear their conversations, and/or read about their past behaviors. For AI systems to successfully and safely interact with people in real-world environments, they also need to understand people's mental states as well as their inferences about each other's mental states based on multi-modal information about their interactions. For this, we introduce MuMA-ToM, a Multi-modal Multi-Agent Theory of Mind benchmark. MuMA-ToM is the first multi-modal Theory of Mind benchmark that evaluates mental reasoning in embodied multi-agent interactions. In MuMA-ToM, we provide video and text descriptions of people's multi-modal behavior in realistic household environments. Based on the context, we then ask questions about people's goals, beliefs, and beliefs about others' goals. We validated MuMA-ToM in a human experiment and provided a human baseline. We also proposed a novel multi-modal, multi-agent ToM model, LIMP (Language model-based Inverse Multi-agent Planning). Our experimental results show that LIMP significantly outperforms state-of-the-art methods, including large multi-modal models (e.g., GPT-4o, Gemini-1.5 Pro) and a recent multi-modal ToM model, BIP-ALM.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- MuMA-ToM Benchmark -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">The MuMA-ToM Benchmark</h2>
+          <div class="content has-text-justified">
+            <p>
+              MuMA-ToM is the first multi-modal Theory of Mind benchmark designed to evaluate mental reasoning in embodied multi-agent interactions. The benchmark was designed with several key features in mind:
+            </p>
+            <ol>
+              <li>It is factually correct, concise, and readable.</li>
+              <li>It requires integrating information from multiple modalities to answer the questions.</li>
+              <li>It tests understanding of multi-agent interactions, including beliefs, social goals, and beliefs about others' goals.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <!--/ MuMA-ToM Benchmark -->
+    </div>
+  </section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- First Row of Videos (2 Videos Side by Side) -->
+    <div class="columns is-centered">
+      
+      <!-- Video 1 -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-5" style="text-align: center; font-size: 1.9em">Belief Inference</h2>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <video id="belief_example" autoplay controls loop playsinline style="width: 100%;">
+              <source src="./static/media/Belief_Inference_Example.mp4" type="video/mp4">
+            </video>
+            <div style="border: 1px solid black; padding: 15px; min-height: 185px; max-width: 600px; margin-top: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <p style="font-size: 0.8em;"><strong>Question:</strong> If Mary has been trying to hinder John from achieving his goal, when giving information, where does she <strong>LEAST</strong> likely believe the beer was located?</p>
+              <p style="font-size: 0.8em;"><strong style="color: green;">A) Coffee table in the living room <span style="color: green;">✔</span></strong></p>
+              <p style="font-size: 0.8em;">B) Kitchen cabinet</p>
+              <p style="font-size: 0.8em;">C) Fridge</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Video 2 -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-5" style="text-align: center; font-size: 1.9em">Social Goal Inference</h2>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <video id="social_goal_example" controls playsinline style="width: 100%;">
+              <source src="./static/media/Social_Goal_Inference_Example.mp4" type="video/mp4">
+            </video>
+            <div style="border: 1px solid black; padding: 15px; min-height: 185px; max-width: 600px; margin-top: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <p style="font-size: 0.8em;"><strong>Question:</strong> If Jessica knows what is inside the cabinet in the bedroom, which of the following is <strong>MOST</strong> likely?</p>
+              <p style="font-size: 0.8em;"><strong style="color: green;">A) Jessica is trying to help Kevin <span style="color: green;">✔</span></strong></p>
+              <p style="font-size: 0.8em;">B) Jessica is trying to hinder Kevin</p>
+              <p style="font-size: 0.8em;">C) Jessica is indifferent towards Kevin’s goals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+   <!-- Second Row of Videos (1 Video) -->
+<div class="columns is-centered">
+  <!-- Video 3 -->
+  <div class="column">
+    <div class="content">
+      <h2 class="title is-5" style="text-align: center; font-size: 1.9em">Belief of Goal Inference</h2>
+      <div style="width: 60%; margin: 0 auto; text-align: left;">
+        <p><strong>The events in the text occur first, followed by the video.</strong></p>
+        <p><strong>Text:</strong> David walked to a book and grabbed it. He then walked to the living room, headed to the bedroom, and finally reached the desk there, placing the book on the desk.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <video id="goal_inference_example" controls playsinline style="width: 60%;">
+          <source src="./static/media/Belief_of_Goal_Inference_Example.mp4" type="video/mp4">
+        </video>
+        <div style="border: 1px solid black; padding: 15px; width: 60%; margin-top: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+          <p style="font-size: 0.8em;"><strong>Question:</strong> Which of the following statements is <strong>MOST</strong> likely?</p>
+          <p style="font-size: 0.8em;">A) Sarah believed that David placed the book at his desired location: she moved the book to the coffee table to help David.</p>
+          <p style="font-size: 0.8em;">B) Sarah believed that David wanted to place the book on the coffee table: she intentionally moved the book to hinder David.</p>
+          <p style="font-size: 0.8em;"><strong style="color: green;">C) Sarah believed that David wanted to place the book on the coffee table: she moved the book to help David. <span style="color: green;">✔</span></strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- LIMP model -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">The LIMP Model</h2>
+        <div class="content has-text-justified">
+          <p>We proposed the Language model-based Inverse Multi-agent Planning (LIMP) model for modelling social interactions.</p>
+          <div class="columns is-centered has-text-centered">
+            <div class="column">
+              <figure class="image">
+                <img src="./static/media/LIMP_model.png" alt="sample questions">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Read more about our model in our paper.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ LIMP model -->
+  </section>
+
+      <footer class="footer" style="padding: 10px 0;">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-8" style="padding: 0;">
+              <div class="content" style="font-size: 0.9em; margin-bottom: 0;">
+      
+                <p style="line-height: 1.4;">
+                  This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                  You are free to borrow the code of this website; we just ask that you link back to this page in the footer. 
+                  This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                </p>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+</body>
+</html>

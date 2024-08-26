@@ -20,7 +20,7 @@
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.svg">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
@@ -37,11 +37,11 @@
           <h1 class="title is-1 publication-title">MuMA-ToM: Multi-modal Multi-Agent Theory of Mind</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="">Haojun Shi</a><sup> 1*</sup>,</span>
+              <a href="https://www.linkedin.com/in/haojun-shi-746b3328b/">Haojun Shi</a><sup> 1*</sup>,</span>
             <span class="author-block">
-              <a href="">Suyu Ye</a><sup> 1*</sup>,</span>
+              <a href="https://www.linkedin.com/in/suyu-ye/">Suyu Ye</a><sup> 1*</sup>,</span>
             <span class="author-block">
-              <a href="">Xinyu Fang</a><sup> 1</sup>,
+              <a href="https://www.linkedin.com/in/casper-xinyu-fang">Xinyu Fang</a><sup> 1</sup>,
             </span>
             <span class="author-block">
               <a href="https://chuanyangjin.com">Chuanyang Jin</a><sup> 1</sup>,
@@ -70,7 +70,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://arxiv.org/pdf/2408.12574"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -79,7 +79,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href=""
+                <a href="https://arxiv.org/abs/2408.12574"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -87,19 +87,10 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
+
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/stonehj05/MuMA-ToM"
+                <a href="https://github.com/SCAI-JHU/MuMA-ToM"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -109,15 +100,26 @@
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://github.com/SCAI-JHU/MuMA-ToM?tab=readme-ov-file#muma-tom-benchmark"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
                   </a>
+              <!-- Leaderboard Link. -->
+            <span class="link-block">
+              <a href="leaderboard.html"
+                 class="external-link button is-normal is-rounded is-dark">
+                 <span class="icon">
+                  🏆
+                </span>
+                <span>Leaderboard</span>
+              </a>
+            </span> 
             </div>
 
+            
           </div>
         </div>
       </div>
@@ -265,7 +267,7 @@
         </div>
         <div class="content has-text-justified">
           <p>
-            Read more about our model in our paper.
+            Read more about our model in our <a href="https://arxiv.org/pdf/2408.12574">paper</a>.
           </p>
         </div>
       </div>
@@ -273,23 +275,63 @@
     <!--/ LIMP model -->
   </section>
 
-      <footer class="footer" style="padding: 10px 0;">
-        <div class="container">
-          <div class="columns is-centered">
-            <div class="column is-8" style="padding: 0;">
-              <div class="content" style="font-size: 0.9em; margin-bottom: 0;">
-      
-                <p style="line-height: 1.4;">
-                  This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-                  You are free to borrow the code of this website; we just ask that you link back to this page in the footer. 
-                  This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-                </p>
-      
-              </div>
-            </div>
-          </div>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Quantitative Results</h2>
+        <div class="content has-text-justified">
+          <p>We evaluated the performance of various large multimodal models (LMMs) on a MuMA-ToM benchmark, comparing their results with human participants.</p>
+          <ul class="content-summary">
+            <li>Human participants achieved an average accuracy of 93.5%.</li>
+            <li>Most LMMs performed poorly, particularly in social goal inference and belief of goal inference, with accuracy significantly lower than that of humans.</li>
+            <li>Gemini 1.5 Pro was the best-performing LMM, with an overall accuracy of 56.4%</li>
+            <li>Our LIMP model outperformed other state-of-the-art LMMs, achieving 76.6% accuracy</li>
+          </ul>
         </div>
-      </footer>
-      
+        <div class="content has-text-centered">
+          <figure class="image" style="width: 60%; margin: 0 auto; text-align: center;">
+            <img src="/static/media/Performance_Graph.png" alt="Chart showing Quantitative Results">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{shi2024mumatommultimodalmultiagenttheory,
+      title={MuMA-ToM: Multi-modal Multi-Agent Theory of Mind}, 
+      author={Haojun Shi and Suyu Ye and Xinyu Fang and Chuanyang Jin and Layla Isik and Yen-Ling Kuo and Tianmin Shu},
+      year={2024},
+      eprint={2408.12574},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2408.12574}, 
+}</code></pre>
+  </div><br><br>
+</section>
+
+<footer class="footer" style="padding: 10px 0;">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8" style="padding: 0;">
+        <div class="content" style="font-size: 0.9em; margin-bottom: 0;">
+
+          <p style="line-height: 1.4;">
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the code of this website; we just ask that you link back to this page in the footer. 
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

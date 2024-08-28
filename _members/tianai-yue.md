@@ -1,6 +1,6 @@
 ---
-name: Yianai Yue
-image: images/members/YianaiYue.jpg
+name: Tianai Yue
+image: images/members/TianaiYue.jpg
 role: undergrad
 group: current
 links:

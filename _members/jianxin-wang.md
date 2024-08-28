@@ -7,3 +7,4 @@ links:
   home-page: https://sites.google.com/rice.edu/jianxinjeffwang/home
 ---
 
+My research interests are Cogsci AI, Embodied AI, and Generative AI.

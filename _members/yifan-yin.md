@@ -7,4 +7,4 @@ links:
   home-page: https://yifanyin11.github.io/
 ---
 
-My research interests are in the areas of embodied AI, human robot interaction and robotic perception.
+My research interests are embodied AI, human robot interaction and robotic perception.

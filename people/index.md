@@ -22,6 +22,6 @@ nav:
 # Master's and Undergraduate
 
 {% include list.html data="members" component="portrait" filters="role: master" %}
-{% include list.html data="members" component="portrait" filters="role: undergraduate" %}
+{% include list.html data="members" component="portrait" filters="role: undergrad" %}
 
 # Alumni

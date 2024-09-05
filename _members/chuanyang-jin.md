@@ -7,3 +7,4 @@ links:
   home-page: https://chuanyangjin.com/
 ---
 
+My research interests are social intelligence, AI agents and cognitive AI.

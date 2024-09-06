@@ -2,7 +2,7 @@
 name: Haopeng Xie
 image: images/members/HaopengXie.jpg
 role: undergrad
-group: current
+group: incoming
 links:
   home-page: https://www.linkedin.com/in/hxie120
 ---

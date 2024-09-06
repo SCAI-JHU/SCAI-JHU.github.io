@@ -2,7 +2,7 @@
 name: Lihao Sun
 image: images/members/LihaoSun.jpg
 role: undergrad
-group: current
+group: incoming
 links:
   home-page: https://sites.google.com/uchicago.edu/lihao-sun
 ---

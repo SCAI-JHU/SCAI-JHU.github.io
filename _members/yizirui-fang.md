@@ -2,7 +2,7 @@
 name: Yizirui Fang
 image: https://yizirui.github.io/uploads/avatar.png
 role: master
-group: current
+group: alumni
 links:
   home-page: https://yizirui.github.io/
 ---

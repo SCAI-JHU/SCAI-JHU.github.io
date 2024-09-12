@@ -26,4 +26,6 @@ nav:
 
 # Alumni
 
-{% include list.html data="members" component="portrait" filters="group: alumni" %}
+<!-- {% include list.html data="members" component="portrait" filters="group: alumni" %} -->
+
+Yizirui Fang, Master's Student, 2024

@@ -30,7 +30,7 @@
   - Tianmin Shu
   date: 'Preprint'
   publisher: arXiv preprint
-  image: https://www.tshu.io/images/intro_GOMA.png
+  image: http://scai.cs.jhu.edu/images/publications/SIFToM.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2409.10849
@@ -59,7 +59,7 @@
   - Chuang Gan
   date: '2024-12-10'
   publisher: NeurIPS 2024
-  image: https://www.tshu.io/images/intro_GOMA.png
+  image: http://scai.cs.jhu.edu/images/publications/CHAIC.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2411.01796
@@ -82,7 +82,7 @@
   - Pulkit Agrawal
   date: '2024-12-10'
   publisher: NeurIPS 2024
-  image: https://www.tshu.io/images/intro_GOMA.png
+  image: http://scai.cs.jhu.edu/images/publications/FTL-IGM.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2411.04987

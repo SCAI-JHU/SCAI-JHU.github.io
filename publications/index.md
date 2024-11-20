@@ -15,7 +15,7 @@ nav:
 
 {% include search-info.html %}
 
-\* indicates equal contribution
+<!-- \* indicates equal contribution -->
 
 {% include list.html data="citations" component="citation" style="rich" %}
 

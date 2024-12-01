@@ -43,6 +43,28 @@
   - Theory of Mind
   - Human-AI Cooperation
 
+  - title: "MuMA-ToM: Multi-modal Multi-Agent Theory of Mind"
+  authors:
+  - Haojun Shi\*
+  - Suyu Ye\*
+  - Xinyu Fang
+  - Chuanyang Jin
+  - Leyla Isik
+  - Yen-Ling Kuo
+  - Tianmin Shu
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: http://scai.cs.jhu.edu/images/publications/MuMA-ToM.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2408.12574
+  - type: website
+    link: https://scai.cs.jhu.edu/projects/MuMA-ToM/
+  - type: code
+    link: https://github.com/SCAI-JHU/MuMA-ToM
+  tags:
+  - Theory of Mind
+
 
 - title: "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge"
   authors:

@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   build-site:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
       # for debugging
@@ -26,13 +26,30 @@ jobs:
       - name: Checkout branch contents
         uses: actions/checkout@v4
 
-      - name: Install Ruby packages
-        uses: ruby/setup-ruby@v1.172.0
-        with:
-          ruby-version: "3.1"
-          bundler-cache: true
+      - name: Debug Environment
+        run: |
+          uname -a
+          cat /etc/*release
 
-      - name: Get Pages url
+      - name: Install Ruby via ruby-build
+        run: |
+          curl -fsSL https://github.com/rbenv/ruby-build/releases/latest/download/ruby-build.tar.gz | tar -xz -C /tmp
+          cd /tmp/ruby-build*
+          ./install.sh
+          ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
+          mkdir -p /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
+          touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
+
+      - name: Configure Ruby
+        run: |
+          export PATH="/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH"
+          ruby --version
+          gem install bundler
+
+      - name: Install Bundler dependencies
+        run: bundle install
+
+      - name: Get Pages URL
         id: pages
         uses: actions/configure-pages@v4
 
@@ -40,7 +57,7 @@ jobs:
       - if: runner.debug == '1'
         uses: mxschmitt/action-tmate@v3
 
-      - name: Set root url
+      - name: Set root URL
         run: |
           printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
 

@@ -41,8 +41,16 @@ jobs:
           ruby --version
           gem install bundler
 
+      - name: Ensure Bundler is Installed
+        run: |
+          export PATH="/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH"
+          gem install bundler
+          bundler --version
+
       - name: Install Bundler dependencies
-        run: bundle install
+        run: |
+          export PATH="/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH"
+          bundle install
 
       - name: Get Pages URL
         id: pages
@@ -58,6 +66,7 @@ jobs:
 
       - name: Build live version of site
         run: |
+          export PATH="/opt/hostedtoolcache/Ruby/3.1.4/x64/bin:$PATH"
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
 
       - name: Commit live site to Pages branch

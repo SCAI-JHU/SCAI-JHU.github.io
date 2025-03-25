@@ -1,4 +1,23 @@
 # Preprints
+- title: "AutoToM: Automated Bayesian Inverse Planning and Model Discovery for Open-ended Theory of Mind"
+  authors:
+  - Zhining Zhang\*
+  - Chuanyang Jin\*
+  - Mung Yao Jia\*
+  - Tianmin Shu
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: http://scai.cs.jhu.edu/images/publications/AutoToM.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2502.15676
+  - type: website
+    link: https://chuanyangjin.com/AutoToM/
+  - type: code
+    link: https://github.com/SCAI-JHU/AutoToM
+  tags:
+  - Theory of Mind
+
 - title: "Generative World Explorer"
   authors:
   - Taiming Lu 

@@ -1,4 +1,4 @@
-# Fall 2024
+# Preprints
 - title: "Generative World Explorer"
   authors:
   - Taiming Lu 
@@ -43,6 +43,34 @@
   - Theory of Mind
   - Human-AI Cooperation
 
+
+# Publicaions
+- title: "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation"
+  authors:
+  - Hongxin Zhang\*
+  - Zeyuan Wang\*
+  - Qiushi Lyu\*
+  - Zheyuan Zhang
+  - Sunli Chen
+  - Tianmin Shu
+  - Behzad Dariush
+  - Kwonjoon Lee
+  - Yilun Du
+  - Chuang Gan
+  date: '2025-04-24'
+  publisher: ICLR 2025
+  image: https://www.tshu.io/images/intro_COMBO.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/2404.10775
+  - type: website
+    link: https://vis-www.cs.umass.edu/combo/
+  - type: code
+    link: https://github.com/UMass-Foundation-Model/COMBO
+  tags:
+  - Embodied AI
+  - Multi-Agent Cooperation
+
 - title: "MuMA-ToM: Multi-modal Multi-Agent Theory of Mind"
   authors:
   - Haojun Shi\*
@@ -52,8 +80,8 @@
   - Leyla Isik
   - Yen-Ling Kuo
   - Tianmin Shu
-  date: 'Preprint'
-  publisher: arXiv preprint
+  date: '2025-02-25'
+  publisher: AAAI 2025 (<span style="color:red">Oral</span>)
   image: http://scai.cs.jhu.edu/images/publications/MuMA-ToM.jpg
   buttons:
   - type: paper
@@ -65,6 +93,28 @@
   tags:
   - Theory of Mind
 
+- title: "Few-Shot Task Learning through Inverse Generative Modeling"
+  authors:
+  - Aviv Netanyahu
+  - Yilun Du
+  - Antonia Bronars
+  - Jyothish Pari
+  - Joshua Tenenbaum
+  - Tianmin Shu
+  - Pulkit Agrawal
+  date: '2024-12-10'
+  publisher: NeurIPS 2024
+  image: http://scai.cs.jhu.edu/images/publications/FTL-IGM.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2411.04987
+  - type: website
+    link: https://avivne.github.io/ftl-igm/
+  - type: code
+    link: https://github.com/avivne/ftl-igm
+  tags:
+  - Embodied AI
+  - Social Learning
 
 - title: "Constrained Human-AI Cooperation: An Inclusive Embodied Social Intelligence Challenge"
   authors:
@@ -93,33 +143,6 @@
   - Embodied AI
   - Human-AI Cooperation
 
-- title: "Few-Shot Task Learning through Inverse Generative Modeling"
-  authors:
-  - Aviv Netanyahu
-  - Yilun Du
-  - Antonia Bronars
-  - Jyothish Pari
-  - Joshua Tenenbaum
-  - Tianmin Shu
-  - Pulkit Agrawal
-  date: '2024-12-10'
-  publisher: NeurIPS 2024
-  image: http://scai.cs.jhu.edu/images/publications/FTL-IGM.jpg
-  buttons:
-  - type: paper
-    link: https://arxiv.org/abs/2411.04987
-  - type: website
-    link: https://avivne.github.io/ftl-igm/
-  - type: code
-    link: https://github.com/avivne/ftl-igm
-  tags:
-  - Embodied AI
-  - Social Learning
-
-
-
-# Previous
-
 - title: "GOMA: Proactive Embodied Cooperative Communication via Goal-Oriented Mental Alignment"
   authors:
   - Lance Ying
@@ -138,7 +161,6 @@
   - Embodied AI
   - Theory of Mind
   - Human-AI Cooperation
-
 
 - title: "MMToM-QA: Multimodal Theory of Mind Question Answering"
   authors:
@@ -184,31 +206,26 @@
   tags:
   - Social Learning
 
-
-- title: "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation"
+- title: "An asynchronous, automated workflow for looking time experiments with infants"
   authors:
-  - Hongxin Zhang
-  - Zeyuan Wang
-  - Qiushi Lyu
-  - Zheyuan Zhang
-  - Sunli Chen
+  - Gal Raz
+  - Sabrina Piccolo
+  - Janine Medrano
+  - Shari Liu
+  - Kirsten Lydic
+  - Catherine Mei
+  - Victoria Nguyen
   - Tianmin Shu
-  - Yilun Du
-  - Chuang Gan
-  date: 'Preprint'
-  publisher: arXiv preprint
-  image: https://www.tshu.io/images/intro_COMBO.png
+  - Rebecca Saxe
+  date: '2024-06-20'
+  publisher: Developmental Psychology
+  image: https://www.tshu.io/images/automated_workflow_infants.png
   buttons:
   - type: paper
-    link: https://arxiv.org/pdf/2404.10775
-  - type: website
-    link: https://vis-www.cs.umass.edu/combo/
-  - type: code
-    link: https://github.com/UMass-Foundation-Model/COMBO
+    link: https://psycnet.apa.org/fulltext/2024-97072-001.html
   tags:
-  - Embodied AI
-  - Multi-Agent Cooperation
-
+  - Theory of Mind
+  - Social Cognition
 
 - title: "Building Cooperative Embodied Agents Modularly with Large Language Models"
   authors:
@@ -234,6 +251,23 @@
   - Embodied AI
   - Human-Agent Cooperation
 
+- title: "Risk-Bounded Online Team Interventions via Theory of Mind"
+  authors:
+  - Yuening Zhang
+  - Paul Robertson
+  - Tianmin Shu
+  - Sungkweon Hong 
+  - Brian C. Williams
+  date: '2024-05-01'
+  publisher: ICRA 2024
+  image: https://www.tshu.io/images/risk_bounded_ToM.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/papers/ICRA_2024__Risk_bounded_Interventions.pdf
+  tags:
+  - Theory of Mind
+  - Human-AI Cooperation
+
 - title: "Neural Amortized Inference for Nested Multi-agent Reasoning"
   authors:
   - Kunal Jha 
@@ -256,44 +290,6 @@
     link: https://www.tshu.io/nested_reasoning/Nested_Reasoning_Supplementary.pdf
   tags:
   - Theory of Mind
-
-- title: "Risk-Bounded Online Team Interventions via Theory of Mind"
-  authors:
-  - Yuening Zhang
-  - Paul Robertson
-  - Tianmin Shu
-  - Sungkweon Hong 
-  - Brian C. Williams
-  date: '2024-05-01'
-  publisher: ICRA 2024
-  image: https://www.tshu.io/images/risk_bounded_ToM.png
-  buttons:
-  - type: paper
-    link: https://www.tshu.io/papers/ICRA_2024__Risk_bounded_Interventions.pdf
-  tags:
-  - Theory of Mind
-  - Human-AI Cooperation
-
-- title: "An asynchronous, automated workflow for looking time experiments with infants"
-  authors:
-  - Gal Raz
-  - Sabrina Piccolo
-  - Janine Medrano
-  - Shari Liu
-  - Kirsten Lydic
-  - Catherine Mei
-  - Victoria Nguyen
-  - Tianmin Shu
-  - Rebecca Saxe
-  date: '2024-06-20'
-  publisher: Developmental Psychology
-  image: https://www.tshu.io/images/automated_workflow_infants.png
-  buttons:
-  - type: paper
-    link: https://psycnet.apa.org/fulltext/2024-97072-001.html
-  tags:
-  - Theory of Mind
-  - Social Cognition
 
 - title: "Language Models, Agent Models, and World Models: The LAW for Machine Reasoning and Planning"
   authors:
@@ -594,7 +590,6 @@
   - Social Scene Understanding
   - Theory of Mind 
   - Social Cognition
-
 
 - title: "A Unified Psychological Space for Human Perception of Physical and Social Events"
   authors:

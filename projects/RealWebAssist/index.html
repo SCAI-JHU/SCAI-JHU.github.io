@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="MuMA-ToM: Multi-modal Multi-Agent Theory of Mind">
+  <meta name="keywords" content="Multi-modal Multi-Agent ToM">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.suyuye.com">Suyu Ye</a><sup> 1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/haojun-shi-746b3328b/">Haojun Shi</a><sup> 1*</sup>,</span>
+            <span class="author-block">
+              <a href="">Darren Shih</a><sup> 1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Hyokun Yun</a><sup> 2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Tanya Roosta</a><sup> 2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://engineering.jhu.edu/faculty/tianmin-shu/">Tianmin Shu</a><sup> 1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Johns Hopkins University</span>
+            <span class="author-block"><sup>2</sup>Amazon.com</span>
+          </div>
+
+          <div class="is-size-6 has-text-centered">
+            <sup>*</sup>Equal contribution
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/SCAI-JHU/RealWebAssist"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              <!-- Leaderboard Link. 
+            <span class="link-block">
+              <a href="leaderboard.html"
+                 class="external-link button is-normal is-rounded is-dark">
+                 <span class="icon">
+                  🏆
+                </span>
+                <span>Leaderboard</span>
+              </a>
+            </span> -->
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <figure class="image">
+          <img src="./static/media/sequential_instruction.png" alt="sequential instruction">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Image -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">What is the RealWebAssist Benchmark?</h2>
+        <div class="content has-text-justified">
+          <p>
+            <strong>RealWebAssist</strong> is the first sequential instruction following benchmark that evaluates long-horizon web assistance with real-world users. It features: 
+            <ul>
+              <li>🧠 <strong>Real users</strong>: Instructions come from real-world users, not annotators.</li>
+              <li>📋 <strong>Sequential tasks</strong>: Models follow long, evolving instruction sequences.</li>
+              <li>🌐 <strong>Real websites</strong>: Tasks span diverse, real-life websites and GUIs.</li>
+              <li>🖱️ <strong>GUI grounding</strong>: Agents must choose the right spot on the webpage.</li>
+              <li>🗣️ <strong>Speech input</strong>: Includes spoken instructions along with ground truth captions.</li>
+              <li>🔍 <strong>Real-world challenges</strong>: Ambiguity, context, planning, and routine learning.</li>
+              <li>📉 <strong>Hard for SOTA models</strong>: Existing models struggle with the benchmark.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- RealWebAssist Benchmark -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Examples of Tasks and Websites</h2>
+          <div class="content has-text-justified">
+            <p>
+              RealWebAssist includes tasks collected from real users across shopping, food, entertainment, and travel websites—ranging from booking flights to ordering dinner or buying a gift.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ RealWebAssist Benchmark -->
+    </div>
+  </section>
+
+<!-- Image -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <figure class="image">
+          <img src="./static/media/task_examples.png" alt="Example Tasks and Websites">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Image -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Challenges of Benchmark -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Challenges of RealWebAssist Benchmark</h2>
+        <div class="content has-text-justified">
+          <p>
+            RealWebAssist features multiple challenges that could emerge in long-horizon web assistance with real-world users. These include spatial and temporal reasoning needed to understand ambiguous and context-dependent user instructions, planning for multiple steps of actions to reach the goal communicated by an instruction, and learning about user-specific routines.
+          </p>          
+        </div>
+      </div>
+    </div>
+    <!--/ Challenges of Benchmark -->
+  </div>
+</section>
+
+<!-- Image -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <figure class="image">
+          <img src="./static/media/Spatial.png" alt="Challenges of RealWebAssist Benchmark">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Image -->
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+
+</code></pre>
+  </div><br><br>
+</section>
+
+<footer class="footer" style="padding: 10px 0;">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8" style="padding: 0;">
+        <div class="content" style="font-size: 0.9em; margin-bottom: 0;">
+
+          <p style="line-height: 1.4;">
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

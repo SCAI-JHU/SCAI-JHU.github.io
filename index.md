@@ -7,7 +7,7 @@ Welcome to the website for the Social Cognitive AI (SCAI) Lab at Johns Hopkins U
 
 {% include section.html %}
 
-## Highlights
+<!-- ## Highlights -->
 
 {% capture text %}
 

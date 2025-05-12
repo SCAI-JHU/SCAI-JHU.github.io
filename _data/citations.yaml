@@ -1,4 +1,25 @@
 # Preprints
+- title: "RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users"
+  authors:
+  - Suyu Ye\*
+  - Haojun Shi\*
+  - Darren Shih
+  - Hyokun Yun
+  - Tanya Roosta
+  - Tianmin Shu
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: http://scai.cs.jhu.edu/images/publications/RealWebAssist.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2504.10445
+  - type: website
+    link: https://scai.cs.jhu.edu/projects/RealWebAssist/
+  - type: code
+    link: https://github.com/SCAI-JHU/RealWebAssist
+  tags:
+  - Human-AI Cooperation
+
 - title: "AutoToM: Automated Bayesian Inverse Planning and Model Discovery for Open-ended Theory of Mind"
   authors:
   - Zhining Zhang\*
@@ -18,25 +39,29 @@
   tags:
   - Theory of Mind
 
-- title: "Generative World Explorer"
+- title: "On Benchmarking Human-Like Intelligence in Machines"
   authors:
-  - Taiming Lu 
-  - Tianmin Shu 
-  - Alan Yuille
-  - Daniel Khashabi
-  - Jieneng Chen
+  - Lance Ying
+  - Katherine M. Collins
+  - Lionel Wong
+  - Ilia Sucholutsky
+  - Ryan Liu
+  - Adrian Weller
+  - Tianmin Shu
+  - Thomas L. Griffiths
+  - Joshua B. Tenenbaum
   date: 'Preprint'
   publisher: arXiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/Genex.jpg
+  image: http://scai.cs.jhu.edu/images/publications/
   buttons:
   - type: paper
-    link: https://arxiv.org/abs/2411.11844v1
+    link: https://arxiv.org/abs/2502.20502
   - type: website
-    link: https://generative-world-explorer.github.io/
+    link: https://arxiv.org/abs/2502.20502
   - type: code
-    link: https://github.com/Beckschen/genex
+    link: https://arxiv.org/abs/2502.20502
   tags:
-  - Embodied AI
+  - Theory of Mind
 
 - title: "SIFToM: Robust Spoken Instruction Following through Theory of Mind"
   authors:
@@ -64,6 +89,56 @@
 
 
 # Publicaions
+- title: "PartInstruct: Part-level Instruction Following for Fine-grained Robot Manipulation "
+  authors:
+  - Yifan Yin\*
+  - Zhengtao Han\*
+  - Shivam Aarya
+  - Jianxin Wang
+  - Shuhang Xu
+  - Jiawei Peng
+  - Angtian Wang
+  - Alan Yuille
+  - Tianmin Shu 
+  date: '2025-07-21'
+  publisher: RSS 2025
+  image: http://scai.cs.jhu.edu/images/publications/PartInstruct.jpg
+  buttons:
+  - type: paper
+    link: https://openreview.net/pdf?id=Kb4fDvJBlj
+  - type: website
+    link: https://partinstruct.github.io/
+  - type: code
+    link: https://github.com/SCAI-JHU/PartInstruct
+  tags:
+  - Embodied AI
+
+- title: "GenEx: Generating an Explorable World"
+  authors:
+  - Taiming Lu
+  - Tianmin Shu
+  - Junfei Xiao
+  - Luoxin Ye
+  - Jiahao Wang
+  - Cheng Peng
+  - Chen Wei
+  - Daniel Khashabi
+  - Rama Chellappa
+  - Alan Yuille
+  - Jieneng Chen
+  date: '2025-04-24'
+  publisher: ICLR 2025
+  image: http://scai.cs.jhu.edu/images/publications/Genex.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2412.09624
+  - type: website
+    link: https://www.genex.world/
+  - type: code
+    link: https://github.com/Beckschen/genex
+  tags:
+  - Embodied AI
+
 - title: "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation"
   authors:
   - Hongxin Zhang\*

@@ -56,10 +56,6 @@
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2502.20502
-  - type: website
-    link: https://arxiv.org/abs/2502.20502
-  - type: code
-    link: https://arxiv.org/abs/2502.20502
   tags:
   - Theory of Mind
 

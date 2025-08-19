@@ -28,4 +28,14 @@ nav:
 
 <!-- {% include list.html data="members" component="portrait" filters="group: alumni" %} -->
 
+Huiqi Zou, Master's Student, 2025
+Mung Yao Jia, Master's Student, 2025 (next: PhD at UIUC)
+Xinyu Fang, Master's Student, 2025
+Yan Zhuang, Master's Student, 2025 (next: PhD at UVA)
+Zixiao Xu, Master's Student, 2025
+Darren Shih, Undergraduate Student, 2025
+Matteo Bortoletto, Visiting Scholar, 2025
 Yizirui Fang, Master's Student, 2024
+Zhengtao Hao, Intern, 2024
+Zhining Zhang, Intern, 2024
+Zichao Zhou, Intern, 2024

@@ -1,7 +1,7 @@
 ---
 name: Ryan Wu
 image: images/members/RyanWu.jpg
-role: master
+role: undergrad
 group: current
 links:
   home-page: 

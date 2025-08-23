@@ -20,11 +20,12 @@
   tags:
   - Human-AI Cooperation
 
-- title: "AutoToM: Automated Bayesian Inverse Planning and Model Discovery for Open-ended Theory of Mind"
+- title: "AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling"
   authors:
   - Zhining Zhang\*
   - Chuanyang Jin\*
   - Mung Yao Jia\*
+  - Shunchi Zhang\*
   - Tianmin Shu
   date: 'Preprint'
   publisher: arXiv preprint

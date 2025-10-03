@@ -5,7 +5,7 @@
   # link: https://chuanyangjin.com/mmtom-qa
   description: >
     Reasoning about people's mental states based on their behaviors observed from multimodal inputs. <br>
-    <span>&#8226;</span> Automated ToM reasoning (<a href="https://chuanyangjin.com/AutoToM/">NeuRIPS 2025</a>) (<span style="color:red">Spotlight</span>) <br> 
+    <span>&#8226;</span> Automated ToM reasoning (<a href="https://chuanyangjin.com/AutoToM/">NeurIPS 2025</a>) (<span style="color:red">Spotlight</span>) <br> 
     <span>&#8226;</span> Multimodal Multiagent ToM (<a href="https://scai.cs.jhu.edu/projects/MuMA-ToM/">AAAI 2025</a>) (<span style="color:red">Oral</span>) <br> 
     <span>&#8226;</span> Multimodal ToM QA (<a href="https://chuanyangjin.com/mmtom-qa">ACL 2024</a>) (<span style="color:red">Outstanding Paper Award</span>)
 
@@ -27,7 +27,7 @@
   # link: https://chuanyangjin.com/mmtom-qa
   description: >
     Learning human preferences from rich human feedback. <br> 
-    <span>&#8226;</span> (Reinforcement Learning from Human Interaction) RLHI (<a href="https://arxiv.org/abs/2509.25137">arxiv preprint</a>) <br> 
+    <span>&#8226;</span> Reinforcement Learning from Human Interaction (RLHI) (<a href="https://arxiv.org/abs/2509.25137">arxiv preprint</a>) <br> 
     <span>&#8226;</span> Pragmatic Feature Preferences (<a href="https://arxiv.org/pdf/2405.14769">ICML 2024</a>) <br> 
     <span>&#8226;</span> Graph-based Active Reward Learning (<a href="https://www.tshu.io/GEM/index.html">ICML 2022</a>)
 

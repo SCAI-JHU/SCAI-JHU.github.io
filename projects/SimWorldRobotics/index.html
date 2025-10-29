@@ -56,22 +56,14 @@
     "author": [
       {
         "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
+        "name": "Yan Zhuang",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "University of Virginia"
         }
       }
     ],
-    "datePublished": "2025-01-01",
+    "datePublished": "2025-12-02",
     "publisher": {
       "@type": "Organization",
       "name": "NeurIPS"
@@ -132,38 +124,19 @@
     </button>
     <div class="more-works-dropdown" id="moreWorksDropdown">
       <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
+        <h4>More Works from Our Organization</h4>
         <button class="close-btn" onclick="toggleMoreWorks()">
           <i class="fas fa-times"></i>
         </button>
       </div>
       <div class="works-list">
         <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+        <a href="https://simworld.org/" class="work-item" target="_blank">
           <div class="work-info">
             <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
+            <h5>SimWorld</h5>
             <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <p>An Open-ended Realistic Simulator for Autonomous Agents in Physical and Social Worlds.</p>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -183,7 +156,7 @@
             <div class="is-size-5 publication-authors">
               <!-- Conference Info -->
               <div class="conference-info">
-                2025 NeurIPS
+                NeurIPS 2025
               </div>
               
               <!-- TODO: Replace with your paper authors and their personal links -->
@@ -255,12 +228,23 @@
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/SCAI-JHU/CityGym" target="_blank"
+                    <a href="https://github.com/SCAI-JHU/SimWorld-Robotics" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
                     <span>Code</span>
+                  </a>
+                </span>
+
+                  <!-- Dataset button -->
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/jise/simworld20k" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>SimWorld-20K</span>
                   </a>
                 </span>
 
@@ -437,14 +421,13 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@inproceedings{
-        anonymous2025synthesizing,
-        title={Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration},
-        author={Anonymous},
-        booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+      <pre id="bibtex-code"><code>@inproceedings{zhuang2025simworld,
+        title={SimWorld-Robotics: Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration},
+        author={Zhuang, Yan and Ren, Jiawei and Ye, Xiaokang and Shen, Jianzhi and Zhang, Ruixuan and Yue, Tianai and Faayez, Muhammad and He, Xuhong and Zhang, Xiyan and Ma, Ziqiao and Qin, Lianhui and Hu, Zhiting and Shu, Tianmin},
+        booktitle={Advances in Neural Information Processing Systems},
         year={2025},
         url={https://openreview.net/forum?id=EyOtIOmMUh}
-        }</code></pre>
+      } </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->

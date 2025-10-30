@@ -20,26 +20,6 @@
   tags:
   - Human-AI Cooperation
 
-- title: "AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling"
-  authors:
-  - Zhining Zhang\*
-  - Chuanyang Jin\*
-  - Mung Yao Jia\*
-  - Shunchi Zhang\*
-  - Tianmin Shu
-  date: 'Preprint'
-  publisher: arXiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/AutoToM.jpg
-  buttons:
-  - type: paper
-    link: https://arxiv.org/abs/2502.15676
-  - type: website
-    link: https://chuanyangjin.com/AutoToM/
-  - type: code
-    link: https://github.com/SCAI-JHU/AutoToM
-  tags:
-  - Theory of Mind
-
 - title: "On Benchmarking Human-Like Intelligence in Machines"
   authors:
   - Lance Ying
@@ -86,6 +66,81 @@
 
 
 # Publicaions
+- title: "AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling"
+  authors:
+  - Zhining Zhang\*
+  - Chuanyang Jin\*
+  - Mung Yao Jia\*
+  - Shunchi Zhang\*
+  - Tianmin Shu
+  date: '2025-12-02'
+  publisher: NeurIPS 2025 (<span style="color:red">Spotlight</span>)
+  image: http://scai.cs.jhu.edu/images/publications/AutoToM.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2502.15676
+  - type: website
+    link: https://chuanyangjin.com/AutoToM/
+  - type: code
+    link: https://github.com/SCAI-JHU/AutoToM
+  tags:
+  - Theory of Mind
+
+- title: "SimWorld: An Open-ended Simulator for Agents in Physical and Social Worlds"
+  authors:
+  - Xiaokang Ye\*
+  - Jiawei Ren\*
+  - Yan Zhuang
+  - Xuhong He
+  - Yiming Liang
+  - Yiqing Yang
+  - Mrinaal Dogra
+  - Xianrui Zhong
+  - Eric Liu
+  - Kevin Benavente
+  - Rajiv Mandya Nagaraju
+  - Dhruv Vivek Sharma
+  - Ziqiao Ma
+  - Tianmin Shu
+  - Zhiting Hu
+  - Lianhui Qin
+  date: '2025-12-02'
+  publisher: NeurIPS 2025 (<span style="color:red">Spotlight</span>)
+  image: http://scai.cs.jhu.edu/images/publications/AutoToM.jpg
+  buttons:
+  - type: paper
+    link: https://openreview.net/pdf?id=FxCy8TvQHO
+  tags:
+  - Embodied AI
+
+- title: "SimWorld-Robotics: Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration"
+  authors:
+  - Yan Zhuang
+  - Jiawei Ren
+  - Xiaokang Ye
+  - Jianzhi Shen
+  - Ruixuan Zhang
+  - Tianai Yue
+  - Muhammad Faayez
+  - Xuhong He
+  - Xiyan Zhang
+  - Ziqiao Ma
+  - Lianhui Qin
+  - Zhiting Hu
+  - Tianmin Shu
+  date: '2025-12-02'
+  publisher: NeurIPS 2025
+  image: http://scai.cs.jhu.edu/images/publications/AutoToM.jpg
+  buttons:
+  - type: paper
+    link: https://scai.cs.jhu.edu/projects/SimWorldRobotics/static/pdfs/SimWorld_Robotics.pdf
+  - type: website
+    link: https://scai.cs.jhu.edu/projects/SimWorldRobotics/
+  - type: code
+    link: https://github.com/SCAI-JHU/SimWorld-Robotics
+  tags:
+  - Embodied AI
+
 - title: "PartInstruct: Part-level Instruction Following for Fine-grained Robot Manipulation "
   authors:
   - Yifan Yin\*

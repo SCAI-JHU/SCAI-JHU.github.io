@@ -1,6 +1,6 @@
 ---
-name: Ryan Wu
-image: images/members/RyanWu.jpg
+name: Ryan Lu
+image: images/members/RyanLu.jpg
 role: undergrad
 group: current
 links:

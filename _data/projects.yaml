@@ -37,7 +37,7 @@
   image: ./images/projects/SimWorld.gif
   link: http://simworld-cvpr2025.maitrix.org/
   description: A world simulator for scaling photorealistic multi-agent interactions. <br>
-    <span>&#8226;</span> SimWorld (<a href="https://openreview.net/pdf?id=FxCy8TvQHO">NeurIPS 2025</a>) (<span style="color:red">Spotlight</span>) <br> 
+    <span>&#8226;</span> SimWorld (<a href="https://simworld.org/">NeurIPS 2025</a>) (<span style="color:red">Spotlight</span>) <br> 
     <span>&#8226;</span> SimWorld-Robotics (<a href="https://scai.cs.jhu.edu/projects/SimWorldRobotics/">NeurIPS 2025</a>)
 
 - title: NeurIPS 2023 Tutorial on Language Models Meet World Models

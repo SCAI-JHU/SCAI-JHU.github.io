@@ -305,6 +305,10 @@
   buttons:
   - type: paper
     link: https://arxiv.org/pdf/2403.11075
+  - type: website
+    link: https://www.lanceying.com/goma.html
+  - type: code
+    link: https://github.com/lance-ying/GOMA
   tags:
   - Embodied AI
   - Theory of Mind

@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Primary -->
+  <title>CaPE: Safe and Interpretable Multimodal Path Planning for Multi-Agent Cooperation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <meta name="description"
+        content="CaPE (Code as Path Editor) is a safe and interpretable multimodal path planning framework that grounds natural language communication into verifiable path edits for multi-agent cooperation.">
+  <meta name="keywords"
+        content="robotics, path planning, multi-agent cooperation, human-robot interaction, vision-language models, program synthesis, interpretable planning, safe planning, trajectory editing, homotopy planning">
+
+  <!-- Social preview -->
+  <meta property="og:title" content="CaPE: Safe and Interpretable Multimodal Path Planning for Multi-Agent Cooperation">
+  <meta property="og:description"
+        content="Ground natural language communication into verifiable path edits with a planner-backed safety checker for multi-agent cooperation.">
+  <!-- TODO: update these paths to your actual assets -->
+  <meta property="og:image" content="./static/images/Figure1Main.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CaPE: Safe and Interpretable Multimodal Path Planning for Multi-Agent Cooperation">
+  <meta name="twitter:description"
+        content="A planner + VLM framework that synthesizes interpretable path-editing programs and verifies edits for safety.">
+  <meta name="twitter:image" content="./static/images/Figure1Main.png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Safe and Interpretable Multimodal Path Planning for Multi-Agent Cooperation</h1>
+          <!--<h4 class="title is-size-4" style="text-align:center; color:red;">Under Review</h4>-->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/haojun-shi-746b3328b/">Haojun Shi</a><sup> *</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.suyuye.com">Suyu Ye</a><sup> *</sup>,</span>
+            <span class="author-block">
+              <a href="">Katherine M. Guerrerio</a>,</span>
+            <span class="author-block">
+              <a href="">Jianzhi Shen</a>,</span>
+            <span class="author-block">
+              <a href="">Yifan Yin</a>,</span>
+            <span class="author-block">
+              <a href="https://engineering.jhu.edu/faculty/daniel-khashabi/">Daniel Khashabi</a>,</span>
+            <span class="author-block">
+              <a href="https://engineering.jhu.edu/faculty/chien-ming-huang/">Chien-Ming Huang</a>,</span>
+            <span class="author-block">
+              <a href="https://engineering.jhu.edu/faculty/tianmin-shu/">Tianmin Shu</a><sup></sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Johns Hopkins University</span>
+          </div>
+
+          <div class="is-size-6 has-text-centered">
+            <sup>*</sup>Equal contribution
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              <!-- Leaderboard Link. 
+            <span class="link-block">
+              <a href="leaderboard.html"
+                 class="external-link button is-normal is-rounded is-dark">
+                 <span class="icon">
+                  🏆
+                </span>
+                <span>Leaderboard</span>
+              </a>
+            </span> -->
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="columns is-centered">
+  <div class="column is-three-fifths">
+    <div class="notification is-light" style="border-radius: 14px; padding: 1.0rem 1.25rem;">
+      <p class="has-text-centered" style="font-size: 1.15rem; line-height: 1.55; color: #2b2b2b; margin: 0;">
+        <strong>CaPE (Code as Path Editor)</strong> addresses the problem of adapting robot motion plans to natural language instructions by generating interpretable path-editing programs that are validated by a model-based planner.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Image -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <figure class="image">
+          <img src="./static/media/Figure1Main.png" alt="">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Image -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">What did we build?</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose <strong>CaPE (Code as Path Editor)</strong>, a <strong>safe and interpretable</strong>
+            multimodal path planning method for <strong>multi-agent cooperation</strong>. CaPE updates an agent’s
+            path plan using the environment and <strong>natural language communication</strong> from other agents.
+          </p>
+
+          <ul>
+            <li>🧭 <strong>Planner + editor</strong>: a model-based joint planner proposes candidate paths for the target agent and predicts other agents’ paths, then CaPE edits the target path using language and context.</li>
+            <li>🧩 <strong>Language-guided path editing</strong>: CaPE formulates cooperation as editing an existing plan, selecting among planner-proposed candidates and applying targeted waypoint-level edits.</li>
+            <li>👁️🗣️ <strong>Multimodal program synthesis</strong>: a vision-language model (VLM) generates a compact DSL program conditioned on the map, candidate paths, other agents’ predicted paths, and communication.</li>
+            <li>✅ <strong>Safety verification</strong>: a planner-based verifier checks each DSL line and rejects edits that violate physical or interaction constraints, producing a verified final path.</li>
+            <li>🔎 <strong>Interpretability</strong>: the output is explicit, human-readable edit code (for example path selection, waypoint translation/rotation edits, waypoint insertion, and waiting).</li>
+          </ul>
+
+          <p>
+            <strong>Core idea:</strong> use a VLM to synthesize <strong>path-editing programs</strong>, then use
+            <strong>planner-based verification</strong> to ensure the resulting plan remains safe, so language can
+            enable open-ended coordination while preserving safety and interpretability.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <figure class="image">
+          <img src="./static/media/Figure2Main.png" alt="">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Image -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Heading -->
+    <div class="columns is-centered">
+      <div class="column is-four-fifths has-text-centered">
+        <h2 class="title is-3">CaPE can be integrated into diverse domains</h2>
+        <p class="subtitle is-6" style="margin-top: -0.5rem; color: #666;">
+          CaPE enables safe and interpretable language-guided coordination across multi-robot interactions, household human-robot interaction, and real-world human-robot joint carrying tasks.
+        </p>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <figure class="image">
+          <img src="./static/media/Figure3Main.png" alt="CaPE applications across domains" style="border-radius: 12px;">
+        </figure>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        
+        <h2 class="title is-3">Video Demo (Quantitative Examples)</h2>
+        
+        <div class="publication-video">
+          <video controls autoplay muted loop playsinline>
+            <source src="./static/videos/DemoVideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+
+</code></pre>
+  </div><br><br>
+</section>
+
+<footer class="footer" style="padding: 10px 0;">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8" style="padding: 0;">
+        <div class="content" style="font-size: 0.9em; margin-bottom: 0;">
+
+          <p style="line-height: 1.4;">
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

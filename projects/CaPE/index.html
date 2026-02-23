@@ -148,16 +148,6 @@
   </div>
 </section>
 
-<div class="columns is-centered">
-  <div class="column is-three-fifths">
-    <div class="notification is-light" style="border-radius: 14px; padding: 1.0rem 1.25rem;">
-      <p class="has-text-centered" style="font-size: 1.15rem; line-height: 1.55; color: #2b2b2b; margin: 0;">
-        <strong>CaPE (Code as Path Editor)</strong> addresses the problem of adapting robot motion plans to natural language instructions by generating interpretable path-editing programs that are validated by a model-based planner.
-      </p>
-    </div>
-  </div>
-</div>
-
 <!-- Image -->
 <section class="section">
   <div class="container is-max-desktop">
@@ -176,28 +166,36 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">What did we build?</h2>
+        
+        <h2 class="title is-3">CaPE: Code as Path Editor</h2>
+        
         <div class="content has-text-justified">
           <p>
             We propose <strong>CaPE (Code as Path Editor)</strong>, a <strong>safe and interpretable</strong>
-            multimodal path planning method for <strong>multi-agent cooperation</strong>. CaPE updates an agent’s
-            path plan using the environment and <strong>natural language communication</strong> from other agents.
+            multimodal path planning framework for <strong>multi-agent cooperation</strong>. CaPE enables robots
+            to adapt motion plans in response to <strong>natural language communication</strong> by generating
+            structured, interpretable path-editing programs that are validated by a model-based planner.
           </p>
 
           <ul>
-            <li>🧭 <strong>Planner + editor</strong>: a model-based joint planner proposes candidate paths for the target agent and predicts other agents’ paths, then CaPE edits the target path using language and context.</li>
-            <li>🧩 <strong>Language-guided path editing</strong>: CaPE formulates cooperation as editing an existing plan, selecting among planner-proposed candidates and applying targeted waypoint-level edits.</li>
-            <li>👁️🗣️ <strong>Multimodal program synthesis</strong>: a vision-language model (VLM) generates a compact DSL program conditioned on the map, candidate paths, other agents’ predicted paths, and communication.</li>
-            <li>✅ <strong>Safety verification</strong>: a planner-based verifier checks each DSL line and rejects edits that violate physical or interaction constraints, producing a verified final path.</li>
-            <li>🔎 <strong>Interpretability</strong>: the output is explicit, human-readable edit code (for example path selection, waypoint translation/rotation edits, waypoint insertion, and waiting).</li>
+            <li>🧭 <strong>Planner + editor:</strong> A model-based joint planner proposes candidate paths for the target agent and predicts other agents’ trajectories. CaPE then edits the target path using language and contextual information.</li>
+            
+            <li>🧩 <strong>Language-guided path editing:</strong> Cooperation is formulated as editing an existing plan. CaPE selects among planner-proposed candidates and applies targeted waypoint-level edits.</li>
+            
+            <li>👁️🗣️ <strong>Multimodal program synthesis:</strong> A vision-language model generates a compact DSL program conditioned on the map, candidate paths, predicted agent trajectories, and communication.</li>
+            
+            <li>✅ <strong>Safety verification:</strong> A planner-based verifier checks each DSL instruction and rejects edits that violate physical or interaction constraints, producing a verified final path.</li>
+            
+            <li>🔎 <strong>Interpretability:</strong> The output is explicit, human-readable edit code, such as path selection, waypoint translation or rotation, waypoint insertion, and waiting.</li>
           </ul>
 
           <p>
-            <strong>Core idea:</strong> use a VLM to synthesize <strong>path-editing programs</strong>, then use
-            <strong>planner-based verification</strong> to ensure the resulting plan remains safe, so language can
-            enable open-ended coordination while preserving safety and interpretability.
+            <strong>Core idea:</strong> Use a vision-language model to synthesize structured path-editing programs,
+            then apply planner-based verification to ensure safety. This enables open-ended language-driven
+            coordination while preserving robustness and interpretability.
           </p>
         </div>
+        
       </div>
     </div>
   </div>
@@ -246,15 +244,38 @@
   <div class="container is-max-desktop">
     
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-full">
         
         <h2 class="title is-3">Video Demo (Quantitative Examples)</h2>
         
-        <div class="publication-video">
-          <video controls autoplay muted loop playsinline>
-            <source src="./static/videos/DemoVideo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
+        <div class="columns is-multiline is-centered">
+          
+          <!-- Video 1 -->
+          <div class="column is-half">
+            <div class="publication-video">
+              <video controls autoplay muted loop playsinline>
+                <source src="./static/videos/DemoVideo1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p class="mt-2">
+              <strong>Human-Robot Teaming:</strong> Without CaPE, the human and robot collide at the doorway because they cannot communicate to coordinate their movements. With CaPE, the robot understands the human instruction to move aside and allow passage, successfully avoiding the collision.
+            </p>
+          </div>
+          
+          <!-- Video 2 -->
+          <div class="column is-half">
+            <div class="publication-video">
+              <video controls autoplay muted loop playsinline>
+                <source src="./static/videos/DemoVideo2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <p class="mt-2">
+              <strong>Human-Robot Joint Lifting:</strong> With CaPE, the robot interprets the human’s verbal instruction and adapts its motion, taking the rightmost path while avoiding obstacles.
+            </p>
+          </div>
+          
         </div>
       </div>
     </div>

@@ -28,13 +28,15 @@ nav:
 
 <!-- {% include list.html data="members" component="portrait" filters="group: alumni" %} -->
 
-Huiqi Zou, Master's Student, 2025
+Shunchi Zhang, Master's Student, 2025 (next: ByteDance)
+
+Xinyu Fang, Master's Student, 2025 (next: Together AI)
 
 Mung Yao Jia, Master's Student, 2025 (next: PhD at UIUC)
 
-Xinyu Fang, Master's Student, 2025
-
 Yan Zhuang, Master's Student, 2025 (next: PhD at UVA)
+
+Huiqi Zou, Master's Student, 2025
 
 Zixiao Xu, Master's Student, 2025
 

@@ -28,6 +28,8 @@ nav:
 
 <!-- {% include list.html data="members" component="portrait" filters="group: alumni" %} -->
 
+Jianzhi Shen, Master's Student, 2026
+
 Shunchi Zhang, Master's Student, 2025 (next: ByteDance)
 
 Xinyu Fang, Master's Student, 2025 (next: Together AI)

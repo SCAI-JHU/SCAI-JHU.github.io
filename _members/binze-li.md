@@ -1,6 +1,7 @@
 ---
 name: Binze Li
-image: https://binzeli.github.io/assets/img/picture.jpg
+image: images/members/BinzeLi.jpg
+# image: https://binzeli.github.io/assets/img/picture.jpg
 role: phd
 group: current
 links:

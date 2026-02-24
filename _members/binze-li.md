@@ -1,10 +1,10 @@
 ---
 name: Binze Li
-image: images/members/BinzeLi.jpg
+image: https://binzeli.github.io/assets/img/picture.jpg
 role: phd
 group: current
 links:
-  home-page: https://www.linkedin.com/in/binze-li-827939180/
+  home-page: https://binzeli.github.io/
 ---
 
 My research interests are multi agent systems and AI alignment.

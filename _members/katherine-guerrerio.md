@@ -1,6 +1,6 @@
 ---
 name: Katherine Guerrerio
-image: https://www.linkedin.com/in/katherine-guerrerio/overlay/photo/
+image: images/members/KatherineGuerrerio.jpg
 role: undergrad
 group: current
 links:

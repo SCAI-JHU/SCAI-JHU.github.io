@@ -28,7 +28,7 @@ nav:
 
 <!-- {% include list.html data="members" component="portrait" filters="group: alumni" %} -->
 
-Jianzhi Shen, Master's Student, 2026
+Jianzhi Shen, Master's Student, 2025
 
 Shunchi Zhang, Master's Student, 2025 (next: ByteDance)
 
@@ -38,7 +38,7 @@ Mung Yao Jia, Master's Student, 2025 (next: PhD at UIUC)
 
 Yan Zhuang, Master's Student, 2025 (next: PhD at UVA)
 
-Huiqi Zou, Master's Student, 2025
+Huiqi Zou, Master's Student, 2025 (next: PhD at Northeastern)
 
 Zixiao Xu, Master's Student, 2025
 

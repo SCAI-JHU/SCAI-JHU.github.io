@@ -7,4 +7,4 @@ links:
   home-page: https://zehaowen.com/
 ---
 
-Zehao is working on Embodied AI research.
+I'm interested in embodied AI and deep learning in general both theoretically and practically.

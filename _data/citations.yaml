@@ -1,23 +1,24 @@
 # Preprints
-- title: "RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users"
+- title: "Safe and Interpretable Multimodal Path Planning for Multi-Agent Cooperation"
   authors:
-  - Suyu Ye\*
   - Haojun Shi\*
-  - Darren Shih
-  - Hyokun Yun
-  - Tanya Roosta
+  - Suyu Ye\*
+  - Katherine M. Guerrerio
+  - Jianzhi Shen
+  - Yifan Yin
+  - Daniel Khashabi
+  - Chien-Ming Huang
   - Tianmin Shu
   date: 'Preprint'
-  publisher: AAAI 2026
-  image: http://scai.cs.jhu.edu/images/publications/RealWebAssist.jpg
+  publisher: arXiv preprint
+  image: http://scai.cs.jhu.edu/images/publications/CaPE.jpg
   buttons:
   - type: paper
-    link: https://arxiv.org/abs/2504.10445
+    link: https://arxiv.org/abs/2602.19304v1
   - type: website
-    link: https://scai.cs.jhu.edu/projects/RealWebAssist/
-  - type: code
-    link: https://github.com/SCAI-JHU/RealWebAssist
+    link: https://scai.cs.jhu.edu/projects/CaPE/
   tags:
+  - Embodied AI
   - Human-AI Cooperation
 
 - title: "On Benchmarking Human-Like Intelligence in Machines"
@@ -64,8 +65,28 @@
   - Theory of Mind
   - Human-AI Cooperation
 
-
 # Publicaions
+- title: "RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users"
+  authors:
+  - Suyu Ye\*
+  - Haojun Shi\*
+  - Darren Shih
+  - Hyokun Yun
+  - Tanya Roosta
+  - Tianmin Shu
+  date: 'Accepted'
+  publisher: AAAI 2026
+  image: http://scai.cs.jhu.edu/images/publications/RealWebAssist.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2504.10445
+  - type: website
+    link: https://scai.cs.jhu.edu/projects/RealWebAssist/
+  - type: code
+    link: https://github.com/SCAI-JHU/RealWebAssist
+  tags:
+  - Human-AI Cooperation
+
 - title: "AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling"
   authors:
   - Zhining Zhang\*

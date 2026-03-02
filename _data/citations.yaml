@@ -41,6 +41,7 @@
   tags:
   - Theory of Mind
 
+# Publicaions
 - title: "SIFToM: Robust Spoken Instruction Following through Theory of Mind"
   authors:
   - Lance Ying
@@ -50,8 +51,8 @@
   - Stefanie Tellex
   - Joshua B. Tenenbaum
   - Tianmin Shu
-  date: 'Preprint'
-  publisher: arXiv preprint
+  date: '2026-06-01'
+  publisher: ICRA 2026
   image: http://scai.cs.jhu.edu/images/publications/SIFToM.jpg
   buttons:
   - type: paper
@@ -65,7 +66,6 @@
   - Theory of Mind
   - Human-AI Cooperation
 
-# Publicaions
 - title: "RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users"
   authors:
   - Suyu Ye\*
@@ -74,7 +74,7 @@
   - Hyokun Yun
   - Tanya Roosta
   - Tianmin Shu
-  date: '2025-12-25'
+  date: '2026-01-20'
   publisher: AAAI 2026
   image: http://scai.cs.jhu.edu/images/publications/RealWebAssist.jpg
   buttons:

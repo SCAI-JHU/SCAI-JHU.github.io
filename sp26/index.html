@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+
+    <meta property="og:site_name" content="EN.601.773: Machine Social Intelligence">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="EN.601.773: Machine Social Intelligence)">
+    <meta property="og:description" content="Course on Machine Social Intelligence">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EN.601.773: Machine Social Intelligence">
+
+    <title>601.773: Machine Social Intelligence </title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../files/bootstrap.min.css">
+
+    <!-- Google fonts -->
+    <link href="../files/fonts.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="../files/style.css">
+    <link rel="stylesheet" href="../files/font-awesome.min.css">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="../files/favicon.ico"/>
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1063.0" data-gr-ext-installed="">
+
+<!-- <script src="header.js"></script> -->
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand brand" href="index.html">EN.601.773</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#intro">Overview</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <!-- <li><a href="project.html">Project</a></li> -->
+                <li><a href="#conduct">Policies</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<div id="header" style="text-align:center">
+    <!--    <img src="files/blank.png" class="logo-left">-->
+    <a href="https://www.cs.jhu.edu/">
+        <img src="../files/jhu_shield.png" class="logo-right">
+    </a>
+<!--    <a href="https://www.clsp.jhu.edu/">-->
+<!--        <img src="files/clsp-logo.png" class="logo-right">-->
+<!--    </a>-->
+    <h1>EN.601.773: Machine Social Intelligence</h1>
+    <h3>Johns Hopkins University - Spring 2026</h3>
+    <div style="clear:both;"></div>
+</div>
+
+<!-- Intro -->
+<div class="container sec" id="intro">
+    <p>
+        No other species possesses a social intelligence quite like that of humans. Our ability to understand one another’s minds and actions, and to interact with one another in rich and complex ways, is the basis for much of our success, from governments to symphonies to the scientific enterprise. This course will discuss the principles of human social cognition, how we can use machine learning and AI models to computationally capture these principles, how these principles can help us build human-level machine social intelligence, and how social intelligence can enable the engineering of AI systems that can understand and interact with humans safely and productively in real-world settings. In this seminar course, we will read and discuss literature that cover diverse topics on social intelligence in humans and machines. These include (but are not limited to) Theory of Mind, coordination, assistnace, communication, social learning, cultural transimission, and moral judgment. 
+    </p>
+
+    <p>
+        <strong>Relation to Cognitive AI (EN.601.473/673):</strong>
+        This course will specifically focus on advanced topics in social intelligence, whereas Cognitive AI is an introductory course on cognitive modeling for human-like AI. Students do not have to take Cognitive AI prior to this course. 
+    </p>
+
+    <p>
+        <strong>Prerequisites:</strong>
+        Linear Algebra, Probability and Statistics, and Calculus. ML/AI courses such as 601.475 (Machine Learning), EN.601.464. (Artificial Intelligence), or EN.601.473/673 (Cognitive AI).
+        Students must be comfortable reading recent research papers and discussing key concepts and ideas.
+    </p>
+
+</div>
+
+<!-- Staff Info -->
+<div class="sechighlight">
+    <div class="container sec" id="people">
+        <div class="col-md-5" style="width: 100%; text-align: center">
+            <h3>Instructors</h3>
+            <div class="instructor">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.tshu.io/">
+                    <div>Tianmin Shu (tianmin.shu@jhu.edu)</div>
+                </a>
+            </div>
+            <div class="instructor">
+                <a target="_blank" rel="noopener noreferrer" href="">
+                <!--    <div class="instructorphoto"><img src="files/blank.png" alt="missing image"></div> -->
+                    <div> Chuanyang Jin (Head TA) & Tianai Yue  <br>(Teaching Assistants)</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logistics -->
+    <div class="container sec" id="logistics">
+        <ul>
+            <li><b>Classes:</b> on Tuesday/Thursday 1:30 - 2:45 pm (Hudson 315)</li>
+            <li><b>Office hours:</b>
+                <li>Tianmin Shu: Friday 11 am - 12 pm Malone 213</li>
+                <li>Chuanyang Jin: Monday 1- 2 pm Malone 216</li>
+                <li>Tianai Yue: Tuesday 11 am - 12 pm Malone 216</li>
+            </li>
+            <li><b>Class structure</b>: The class will be in-person. Each session will primarily involve small-group discussions 
+                of recent or highly impactful papers on social intelligence in humans and machines. Students will also complete a course project in a group of 2-3 students.
+            <li><b>Canvas</b>: We use <a href="https://jhu.instructure.com/courses/116706">Canvas</a> for discussion, announcement and grading.
+            </li>
+            <li><b>Coursework:</b>
+            <ul>
+                <li>Readings (~2 main papers + optional papers) for each class period.</li>
+                <li>A short written response to the main readings is to be submitted via this <a href="https://forms.gle/c5cVYX7G9NyQGqej9">google forms</a> by 12 pm on the day of the class. You should write at least 3 key discussion points of the papers. These points can include key takeaways of the papers, limitations and future works, or even additioal paper recommendations.</li>
+                <li>Presenter: Starting from week 3, 2 - 3 students will present the main papers. Each presenter should give a 10-min presentation with two parts, a short (5-min) summary and a short (5-min) disucssion starter (5-min). For the discussion starter, you could put your reviewer hat on to critique the paper, being a visionary to propose an imaginary follow-up research project or a new application, or an empiricist to situate the paper in real-world contexts. Each group must send their slides to the instructor and CA 48 hours before the class for feedback.</li>
+
+                <li>Group discussions: After the paper presentation, we will have breakout groups of ~5 students to discuss the papers. Group assignment will be random, and there will be a lead discussant. Everyone will be the lead discussant in their discussion groups at least two times over the semester. The lead discussants should have read all responses. They will lead and organize the discussion in their group and synthesize for reporting back to the whole class. One of the main goals of this course is to help you learn to think about and discuss research ideas in a cooperative setting. So your active participation in grouop discussions will be a crucial part of the course.</a>
+                </li>
+                <li>A final project (in a group of 1 - 3 students). You will submit a project proposal, share midway progress, present your final project at the end of the term, and write a project report.</li>
+            </ul>
+
+            <li><b>Tinker credits:</b> Each student will receive $250 credit for <a href="https://thinkingmachines.ai/tinker/">Tinker</a>, which can be used for LLM evaluation and finetuning. We will release a tutorial and share accounts soon. Thanks to <a href="https://thinkingmachines.ai/">Thinking Machine</a> for the sponsorship.</li>
+            <!-- <li><b>LLM tutorial: </b>Refer to this <a href="./files/LLM Tutorials (MSI SP26).pdf">tutorial</a> for LLM basics, finetuning, test-time scaling, and Tinker guide.</li> -->
+
+            <li><b>Grading:</b>
+                <ul>
+                    <li> Reading responses before the class (10%) </li>
+                    <li> Class presentation (25%) </li>
+                        <ul>
+                            <li> Sharing the slides for feedback (10%) </li>
+                            <li> Presentations (15%) </li>
+                        </ul>
+                    <li> Group discussions (15%) </li>
+                        <ul>
+                            <li> Lead discussant (10%) </li>
+                            <li> Participation (5%) </li>
+                        </ul>
+                    <li> Course Group Project (50%) </li>
+                        <ul>
+                            <li> Proposal (5%) </li>
+                            <li> Midway progress report (10%) </li>
+                            <li> Final Presentation (15%) </li>
+                            <li> Final Report (20%) </li>
+                        </ul>
+                </ul>
+            <li><b>Attendance policy:</b>
+                This is a seminar course focusing on in-person discussion. Students are expected to attend class and may
+                notify instructors if there are extenuating circumstances.
+            </li>
+            <li><b>Late submission policy:</b>
+                Late submissions will incur a penalty of 20% per day. Submissions will not be accepted if received more than three days after the deadline.
+            </li>
+        </ul>
+        <b>Acknowledgements</b>
+            Website template from Prof. Anjalie Field, Prof. Daniel Khashabi, and Prof. Ziang Xiao.
+        </li>
+
+        <br>
+    </div>
+</div>
+
+<div class="container sec" id="schedule" style="margin-top:-20px">
+    <br>
+    <h2>Schedule</h2>
+    <p> The schedule and the readings are subject to change. </p>
+
+    <table class="table">
+        <colgroup>
+            <col style="width:10%">
+            <col style="width:18%">
+            <col style="width:60%">
+            <col style="width:25%">
+
+        </colgroup>
+        <thead>
+        <tr class="active">
+            <th>Date</th>
+            <th>Topic</th>
+            <th>Readings</th>
+            <th>Work Due</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Jan 20</td>
+            <td>Introduction</td>
+            <td></td>
+            <td>No Required Reading</td>
+        </tr>
+        <tr>
+            <td>Jan 22</td>
+            <td>Background: decision making</td>
+            <td>
+            </td>
+            <td>No Required Reading</td>
+        </tr>
+        <tr>
+            <td>Jan 27</td>
+            <td>Background: decision making</td>
+            <td>
+            </td>
+            <!-- <td>Reading Responses by 12:00pm Tue</td> -->
+            <td>No Required Reading</td>
+        </tr>
+        <tr>
+            <td>Jan 29</td>
+            <td>Background: inverse decision making</td>
+            <td>
+            </td>
+            <td>No Required Reading</td>
+        </tr>
+
+        <tr>
+            <td>Feb 3</td>
+            <td>Emergent social intelligence via MARL</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="./files/Reward is enough.pdf"> Reward is Enough</a></li>
+                    <li><a href="https://people.eecs.berkeley.edu/~russell/classes/cs294/f21/papers/Jaderberg-etal-2019-Science-Capture-The-Flag.pdf"> Human-level performance in 3D multiplayer games with population-based reinforcement learning </a></li> 
+               </ol>
+               Suggested:
+               <ol>
+                    <li><a href="https://arxiv.org/abs/1909.07528"> Emergent Tool Use From Multi-Agent Autocurricula</a></li>
+                    <li><a href="https://arxiv.org/abs/2003.02979"> “Other-Play” for Zero-Shot Coordination </a></li> 
+               </ol>
+            </td>
+            <td>Reading Responses by 12 pm</td>
+        </tr>
+
+        <tr>
+            <td>Feb 5</td>
+            <td>Emergent social intelligence via LLMs</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2304.03442">Generative Agents: Interactive Simulacra of Human Behavior</a></li>
+                    <li><a href="https://arxiv.org/abs/2310.11667"> SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2403.08715">SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents</a></li>
+                    <li><a href="https://arxiv.org/abs/2403.05020">Is this the real life? Is this just fantasy? The Misleading Success of Simulating Social Interactions With LLMs</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12 pm</td>
+        </tr>
+
+        <tr>
+            <td>Feb 10</td>
+            <td>The need for a human model</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://proceedings.neurips.cc/paper/2019/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf">On the Utility of Learning about Humans for Human-AI Coordination</a></li>
+                    <li><a href="https://noambrown.github.io/papers/22-Science-Diplomacy-TR.pdf"> Human-level play in the game of Diplomacy by combining language models with strategic reasoning</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/70f286e0fc977c0a3a64ef96849c8d7d-Paper-Conference.pdf">Learning to Influence Human Behavior with Offline Reinforcement Learning</a></li>
+                    <li><a href="https://arxiv.org/pdf/2411.13934">Learning to Cooperate with Humans using Generative Agents</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12 pm</td>
+        </tr>
+
+        <tr>
+            <td>Feb 12</td>
+            <td>How can social cognition help?</td>
+            <td>
+            Main:
+            <ol>
+                <li><a href="./files/2023_Gweon_Fan_Kim_PTRS.pdf"> Socially intelligent machines that learn from humans and help humans learn</a></li>
+                <li><a href="./files/s41562-024-01991-9.pdf"> Building Machines that Learn and Think with People</a></li>
+                <li><a href="./files/Socially intelligent robots- dimensions of human–robot interaction.pdf">Socially intelligent robots: dimensions of human–robot interaction (Section 1-3)</a></li>
+            </ol>   
+            </td>
+            <td>Reading Responses by 12 pm</td>
+        </tr>
+
+        <tr>
+            <td>Feb 17</td>
+            <td>Evaluating Theory of Mind in humans and machines</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://proceedings.neurips.cc/paper_files/paper/2021/file/525b8410cc8612283c9ecaf9a319f8ed-Paper.pdf">Baby Intuitions Benchmark (BIB): Discerning the goals, preferences, and actions of others</a></li>
+                    <li><a href="https://arxiv.org/abs/2305.14763">Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/pdf/2306.15448">Understanding Social Reasoning in Language Models with Language Models</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/S1364661303001281">Teleological reasoning in infancy: the naı̈ve theory of rational action</a></li>
+                    <li><a href="https://www.tshu.io/AGENT/AGENT.pdf">AGENT: A Benchmark for Core Psychological Reasoning</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12 pm</td>
+        </tr>
+
+
+        <tr>
+            <td>Feb 19</td>
+            <td>Cognitive modeling for Theory of Mind</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="./files/BBB_chapter14.pdf">Theory of mind and inverse decision-making (Chapter 14 of Bayesian Models of Cognition: Reverse Engineering the Mind)</a></li>
+                    <li><a href="./files/PIIS1364661322001851.pdf">Planning with Theory of Mind</a></li>
+                </ol>
+                Suggested:
+                <ol>
+
+                    <li><a href="https://web.mit.edu/9.s915/www/classes/cognition2009.pdf">Action understanding as inverse planning</a></li>
+                    <li><a href="./files/Rational_quantitative_attribut.pdf">Rational quantitative attribution of beliefs, desires and percepts in human mentalizing</a></li>
+                    <li><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/tops.12371">Computational Models of Emotion Inference in Theory of Mind: A Review and Roadmap</a></li>
+                    <li><a href="https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.2022.0047">Emotion prediction as computation over a generative theory of mind</a></li>
+                    <li><a href="https://escholarship.org/content/qt4gz7c85c/qt4gz7c85c_noSplash_bfe416fd541f2e9d95c147a66c139cb8.pdf">Intervening on Emotions by Planning Over a Theory of Mind</a></li>
+                    <li><a href="https://arxiv.org/pdf/2409.11733">Human-like Affective Cognition in Foundation Models</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+
+        <tr>
+            <td>Feb 24</td>
+            <<td>Pragmatic reasoning</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/pdf/2211.08371">Pragmatics in Language Grounding: Phenomena, Tasks, and Modeling Approaches</a></li>
+
+                    <li><a href="./files/Pragmatic Language Interpretation as Probabilistic Inference.pdf">Pragmatic Language Interpretation as Probabilistic Inference</a></li>
+                    
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2006.00418">Learning to refer informatively by amortizing pragmatic reasoning</a></li>
+                    <li><a href="https://aclanthology.org/D16-1125.pdf">Reasoning about Pragmatics with Neural Listeners and Speakers</a></li>
+                    <li><a href="https://arxiv.org/pdf/2212.06801">A fine-grained comparison of pragmatic language understanding in humans and language models</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12 pm</td>
+        </tr>
+
+
+        <tr>
+            <td>Feb 26</td>
+            <<td>Instruction following</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2310.03779">HandMeThat: Human-Robot Communication in Physical and Social Environments</a></li>
+                    <li><a href="https://arxiv.org/abs/2402.17930">Pragmatic Instruction Following and Goal Assistance via Cooperative Language-Guided Inverse Planning</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2407.12061">Situated Instruction Following</a></li>
+                    <li><a href="https://arxiv.org/pdf/2107.00077">Learning to communicate about shared procedural abstractions</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12 pm</td>
+        </tr>
+
+
+        <tr>
+            <td>Mar 3</td>
+            <td>Multi-agent planning and Theory of Minds</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2003.11778">Too many cooks: Bayesian inference for coordinating multi-agent collaboration</a></li>
+                    <li><a href="https://michaelshum.github.io/files/aaai_19.pdf">Theory of Minds: Understanding Behavior in Groups Through Inverse Planning</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://par.nsf.gov/servlets/purl/10026426">Coordinate to cooperate or compete: Abstract goals and joint intentions in social interaction</a></li>
+
+                    <li><a href="https://arxiv.org/pdf/1802.01780">Goal Inference Improves Objective and Perceived Performance in Human-Robot Collaboration</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+        <tr>
+            <td>Mar 5</td>
+            <td>Proactive assistance</td>
+            <td> 
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2006.14796">AvE: Assistance via Empowerment</a></li>
+                    <li><a href="https://arxiv.org/pdf/2510.23495">COOPERA: Continual Open-Ended Human-Robot Assistance</a></li>
+                    <!-- <li><a href="https://arxiv.org/abs/2411.00081">PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks</a></li> -->
+                </ol>  
+                Suggested:
+                <ol>
+                    <li><a href="https://erichorvitz.com/lum.pdf">The Lumiere Project: Bayesian User Modeling for Inferring the Goals and Needs of Software Users</a></li>
+                    <li><a href="https://arxiv.org/abs/2301.05223">NOPA: Neurally-guided Online Probabilistic Assistance for Building Socially Intelligent Home Assistants</a></li>
+                    <li><a href="https://arxiv.org/abs/2211.15501">Proactive Robot Assistance via Spatio-Temporal Object Modeling</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm; Project Proposal by Mar 8th, 11:59 pm</td>
+        </tr>
+
+        <tr>
+            <td>Mar 10</td>
+            <td>Understanding suboptimal behavior</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/df3aebc649f9e3b674eeb790a4da224e-Paper.pdf">Online Bayesian Goal Inference for Boundedly-Rational Planning Agents</a></li>
+                    <li><a href="https://arxiv.org/abs/1805.08010">Where Do You Think You're Going?: Inferring Beliefs about Dynamics from Behavior
+</a></li>
+                </ol> 
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/pdf/2106.13249">Modeling the Mistakes of Boundedly Rational Agents Within a Bayesian Theory of Mind</a></li>
+                    <li><a href="https://arxiv.org/pdf/2412.11927">Explainable Procedural Mistake Detection</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+        <tr>
+            <td>Mar 12</td>
+            <td>Cogntivie models meet foundation models</td>
+            <td> 
+                Main:
+                <ol>
+                    <li><a href="https://www.biorxiv.org/content/10.1101/2025.02.05.636732v1">Discovering Symbolic Cognitive Models from Human and Animal Behavior</a></li>
+                    <li><a href="https://arxiv.org/abs/2502.15676">AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling</a></li>
+                </ol>  
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/pdf/2502.11881">Hypothesis-Driven Theory-of-Mind Reasoning for Large Language Models</a></li>
+                    <li><a href="https://arxiv.org/abs/2407.07086">Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models</a></li>
+                    <li><a href="https://arxiv.org/pdf/2502.00879">Towards Automation of Cognitive Modeling using Large Language Models</a></li>
+                    <!-- <li><a href="https://arxiv.org/abs/2401.08743">MMToM-QA: Multimodal Theory of Mind Question Answering</a></li> -->
+                    <li><a href="https://arxiv.org/pdf/2306.02797">Human-like Few-Shot Learning via Bayesian Reasoning over Natural Language</a></li>
+                     <li><a href="https://arxiv.org/abs/2306.12672">From Word Models to World Models: Translating from Natural Language to the Probabilistic Language of Thought (Section 3.3)</a></li>
+                    <!-- <li><a href="https://arxiv.org/abs/2408.12574">MuMA-ToM: Multi-modal Multi-Agent Theory of Mind</a></li> -->
+                    
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+        <tr>
+            <td>Mar 17</td>
+            <td>Spring Break</td>
+            <td>
+            <td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Mar 19</td>
+            <td>Spring Break</td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>Mar 24</td>
+            <td>Nonverbal communication</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://www.roboticsproceedings.org/rss12/p29.pdf">Planning for Autonomous Cars that Leverage Effects on Human Actions</a></li>
+                    <li><a href="https://openreview.net/pdf?id=Ffn8Z4Q-zU">Gesture-Informed Robot Assistance via Foundation Models</a></li>
+                </ol> 
+                Suggested:
+                 <ol>
+                    <li><a href="https://www.ece.uvic.ca/~bctill/papers/facerec/Emery2000.pdf">The eyes have it: the neuroethology, function and evolution of social gaze</a></li>
+                    <li><a href="https://www.ri.cmu.edu/pub_files/2013/3/legiilitypredictabilityIEEE.pdf">Legibility and predictability of robot motion</a></li>
+                    <li><a href="https://langev.com/pdf/9523e318970dd7039857b9af3fe53eb39bf7f1ac.pdf">Emergence of Grounded Compositional Language in Multi-Agent Populations</a></li>
+                    <li><a href="https://scazlab.yale.edu/sites/default/files/files/273-2310-1-PB.pdf">Social Eye Gaze in Human-Robot Interaction: A Review</a></li>
+                </ol> 
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+        <tr>
+            <td>Mar 26</td>
+            <td>Cooperative verbal communication</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/pdf/2307.04738">RoCo: Dialectic Multi-Robot Collaboration with Large Language Models</a></li>
+                    <li><a href="https://escholarship.org/content/qt8bf5g4h6/qt8bf5g4h6.pdf">Cooperative Explanation as Rational Communication</a></li>
+                </ol> 
+                Suggested:
+                 <ol>
+                    <li><a href="./files/IROS_2024_GOMA.pdf">GOMA: Proactive Embodied Cooperative Communication via Goal-Oriented Mental Alignment</a></li>
+                    <li><a href="https://arxiv.org/pdf/2307.02485">Building cooperative embodied agents modularly with large language models</a></li>
+                    <li><a href="https://arxiv.org/pdf/2305.11271">Towards Collaborative Plan Acquisition through Theory of Mind Modeling in Situated Dialogue</a></li>
+                    <li><a href="http://qiaosiwang.me/Publications/MToM-CHAI2022.pdf">Mutual Theory of Mind</a></li>
+                </ol> 
+                    
+            </td>
+            <td>
+                Reading Responses by 12pm; midway progress report by Mar 30th, 11:59 pm
+            </td>
+        </tr>
+
+        <tr>
+            <td>Mar 31</td>
+            <td>Reinforcement learning from human feedback</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/pdf/2307.15217">Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback</a></li>
+                    <li><a href="https://arxiv.org/pdf/2204.06601">Causal Confusion and Reward Misidentification in Preference-Based Reward Learning</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2404.16019">The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models</a></li>
+                    <li><a href="https://arxiv.org/pdf/2010.05848">Human-centric dialog training via offline reinforcement learning</a></li>
+                    <!-- <li><a href="https://proceedings.mlr.press/v202/peng23c/peng23c.pdf">Diagnosis, Feedback, Adaptation: A Human-in-the-Loop Framework for Test-Time Policy Adaptation</a></li> -->
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+        <tr>
+            <td>Apr 2</td>
+            </td>
+            <td>Human social learning</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://sll.stanford.edu/docs/2021_Gweon_TiCS_inferential_social_learning.pdf">Inferential social learning: cognitive foundations of human social learning and teaching</a></li>
+                    <li><a href="https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=bbcc19c398ae3c6d60727acef4ea6d422ced7fe6">Natural pedagogy</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://osf.io/preprints/psyarxiv/4ctjp">Adaptive Social Learning using Theory of Mind</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+        <tr>
+            <td>Apr 7</td>
+            <td>Machine social learning</a></td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/1606.03137">Cooperative Inverse Reinforcement Learning</a></li>
+                    <li><a href="https://arxiv.org/abs/2509.00074">Language and Experience: A Computational Model of Social Learning in Complex Tasks</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2403.12910">Yell At Your Robot: Improving On-the-Fly from Language Corrections</a></li>
+                    <li><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/e0cfde0ff720fa9674bb976e7f1b99d4-Paper-Conference.pdf">How to talk so AI will learn: Instructions, descriptions, and autonomy</a></li>
+                    <li><a href="https://arxiv.org/abs/2405.14769">Pragmatic Feature Preferences: Learning Reward-Relevant Preferences from Human Input</a></li>
+                    <li><a href="https://arxiv.org/pdf/2411.02599">Vocal Sandbox: Continual Learning and Adaptation for Situated Human-Robot Collaboration</a></li>
+                    <li><a href="https://proceedings.mlr.press/v100/saran20a/saran20a.pdf">Understanding Teacher Gaze Patterns for Robot Learning</a></li>
+                    <li><a href="https://arxiv.org/abs/1707.06354">Pragmatic-Pedagogic Value Alignment</a></li>
+                    <li><a href="https://proceedings.mlr.press/v78/bajcsy17a/bajcsy17a.pdf">Learning Robot Objectives from Physical Human Interaction</a></li>
+                    <li><a href="https://dl.acm.org/doi/pdf/10.1145/3568162.3576990">On Using Social Signals to Enable Flexible Error-Aware HRI</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+        <tr>
+            <td>Apr 9</td>
+            <td>Collaborative multi-agent problem solving</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2305.14325">Improving Factuality and Reasoning in Language Models through Multiagent Debate</a></li>
+                    <li><a href="https://arxiv.org/abs/2601.13295">CooperBench: Why Coding Agents Cannot be Your Teammates Yet</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2509.05396">Talk Isn't Always Cheap: Understanding Failure Modes in Multi-Agent Debate</a></li>
+                    <li><a href="https://arxiv.org/abs/2506.07982">τ2-Bench: Evaluating Conversational Agents in a Dual-Control Environment</a></li>
+                    <li><a href="./files/s41586-025-09442-9.pdf">The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+        <tr>
+            <td>Apr 14</td>
+            <td>Cultural learning/transmission</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="http://doc.rero.ch/record/290192/files/S0140525X00031496.pdf">Cultural Learning (Section 1-2)</a></li>
+                    <li><a href="s41467-023-42875-2">Learning few-shot imitation as cultural transmission</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+
+        <tr>
+            <td>Apr 16</td>
+            <td>Moral decison making</td>
+            <td>
+                Main:
+                <ol>
+                    <li><a href="./files/PIIS1364661322000456.pdf">Computational ethics</a></li>
+                    <li><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/b654d6150630a5ba5df7a55621390daf-Paper-Conference.pdf">When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment</a></li>
+                </ol>
+                Suggested:
+                <ol>
+                    <li><a href="https://arxiv.org/abs/2309.00779">Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties</a></li>
+                    <li><a href="./files/levine-et-al-2020-the-logic-of-universalization-guides-moral-judgment.pdf">The logic of universalization guides moral judgment</a></li>
+                </ol>
+            </td>
+            <td>Reading Responses by 12pm</td>
+        </tr>
+
+
+        <tr>
+            <td>Apr 21</td>
+            <td>Project presentation</td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>Apr 23</td>
+            <td>Project presentation</td>
+            <td>
+            </td>
+            <td>
+                Final report due by May 3rd, 11:59 pm
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="container sec" id="conduct">
+    <h2>Policies</h2>
+    <p><b>Attendance policy</b>
+    This is a graduate-level course revolving around in-person discussion. Students are expected to attend class and may notify
+    instructors if there are extenuating circumstances.
+
+    <p><b>Course Conduct</b>
+        This is a discussion class focused on cutting-edge research. All students are expected to respect everyone's perspective and input
+        and to contribute towards creating a welcoming and inclusive climate.
+        We the instructors will strive to make this classroom an inclusive space for all students, and we welcome feedback
+        on ways to improve.
+    </p>
+    <p>
+        <b>Academic Integrity</b>
+        This course will have a zero-tolerance philosophy regarding <a
+            href="https://www.cs.jhu.edu/academic-programs/academic-integrity-code/">plagiarism or other forms of
+        cheating</a>, and incidents
+        of academic dishonesty will be reported. A student who has doubts about how the Honor Code applies to this
+        course should obtain specific guidance from the course instructor before submitting the respective assignment.
+    </p>
+    <p>
+        <b>AI Use Policy</b>
+        All written reponses and presentations must be prepared by the students without the help of AI. It is okay to use AI in the projects (for coding, model development and evaluation, and report editing). However, the students cannot use the AI to directly produce the project proposal, presentations, and the final reports.
+    </p>
+    <p>
+        <b>Discrimination and Harrasment</b>
+        The Johns Hopkins University is committed to equal opportunity for its faculty, staff, and students.
+        To that end, the university does not discriminate on the basis of sex, gender, marital status, pregnancy, race, color, ethnicity, national origin, age, disability, religion, sexual orientation, gender identity or expression, veteran status, military status, immigration status or other legally protected characteristic.
+        The University's <a href="https://oie.jhu.edu/policies-and-laws/JHU-Discrimination-and-Harassment-Policy-and-Procedures-7.1.21-Present">Discrimination and Harassment Policy and Procedures</a> provides information on how to report or file a complaint of discrimination or harassment based on any of the protected statuses listed in the earlier sentence, and the University’s prompt and equitable response to such complaints.
+    </p>
+
+    <p>
+        <b>Personal Well-being</b>
+        Take care of yourself! Being a student can be challenging and your physical and mental health is important. If you need support,
+        please seek it out. Here are several of the many helpful resources on campus:
+        <ul>
+            <li><a href="https://studentaffairs.jhu.edu/student-health/">Student Health and Wellness Center</a></li>
+            <li><a href="https://studentaffairs.jhu.edu/counselingcenter/">JHU Counseling Center</a></li>
+            <li><a href="http://web.jhu.edu/disabilities/">JHU Office for Student Disability Services</a></li>
+            <li><a href="https://studentaffairs.jhu.edu/student-life/student-outreach-support/">Student Outreach & Support</a></li>
+        </ul>
+    </p>
+</div>
+
+
+
+<!-- jQuery and Bootstrap -->
+<script src="../files/jquery.min.js"></script>
+<script src="../files/bootstrap.min.js"></script>
+
+
+</body>
+</html>

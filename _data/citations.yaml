@@ -1,4 +1,39 @@
 # Preprints
+- title: "Grounding Social Perception in Intuitive Physics"
+  authors:
+  - Lance Ying\*
+  - Aydan Y. Huang\*
+  - Aviv Netanyahu\*
+  - Andrei Barbu
+  - Boris Katz
+  - Joshua B. Tenenbaum
+  - Tianmin Shu
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: 
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2603.27410
+  tags:
+  - Social Cognition
+  - Embodied AI
+
+- title: "Bottom-up and generative computations uniquely explain neural responses across the social brain"
+  authors:
+  - Manasi Malik
+  - Minjae Kim
+  - Tianmin Shu
+  - Shari Liu
+  - Leyla Isik
+  date: 'Preprint'
+  publisher: bioRxiv preprint
+  image: 
+  buttons:
+  - type: paper
+    link: https://www.biorxiv.org/content/10.64898/2026.02.20.707082v2
+  tags:
+  - Social Cognition
+
 - title: "Safe and Interpretable Multimodal Path Planning for Multi-Agent Cooperation"
   authors:
   - Haojun Shi\*
@@ -65,6 +100,38 @@
   - Embodied AI
   - Theory of Mind
   - Human-AI Cooperation
+
+- title: "WoW!: World Models in a Closed-Loop World"
+  authors:
+  - Jiahan Zhang\*
+  - Muqing Jiang\*
+  - Nanru Dai
+  - TaiMing Lu
+  - Arda Uzunoglu
+  - Shunchi Zhang
+  - Yana Wei
+  - Jiahao Wang
+  - Vishal M Patel
+  - Paul Pu Liang
+  - Daniel Khashabi
+  - Cheng Peng
+  - Rama Chellappa
+  - Tianmin Shu
+  - Alan Yuille
+  - Yilun Du
+  - Jieneng Chen
+  date: '2026-04-23'
+  publisher: ICLR 2026
+  image: https://world-in-world.github.io/media/overview.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2510.18135
+  - type: website
+    link: https://world-in-world.github.io/
+  - type: code
+    link: https://github.com/World-In-World/world-in-world
+  tags:
+  - Embodied AI
 
 - title: "RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users"
   authors:
@@ -163,6 +230,23 @@
     link: https://github.com/SCAI-JHU/SimWorld-Robotics
   tags:
   - Embodied AI
+
+- title: "Adaptive Explanations via Direct Preference Optimization"
+  authors:
+  - Jacopo Teneggi
+  - Zhenzhen Wang
+  - H Yi Paul
+  - Tianmin Shu
+  - Jeremias Sulam
+  date: '2025-11-23'
+  publisher: AAAI Symposium Series
+  image: 
+  buttons:
+  - type: paper
+    link: https://ojs.aaai.org/index.php/AAAI-SS/article/view/36940
+  tags:
+  - Social Cognition
+  - Human-AI Cooperation
 
 - title: "PartInstruct: Part-level Instruction Following for Fine-grained Robot Manipulation "
   authors:

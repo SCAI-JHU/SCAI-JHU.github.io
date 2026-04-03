@@ -76,6 +76,24 @@
   tags:
   - Theory of Mind
 
+- title: "ProToM: Promoting Prosocial Behaviour via Theory of Mind-Informed Feedback"
+  authors:
+  - Matteo Bortoletto
+  - Yichao Zhou
+  - Lance Ying
+  - Tianmin Shu
+  - Andreas Bulling
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: https://www.matteobortoletto.org/protom/static/images/teaser.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2509.05091
+  - type: website
+    link: https://www.matteobortoletto.org/protom/
+  tags:
+  - Theory of Mind
+
 # Publicaions
 - title: "SIFToM: Robust Spoken Instruction Following through Theory of Mind"
   authors:
@@ -153,6 +171,21 @@
     link: https://github.com/SCAI-JHU/RealWebAssist
   tags:
   - Human-AI Cooperation
+
+- title: "Augmented Vision-Language Models: A Systematic Review"
+  authors:
+  - Anthony C Davis
+  - Burhan Sadiq
+  - Tianmin Shu
+  - Chien-Ming Huang
+  date: '2026-01-01'
+  publisher: TMLR 2026
+  image: 
+  buttons:
+  - type: paper
+    link: https://openreview.net/pdf?id=DFnPi77v6J
+  tags:
+  - Embodied AI
 
 - title: "AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling"
   authors:
@@ -248,7 +281,44 @@
   - Social Cognition
   - Human-AI Cooperation
 
-- title: "PartInstruct: Part-level Instruction Following for Fine-grained Robot Manipulation "
+- title: "Do Vision-Language Models Have Internal World Models? Towards an Atomic Evaluation"
+  authors:
+  - Qiyue Gao\*
+  - Xinyu Pi\*
+  - Kevin Liu
+  - Junrong Chen
+  - Ruolan Yang
+  - Xinqi Huang
+  - Xinyu Fang
+  - Lu Sun
+  - Gautham Kishore
+  - Bo Ai
+  - Stone Tao
+  - Mengyang Liu
+  - Jiaxi Yang
+  - Chao-Jung Lai
+  - Chuanyang Jin
+  - Jiannan Xiang
+  - Benhao Huang
+  - Zeming Chen
+  - David Danks
+  - Hao Su
+  - Tianmin Shu
+  - Ziqiao Ma
+  - Lianhui Qin
+  - Zhiting Hu
+  date: '2025-07-27'
+  publisher: ACL Findings 2025
+  image: https://wm-abench.maitrix.org/static/images/carousel/framework_resized.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2506.21876
+  - type: website
+    link: https://wm-abench.maitrix.org/
+  tags:
+  - Embodied AI
+
+- title: "PartInstruct: Part-level Instruction Following for Fine-grained Robot Manipulation"
   authors:
   - Yifan Yin\*
   - Zhengtao Han\*

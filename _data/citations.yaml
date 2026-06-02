@@ -95,6 +95,32 @@
   - Theory of Mind
 
 # Publicaions
+- title: "MindZero: Learning Online Mental Reasoning With Zero Annotations"
+  authors:
+  - Shunchi Zhang\*
+  - Jin Lu\*
+  - Chuanyang Jin\*
+  - Yichao Zhou\*
+  - Zhining Zhang
+  - Tianmin Shu
+  date: '2026-07-06'
+  publisher: ICML 2026
+  image: https://github.com/SCAI-JHU/MindZero/raw/main/assets/framework.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2606.00240
+  - type: website
+    link: https://scai.cs.jhu.edu/MindZero
+  - type: code
+    link: https://github.com/SCAI-JHU/MindZero
+  - type: data
+    link: https://huggingface.co/datasets/SCAI-JHU/MindZero
+  - type: models
+    link: https://huggingface.co/collections/SCAI-JHU/mindzero
+  tags:
+  - Theory of Mind
+  - Human-AI Cooperation
+
 - title: "SIFToM: Robust Spoken Instruction Following through Theory of Mind"
   authors:
   - Lance Ying
@@ -119,7 +145,7 @@
   - Theory of Mind
   - Human-AI Cooperation
 
-- title: "WoW!: World Models in a Closed-Loop World"
+- title: "World-in-World: World Models in a Closed-Loop World"
   authors:
   - Jiahan Zhang\*
   - Muqing Jiang\*
@@ -206,6 +232,7 @@
     link: https://github.com/SCAI-JHU/AutoToM
   tags:
   - Theory of Mind
+  - Human-AI Cooperation
 
 - title: "SimWorld: An Open-ended Simulator for Agents in Physical and Social Worlds"
   authors:

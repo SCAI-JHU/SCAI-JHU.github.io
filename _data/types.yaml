@@ -224,6 +224,11 @@ data:
   text: Data
   tooltip: Data
 
+models:
+  icon: fa-solid fa-robot
+  text: Models
+  tooltip: Models
+
 package:
   icon: fa-solid fa-box
   text: Package

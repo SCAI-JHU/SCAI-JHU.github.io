@@ -5,7 +5,8 @@
   # link: https://chuanyangjin.com/mmtom-qa
   description: >
     Reasoning about people's mental states based on their behaviors observed from multimodal inputs. <br>
-    <span>&#8226;</span> Automated ToM reasoning (<a href="https://chuanyangjin.com/AutoToM/">NeurIPS 2025</a>) (<span style="color:red">Spotlight</span>) <br> 
+    <span>&#8226;</span> Self-Supervised Online ToM Reasoning (<a href="https://scai.cs.jhu.edu/MindZero">ICML 2026</a>) <br>
+    <span>&#8226;</span> Automated ToM reasoning (<a href="https://chuanyangjin.com/AutoToM/">NeurIPS 2025</a>) (<span style="color:red">Spotlight</span>) <br>
     <span>&#8226;</span> Multimodal Multiagent ToM (<a href="https://scai.cs.jhu.edu/projects/MuMA-ToM/">AAAI 2025</a>) (<span style="color:red">Oral</span>) <br> 
     <span>&#8226;</span> Multimodal ToM QA (<a href="https://chuanyangjin.com/mmtom-qa">ACL 2024</a>) (<span style="color:red">Outstanding Paper Award</span>)
 

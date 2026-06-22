@@ -16,10 +16,16 @@
   - Tianmin Shu
   date: 'Preprint'
   publisher: arXiv preprint
-  image:
+  image: http://scai.cs.jhu.edu/images/publications/3D-Belief.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2605.11367
+  - type: website
+    link: https://3d-belief.github.io/
+  - type: code
+    link: https://github.com/3D-Belief/3d-belief
+  - type: data
+    link: https://huggingface.co/datasets/SCAI-JHU/3d-belief
   tags:
   - Embodied AI
   - Theory of Mind
@@ -35,10 +41,16 @@
   - Tianmin Shu
   date: 'Preprint'
   publisher: Preprint
-  image:
+  image:: http://scai.cs.jhu.edu/images/publications/AgentOdyssey.jpg
   buttons:
   - type: paper
     link: https://openreview.net/pdf?id=JwRCpYQcUA
+  - type: website
+    link: https://agentodyssey.github.io/
+  - type: code
+    link: https://github.com/agentodyssey/agentodyssey
+  - type: docs
+    link: https://agentodyssey.github.io/docs
   tags:
   - Embodied AI
 
@@ -119,25 +131,35 @@
   tags:
   - Theory of Mind
 
-- title: "ProToM: Promoting Prosocial Behaviour via Theory of Mind-Informed Feedback"
-  authors:
-  - Matteo Bortoletto
-  - Yichao Zhou
-  - Lance Ying
-  - Tianmin Shu
-  - Andreas Bulling
-  date: 'Preprint'
-  publisher: ACL 2026 Findings
-  image: https://www.matteobortoletto.org/protom/static/images/teaser.png
-  buttons:
-  - type: paper
-    link: https://arxiv.org/abs/2509.05091
-  - type: website
-    link: https://www.matteobortoletto.org/protom/
-  tags:
-  - Theory of Mind
 
 # Publicaions
+- title: "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions"
+  authors:
+  - Chuanyang Jin
+  - Binze Li
+  - Haopeng Xie
+  - Cathy Mengying Fang
+  - Tianjian Li
+  - Shayne Longpre
+  - Hongxiang Gu
+  - Maximillian Chen
+  - Tianmin Shu
+  date: '2026-07-06'
+  publisher: RLxF Workshop at ICML 2026 (<span style="color:red">Best Paper Award</span>)
+  image: http://scai.cs.jhu.edu/images/publications/ThoughtTrace.gif
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2605.20087
+  - type: website
+    link: https://thoughttrace-project.github.io/
+  - type: data
+    link: https://huggingface.co/datasets/SCAI-JHU/ThoughtTrace
+  - type: examples
+    link: https://thoughttrace-project.github.io/examples.html
+  tags:
+  - Theory of Mind
+  - Human-AI Cooperation
+  
 - title: "MindZero: Learning Online Mental Reasoning With Zero Annotations"
   authors:
   - Shunchi Zhang\*
@@ -164,26 +186,23 @@
   - Theory of Mind
   - Human-AI Cooperation
 
-- title: "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions"
+- title: "ProToM: Promoting Prosocial Behaviour via Theory of Mind-Informed Feedback"
   authors:
-  - Chuanyang Jin
-  - Binze Li
-  - Haopeng Xie
-  - Cathy Mengying Fang
-  - Tianjian Li
-  - Shayne Longpre
-  - Hongxiang Gu
-  - Maximillian Chen
+  - Matteo Bortoletto
+  - Yichao Zhou
+  - Lance Ying
   - Tianmin Shu
-  date: '2026-07-06'
-  publisher: RLxF Workshop at ICML 2026 (<span style="color:red">Best Paper Award</span>)
-  image:
+  - Andreas Bulling
+  date: '2026-07-02'
+  publisher: ACL 2026 Findings
+  image: https://www.matteobortoletto.org/protom/static/images/teaser.png
   buttons:
   - type: paper
-    link: https://arxiv.org/abs/2605.20087
+    link: https://arxiv.org/abs/2509.05091
+  - type: website
+    link: https://www.matteobortoletto.org/protom/
   tags:
   - Theory of Mind
-  - Human-AI Cooperation
 
 - title: "UnrealSpace: Analyzing Spatial Understanding and Reasoning in Controllable Simulation"
   authors:
@@ -202,7 +221,7 @@
   - Alan Yuille
   date: '2026-06-11'
   publisher: CVPR 2026 Findings
-  image:
+  image: http://scai.cs.jhu.edu/images/publications/Unreal3DSpace.jpg
   buttons:
   - type: paper
     link: https://openaccess.thecvf.com/content/CVPR2026F/papers/Ma_UnrealSpace_Analyzing_Spatial_Understanding_and_Reasoning_in_Controllable_Simulation_CVPRF_2026_paper.pdf
@@ -224,7 +243,7 @@
   - Alan Yuille
   date: '2026-06-11'
   publisher: CVPR 2026 Findings
-  image:
+  image: http://scai.cs.jhu.edu/images/publications/FoundationDeOcclusion.jpg
   buttons:
   - type: paper
     link: https://openaccess.thecvf.com/content/CVPR2026F/papers/Chen_Fast_Generative_DeOcclusion_for_Visual_Geometry_and_Robotics_CVPRF_2026_paper.pdf

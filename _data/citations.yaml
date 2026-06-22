@@ -41,7 +41,7 @@
   - Tianmin Shu
   date: 'Preprint'
   publisher: Preprint
-  image:: http://scai.cs.jhu.edu/images/publications/AgentOdyssey.jpg
+  image:: https://agentodyssey.github.io/img/doc/teaser_web.png
   buttons:
   - type: paper
     link: https://openreview.net/pdf?id=JwRCpYQcUA
@@ -159,7 +159,7 @@
   tags:
   - Theory of Mind
   - Human-AI Cooperation
-  
+
 - title: "MindZero: Learning Online Mental Reasoning With Zero Annotations"
   authors:
   - Shunchi Zhang\*

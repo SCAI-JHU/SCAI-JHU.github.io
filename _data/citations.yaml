@@ -154,8 +154,10 @@
     link: https://thoughttrace-project.github.io/
   - type: data
     link: https://huggingface.co/datasets/SCAI-JHU/ThoughtTrace
-  - type: examples
-    link: https://thoughttrace-project.github.io/examples.html
+  - type: code
+    link: https://github.com/thoughttrace-project/thoughttrace
+  - label: slides
+    link: https://thoughttrace-project.github.io/ThoughtTrace_slides.pdf
   tags:
   - Theory of Mind
   - Human-AI Cooperation

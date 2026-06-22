@@ -44,7 +44,7 @@
   image: https://agentodyssey.github.io/img/doc/teaser_web.png
   buttons:
   - type: paper
-    link: https://openreview.net/pdf?id=JwRCpYQcUA
+    link: https://agentodyssey.github.io/paper.pdf
   - type: website
     link: https://agentodyssey.github.io/
   - type: code
@@ -65,7 +65,7 @@
   - Tianmin Shu
   date: 'Preprint'
   publisher: arXiv preprint
-  image: 
+  image: http://scai.cs.jhu.edu/images/publications/SIMPLE.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2603.27410
@@ -82,7 +82,7 @@
   - Leyla Isik
   date: 'Preprint'
   publisher: bioRxiv preprint
-  image: 
+  image: http://scai.cs.jhu.edu/images/publications/Bottom-up.jpg
   buttons:
   - type: paper
     link: https://www.biorxiv.org/content/10.64898/2026.02.20.707082v2

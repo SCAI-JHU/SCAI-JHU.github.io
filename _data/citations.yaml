@@ -1,4 +1,47 @@
 # Preprints
+- title: "3D-Belief: Embodied Belief Inference via Generative 3D World Modeling"
+  authors:
+  - Yifan Yin
+  - Zehao Wen
+  - Jieneng Chen
+  - Zehan Zheng
+  - Nanru Dai
+  - Haojun Shi
+  - Suyu Ye
+  - Aydan Huang
+  - Zheyuan Zhang
+  - Alan Yuille
+  - Jianwen Xie
+  - Ayush Tewari
+  - Tianmin Shu
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image:
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2605.11367
+  tags:
+  - Embodied AI
+  - Theory of Mind
+
+- title: "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents"
+  authors:
+  - Zheyuan Zhang
+  - Zehao Wen
+  - Alvin Zhang
+  - Andrew Wang
+  - Jianwen Xie
+  - Daniel Khashabi
+  - Tianmin Shu
+  date: 'Preprint'
+  publisher: Preprint
+  image:
+  buttons:
+  - type: paper
+    link: https://openreview.net/pdf?id=JwRCpYQcUA
+  tags:
+  - Embodied AI
+
 - title: "Grounding Social Perception in Intuitive Physics"
   authors:
   - Lance Ying\*
@@ -121,6 +164,73 @@
   - Theory of Mind
   - Human-AI Cooperation
 
+- title: "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions"
+  authors:
+  - Chuanyang Jin
+  - Binze Li
+  - Haopeng Xie
+  - Cathy Mengying Fang
+  - Tianjian Li
+  - Shayne Longpre
+  - Hongxiang Gu
+  - Maximillian Chen
+  - Tianmin Shu
+  date: '2026-07-06'
+  publisher: RLxF Workshop at ICML 2026 (<span style="color:red">Best Paper Award</span>)
+  image:
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2605.20087
+  tags:
+  - Theory of Mind
+  - Human-AI Cooperation
+
+- title: "UnrealSpace: Analyzing Spatial Understanding and Reasoning in Controllable Simulation"
+  authors:
+  - Wufei Ma
+  - Sky Cen
+  - Jianzhi Shen
+  - Rex Lee
+  - León Begiristain
+  - Yan Zhuang
+  - Jiawei Peng
+  - Zhifei Yu
+  - Tianao Song
+  - Xinyuan Qi
+  - Tianmin Shu
+  - Adam Kortylewski
+  - Alan Yuille
+  date: '2026-06-11'
+  publisher: CVPR 2026 Findings
+  image:
+  buttons:
+  - type: paper
+    link: https://openaccess.thecvf.com/content/CVPR2026F/papers/Ma_UnrealSpace_Analyzing_Spatial_Understanding_and_Reasoning_in_Controllable_Simulation_CVPRF_2026_paper.pdf
+  tags:
+  - Embodied AI
+
+- title: "Fast Generative DeOcclusion for Visual Geometry and Robotics"
+  authors:
+  - Jieneng Chen
+  - Tiezheng Zhang
+  - Xiwei Xuan
+  - Ju He
+  - Yifan Yin
+  - Haojun Shi
+  - Suyu Ye
+  - Xinyi Li
+  - Ruisheng Yuan
+  - Tianmin Shu
+  - Alan Yuille
+  date: '2026-06-11'
+  publisher: CVPR 2026 Findings
+  image:
+  buttons:
+  - type: paper
+    link: https://openaccess.thecvf.com/content/CVPR2026F/papers/Chen_Fast_Generative_DeOcclusion_for_Visual_Geometry_and_Robotics_CVPRF_2026_paper.pdf
+  tags:
+  - Embodied AI
+
 - title: "SIFToM: Robust Spoken Instruction Following through Theory of Mind"
   authors:
   - Lance Ying
@@ -165,7 +275,7 @@
   - Yilun Du
   - Jieneng Chen
   date: '2026-04-23'
-  publisher: ICLR 2026
+  publisher: ICLR 2026 (<span style="color:red">Oral</span>)
   image: https://world-in-world.github.io/media/overview.png
   buttons:
   - type: paper

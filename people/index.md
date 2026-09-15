@@ -34,7 +34,7 @@ Shivam Aarya, Undergraduate Student, 2026 (next: PhD at Georgia Tech)
 
 Haojun Shi, Undergraduate Student, 2026 (next: PhD at Yale)
 
-Jianzhi Shen, Master's Student, 2025
+Jianzhi Shen, Master's Student, 2025 (next: Zeromatter)
 
 Shunchi Zhang, Master's Student, 2025 (next: ByteDance)
 
@@ -46,16 +46,16 @@ Yan Zhuang, Master's Student, 2025 (next: PhD at UVA)
 
 Huiqi Zou, Master's Student, 2025 (next: PhD at Northeastern)
 
-Zixiao Xu, Master's Student, 2025
+Zixiao Xu, Master's Student, 2025 (next: Amazon)
 
-Darren Shih, Undergraduate Student, 2025
+Darren Shih, Undergraduate Student, 2025 (next: Celanese)
 
-Matteo Bortoletto, Visiting Scholar, 2025
+Matteo Bortoletto, Visiting Scholar, 2025 (next: Kapa)
 
-Yizirui Fang, Master's Student, 2024
+Yizirui Fang, Master's Student, 2024 (next: Amazon)
 
-Zhengtao Hao, Intern, 2024
+Zhengtao Han, Intern, 2024
 
 Zhining Zhang, Intern, 2024 (next: PhD at UC Berkeley)
 
-Yichao Zhou, Intern, 2024
+Yichao Zhou, Intern, 2024 (next: MS at Harvard)

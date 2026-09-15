@@ -2,7 +2,7 @@
 name: Aydan Huang
 image: images/members/AydanHuang.jpg
 role: undergrad
-group: current
+group: alumni
 links:
   home-page: https://www.linkedin.com/in/aydan-huang-hyn26533554432
 ---

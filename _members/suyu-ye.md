@@ -4,7 +4,7 @@ image: images/members/SuyuYe.jpg
 role: phd
 group: current
 links:
-  home-page: https://www.linkedin.com/in/suyu-ye/
+  home-page: https://suyuye.com/
 ---
 
-My research interests are Natural Language Processing, Multi-Agent Interactions, and Multimodal Reasoning.
+My research interests are embodied AI and robot learning.

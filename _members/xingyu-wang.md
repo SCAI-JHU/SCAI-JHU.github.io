@@ -2,7 +2,7 @@
 name: Xingyu Wang
 image: images/members/XingyuWang.jpg
 role: master
-group: current
+group: alumni
 links:
   home-page: 
 ---

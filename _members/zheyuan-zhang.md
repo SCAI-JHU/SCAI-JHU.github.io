@@ -7,4 +7,4 @@ links:
   home-page: https://cozheyuanzhangde.github.io/
 ---
 
-I am fascinated with understanding natural intelligence through computational modeling. My current research interests are centered around Embodied AI, Multimodality, and Language, with the goal to create Scalable Cognitive Agents that perceive, act, and learn like humans in physical and virtual worlds. 
+I work at the intersection of artificial intelligence and cognitive science, with the goal of making human-level machine intelligence and understanding how the brain works. My current research centers on Embodied AI and Continual Learning, particularly latent world models, test-time training, and persistent memory.

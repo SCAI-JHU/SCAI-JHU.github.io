@@ -2,7 +2,7 @@
 name: Shivam Aarya
 image: images/members/ShivamAarya.jpg
 role: undergrad
-group: current
+group: alumni
 links:
   home-page: https://scholar.google.com/citations?user=b1h033AAAAAJ&hl=en
 ---

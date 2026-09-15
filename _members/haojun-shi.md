@@ -2,7 +2,7 @@
 name: Haojun Shi
 image: images/members/HaojunShi.jpg
 role: undergrad
-group: current
+group: alumni
 links:
   home-page: https://www.linkedin.com/in/haojun-shi-746b3328b/
 ---

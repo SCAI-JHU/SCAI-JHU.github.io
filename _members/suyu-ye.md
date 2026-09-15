@@ -1,7 +1,7 @@
 ---
 name: Suyu Ye
 image: images/members/SuyuYe.jpg
-role: undergrad
+role: phd
 group: current
 links:
   home-page: https://www.linkedin.com/in/suyu-ye/

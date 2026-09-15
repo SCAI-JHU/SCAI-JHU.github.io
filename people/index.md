@@ -28,6 +28,12 @@ nav:
 
 <!-- {% include list.html data="members" component="portrait" filters="group: alumni" %} -->
 
+Ryan Lu, Undergraduate Student, 2026 (next: MS at Harvard)
+
+Shivam Aarya, Undergraduate Student, 2026 (next: PhD at Georgia Tech)
+
+Haojun Shi, Undergraduate Student, 2026 (next: PhD at Yale)
+
 Jianzhi Shen, Master's Student, 2025
 
 Shunchi Zhang, Master's Student, 2025 (next: ByteDance)
@@ -50,6 +56,6 @@ Yizirui Fang, Master's Student, 2024
 
 Zhengtao Hao, Intern, 2024
 
-Zhining Zhang, Intern, 2024
+Zhining Zhang, Intern, 2024 (next: PhD at UC Berkeley)
 
-Zichao Zhou, Intern, 2024
+Yichao Zhou, Intern, 2024

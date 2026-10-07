@@ -1,4 +1,132 @@
 # Preprints
+- title: "Watch, Infer, Coordinate: Inferring Robot Partner Constraints for Zero-Shot Coordination"
+  authors:
+  - Suyu Ye
+  - Zheyuan Zhang
+  - Vaishnav Tadiparthi
+  - Hossein Nourkhiz Mahjoub
+  - Ehsan Moradi Pari
+  - Tianmin Shu
+  - Homanga Bharadhwaj
+  - Nakul Agarwal
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: https://watch-infer-coordinate.github.io/static/images/og.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2610.02170
+  - type: website
+    link: https://watch-infer-coordinate.github.io/
+  tags:
+  - Embodied AI
+  - Multi-Agent Cooperation
+
+- title: "CogGym: Towards Large-Scale Comparative Evaluation of Human and Machine Cognition"
+  authors:
+  - Lance Ying
+  - Jinzhou Wu
+  - Yingshan Susan Wang
+  - Shivam Aarya
+  - Luca M. Schulze Buschoff
+  - Harry Chen
+  - Katherine M. Collins
+  - Andrea de Varda
+  - Shuhao Fu
+  - Sean Dae Houlihan
+  - Akshay K. Jagadish
+  - Guangyuan Jiang
+  - Samuel Kiegeland
+  - Tetsu Kurumisawa
+  - Rongzhi Liu
+  - Ryan Liu
+  - Ningshan Ma
+  - Kathryn McGregor
+  - Younes Strittmatter
+  - Polina Tsvilodub
+  - Jacob Hoover Vigly
+  - Sarah Wu
+  - Enjie Xu
+  - Yiling Yun
+  - Kelsey Allen
+  - Tyler Brooke-Wilson
+  - Brian Christian
+  - Evelina Fedorenko
+  - Michael C. Frank
+  - Michael Franke
+  - Tao Gao
+  - Samuel J. Gershman
+  - Robert D. Hawkins
+  - Jennifer Hu
+  - Julian Jara-Ettinger
+  - Max Kleiman-Weiner
+  - Sydney Levine
+  - Tal Linzen
+  - Hongjing Lu
+  - Timothy O'Donnell
+  - Desmond C. Ong
+  - Steven T. Piantadosi
+  - Rebecca Saxe
+  - Eric Schulz
+  - Tianmin Shu
+  - Felix A. Sosa
+  - Ilia Sucholutsky
+  - Tan Zhi-Xuan
+  - Tomer Ullman
+  - Fei Xu
+  - Ilker Yildirim
+  - Jian-Qiao Zhu
+  - Thomas L. Griffiths
+  - Tobias Gerstenberg
+  - Kevin Smith
+  - Joshua B. Tenenbaum
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: http://scai.cs.jhu.edu/images/publications/CogGym.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2609.21259
+  - type: website
+    link: https://coggym.org/
+  tags:
+  - Social Cognition
+
+- title: "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States"
+  authors:
+  - Zixuan Wang\*
+  - Yufan Zhou\*
+  - Jinzhou Tang\*
+  - Xinle Yu
+  - Chengjun Wu
+  - Lyumanshan Ye
+  - Zhaoxiang Feng
+  - Letian Peng
+  - Adyasha Patra
+  - Fan Bai
+  - Enze Ma
+  - Zhengding Hu
+  - Jianyang Gu
+  - Zhao Wang
+  - Yufei Ding
+  - Jingbo Shang
+  - Tianmin Shu
+  - Zhiting Hu
+  - Zhen Wang
+  date: 'Preprint'
+  publisher: arXiv preprint
+  image: https://wannabeyourfriend.github.io/mind2dialogue/assets/overview.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2609.15972
+  - type: website
+    link: https://wannabeyourfriend.github.io/mind2dialogue/
+  - type: code
+    link: https://github.com/wannabeyourfriend/mind2dialogue
+  - type: data
+    link: https://huggingface.co/datasets/wannabeyourfriend-hf/mind2dialogue
+  tags:
+  - Theory of Mind
+  - Human-AI Cooperation
+
 - title: "3D-Belief: Embodied Belief Inference via Generative 3D World Modeling"
   authors:
   - Yifan Yin
@@ -133,6 +261,69 @@
 
 
 # Publicaions
+- title: "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts"
+  authors:
+  - Zheyuan Zhang
+  - Suyu Ye
+  - Nakul Agarwal
+  - Hossein Nourkhiz Mahjoub
+  - Ehsan Moradi Pari
+  - Daniel Khashabi
+  - Tianmin Shu
+  - Vaishnav Tadiparthi
+  date: '2026-12-06'
+  publisher: World Models in Physical AI Workshop at NeurIPS 2026
+  image: https://jepa-ttt.github.io/static/images/teaser.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2610.00722
+  - type: website
+    link: https://jepa-ttt.github.io/
+  tags:
+  - Embodied AI
+
+- title: "HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization"
+  authors:
+  - Jianzhi Shen\*
+  - Keyu Mao\*
+  - Minghao Shao
+  - Chuanyang Jin
+  - Yusong Wang
+  - Ailiang Lin
+  - Kotaro Funakoshi
+  - Manabu Okumura
+  - Tianmin Shu
+  - Muhammad Shafique
+  date: '2026-10-24'
+  publisher: EMNLP 2026 Findings
+  image: https://github.com/jiseshen/HyperTrace/raw/main/assets/head.jpg
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2609.09835
+  - type: code
+    link: https://github.com/jiseshen/HyperTrace
+  tags:
+  - Theory of Mind
+  - Human-AI Cooperation
+
+- title: "RF-HOI: Recognize Human-Object Interaction with Radio Frequency Signals"
+  authors:
+  - Lihao Wang
+  - Linlu Gao
+  - Jiacan Yu
+  - Yanyu Lin
+  - Yifan Yin
+  - Jianxin Wang
+  - Tianmin Shu
+  - Renjie Zhao
+  date: '2026-09-30'
+  publisher: IMWUT 2026
+  buttons:
+  - type: paper
+    link: https://doi.org/10.1145/3831638
+  tags:
+  - Embodied AI
+
 - title: "POPKI: Modeling Surprise in a Physically-Grounded Joint Inference of Observation, Preference, and Knowledge"
   authors:
   - Harry Chen
@@ -149,6 +340,7 @@
     link: https://direct.mit.edu/opmi/article/doi/10.1162/OPMI.a.375/138310
   tags:
   - Theory of Mind
+  - Social Cognition
 
 - title: "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions"
   authors:

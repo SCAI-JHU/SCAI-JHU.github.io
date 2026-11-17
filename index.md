@@ -7,18 +7,9 @@ Welcome to the website for the Social Cognitive AI (SCAI) Lab at Johns Hopkins U
 
 {% include section.html %}
 
-{% capture text %}
+<h2 id="research-highlights" class="gallery-heading">
+  <span>Research Highlights</span>
+  <a href="{{ "/publications" | relative_url }}" class="gallery-heading-link">{% include icon.html icon="fa-solid fa-arrow-right" %} view all</a>
+</h2>
 
-Research
-
-{%
-  include button.html
-  link="research"
-  text="See our research"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
+{% include highlights.html %}

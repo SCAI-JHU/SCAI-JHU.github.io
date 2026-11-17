@@ -1,0 +1,59 @@
+{% assign highlights = site.data[include.data] | default: site.data.highlights %}
+{% comment %} newest first; entries without a date go last {% endcomment %}
+{% assign highlights = highlights | sort: "date", "first" | reverse %}
+<div class="gallery">
+  {% for h in highlights %}
+    <a
+      {% if h.link %}
+        href="{{ h.link | relative_url }}"
+      {% endif %}
+      class="gallery-card"
+      title="{{ h.title }}"
+    >
+      <span
+        class="gallery-media"
+        {% if h.fit %}
+          data-fit="{{ h.fit }}"
+        {% endif %}
+      >
+        {% if h.video %}
+          <video
+            src="{{ h.video | relative_url }}"
+            {% if h.image %}
+              poster="{{ h.image | relative_url }}"
+            {% endif %}
+            muted
+            loop
+            playsinline
+            preload="none"
+            aria-label="{{ h.title }} teaser video"
+          ></video>
+        {% else %}
+          <img
+            src="{{ h.image | relative_url }}"
+            alt="{{ h.title }} teaser"
+            loading="lazy"
+            {% include fallback.html %}
+          >
+        {% endif %}
+      </span>
+      <span class="gallery-text">
+        <span class="gallery-title">{{ h.title }}</span>
+        <span class="gallery-meta">
+          {% if h.venue %}
+            <span class="gallery-venue">{{ h.venue }}</span>
+          {% endif %}
+          {% if h.date %}
+            <span>{{ h.date | date: "%b %Y" }}</span>
+          {% endif %}
+          {% if h.authors %}
+            <span>{{ h.authors }} <small>et al.</small></span>
+          {% endif %}
+          {% if h.award %}
+            <span>✨{{ h.award }}</span>
+          {% endif %}
+        </span>
+      </span>
+    </a>
+  {% endfor %}
+</div>

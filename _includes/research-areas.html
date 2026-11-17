@@ -1,0 +1,69 @@
+{% assign areas = site.data[include.data] | default: site.data.research_areas %}
+<div class="areas">
+  {% for area in areas %}
+    {% assign first = area.related | first %}
+    {% assign link = area.link | default: first.link %}
+    {% assign odd = forloop.index0 | modulo: 2 %}
+    <div
+      class="area"
+      id="{{ area.id }}"
+      {% if odd == 1 %}
+        data-flip
+      {% endif %}
+    >
+      <a
+        {% if link %}
+          href="{{ link | relative_url }}"
+        {% endif %}
+        class="area-media"
+        aria-label="{{ area.title }}"
+        {% if area.fit %}
+          data-fit="{{ area.fit }}"
+        {% endif %}
+      >
+        {% if area.video %}
+          <video
+            src="{{ area.video | relative_url }}"
+            {% if area.image %}
+              poster="{{ area.image | relative_url }}"
+            {% endif %}
+            muted
+            loop
+            playsinline
+            preload="none"
+            aria-label="{{ area.title }} teaser video"
+          ></video>
+        {% else %}
+          <img
+            src="{{ area.image | relative_url }}"
+            alt="{{ area.title }} teaser"
+            loading="lazy"
+            {% include fallback.html %}
+          >
+        {% endif %}
+      </a>
+
+      <div class="area-text">
+        <h3 class="area-title">{{ area.title }}</h3>
+        <p class="area-description">{{ area.description }}</p>
+        {% if area.related %}
+          <div class="area-related">
+            <ul>
+              {% for r in area.related %}
+                <li>
+                  <a href="{{ r.link | relative_url }}">{{ r.text }}</a>
+                  {% if r.venue %}
+                    <span class="area-venue">{{ r.venue }}</span>
+                  {% endif %}
+                  {% if r.award %}
+                    <span class="area-award">✨{{ r.award }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,109 @@
+# Research areas shown on the Research page, in order.
+#
+# Each entry:
+#   id:          anchor for linking to the area (e.g. /research/#world-modeling)
+#   title:       area name
+#   description: one or two sentences
+#   image:       teaser image (also the poster frame when a video is given)
+#   video:       optional short .mp4 teaser; loops silently while on screen
+#   fit:         optional, "contain" shows the whole image instead of
+#                cropping it to the 16:9 frame
+#   link:        where the teaser links to (defaults to the first related work)
+#   related:     related work, listed under the description; each with
+#                  text:  project name
+#                  link:  project page
+#                  venue: optional, e.g. "NeurIPS 2025"
+#                  award: optional, shown after a sparkle
+
+- id: world-modeling
+  title: Online World Modeling for Long-Horizon Planning
+  description: >-
+    Developing agents that construct and update world models for planning in
+    partially observed, dynamic, and long-horizon environments.
+  image: images/highlights/3D-Belief.jpg
+  video: images/highlights/3D-Belief.mp4
+  fit: contain
+  related:
+    - text: 3D-Belief
+      link: https://3d-belief.github.io/
+      venue: arXiv
+    - text: World-in-World
+      link: https://world-in-world.github.io/
+      venue: ICLR 2026
+      award: Oral
+
+- id: theory-of-mind
+  title: Open-Ended Agent Modeling and Multimodal Theory of Mind
+  description: >-
+    Building computational models of agent behavior, enabling AI systems to
+    reason about agents' mental states and social relationships from
+    multimodal inputs in open-ended settings.
+  image: images/highlights/MMToM-QA.jpg
+  video: images/highlights/MMToM-QA.mp4
+  fit: contain
+  related:
+    - text: MindZero
+      link: https://scai.cs.jhu.edu/MindZero/
+      venue: ICML 2026
+    - text: AutoToM
+      link: https://chuanyangjin.com/AutoToM/
+      venue: NeurIPS 2025
+      award: Spotlight
+    - text: MuMA-ToM
+      link: https://scai.cs.jhu.edu/projects/MuMA-ToM/
+      venue: AAAI 2025
+      award: Oral
+    - text: MMToM-QA
+      link: https://chuanyangjin.com/mmtom-qa
+      venue: ACL 2024
+      award: Outstanding Paper Award
+
+- id: cooperation
+  title: Multi-Agent and Human-AI Cooperation
+  description: >-
+    Studying how agents communicate and collaborate effectively with humans
+    and other agents in shared physical and virtual environments.
+  image: images/highlights/SIFToM.jpg
+  related:
+    - text: SIFToM
+      link: https://www.lanceying.com/siftom.html
+      venue: ICRA 2026
+    - text: GOMA
+      link: https://arxiv.org/abs/2403.11075
+      venue: IROS 2024
+    - text: NOPA
+      link: https://www.tshu.io/online_watch_and_help/
+      venue: ICRA 2023
+
+- id: continual-learning
+  title: Continual Learning from Embodied and Social Experiences
+  description: >-
+    Enabling agents to continuously acquire new knowledge and skills through
+    long-term interaction with humans, other agents, and the physical world.
+  image: images/highlights/AgentOdyssey.jpg
+  video: images/highlights/AgentOdyssey.mp4
+  related:
+    - text: AgentOdyssey
+      link: https://agentodyssey.github.io/
+      venue: NeurIPS 2026
+    - text: ThoughtTrace
+      link: https://thoughttrace-project.github.io/index.html
+      venue: ICML 2026 RLxF
+      award: Best Paper Award
+
+- id: simulation
+  title: Large-Scale Open-World Simulations
+  description: >-
+    Creating scalable simulation environments for studying embodied and
+    social reasoning, cooperation, and open-ended learning in rich
+    multi-agent worlds.
+  image: images/highlights/SimWorld.jpg
+  video: images/highlights/SimWorld.mp4
+  related:
+    - text: SimWorld
+      link: https://simworld.org/
+      venue: NeurIPS 2025
+      award: Spotlight
+    - text: SimWorld-Robotics
+      link: https://scai.cs.jhu.edu/projects/SimWorldRobotics/
+      venue: NeurIPS 2025

@@ -1,0 +1,126 @@
+---
+---
+
+$wrap: 800px;
+
+// research areas: teaser beside text, alternating sides
+.areas {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 40px 0;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  scroll-margin-top: 80px;
+}
+
+.area[data-flip] {
+  flex-direction: row-reverse;
+}
+
+.area-media {
+  flex-shrink: 0;
+  display: block;
+  width: 42%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--rounded);
+  background: var(--background-alt);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.area-media img,
+.area-media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: unset;
+  max-height: unset;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+// show the whole figure instead of cropping it (on white, since most
+// paper figures assume a white page)
+.area-media[data-fit="contain"] {
+  background: #ffffff;
+
+  & img,
+  & video {
+    object-fit: contain;
+  }
+}
+
+.area-text {
+  flex-grow: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.area-text > * {
+  margin: 0;
+}
+
+.area-title {
+  margin: 0 0 10px 0;
+  font-size: 1.3rem;
+  line-height: var(--compact);
+}
+
+.area-description {
+  margin: 0 0 15px 0;
+  line-height: var(--compact);
+  text-align: left;
+}
+
+.area-related ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.area-related li {
+  margin: 0;
+  padding: 3px 0;
+  line-height: var(--compact);
+}
+
+.area-related li a {
+  font-weight: var(--semi-bold);
+  text-decoration: none;
+}
+
+.area-venue {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: var(--rounded);
+  background: var(--light-gray);
+  font-size: 0.75rem;
+  vertical-align: 1px;
+}
+
+.area-award {
+  margin-left: 4px;
+  color: var(--dark-gray);
+  font-size: 0.85rem;
+}
+
+@media (max-width: $wrap) {
+  .area,
+  .area[data-flip] {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .area-media {
+    width: 100%;
+  }
+}

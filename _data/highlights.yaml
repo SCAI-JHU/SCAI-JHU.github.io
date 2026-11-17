@@ -1,0 +1,87 @@
+# Research highlights shown in the gallery on the home page.
+#
+# Each entry:
+#   title:   project / paper title (clamped to two lines on the card)
+#   link:    where the card goes when clicked
+#   image:   teaser image (also the poster frame when a video is given)
+#   video:   optional short .mp4 teaser; loops silently while on screen
+#   fit:     optional, "contain" shows the whole image instead of cropping
+#            it to the 2:1 frame (useful for wide figures with text)
+#   venue:   short venue name shown as a small badge
+#   date:    YYYY-MM-DD (publication or first arXiv date); shown as
+#            "Dec 2025". Cards are sorted by this, newest first, whatever
+#            order they are listed in here
+#   authors: first author(s), shown as "<authors> et al."
+#   award:   optional, shown after a sparkle
+
+- title: "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions"
+  link: https://thoughttrace-project.github.io/
+  image: images/highlights/ThoughtTrace.jpg
+  video: images/highlights/ThoughtTrace.mp4
+  fit: contain
+  venue: ICML RLxF
+  date: 2026-07-06
+  authors: Jin
+  award: Best Paper
+
+- title: "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents"
+  link: https://agentodyssey.github.io/
+  image: images/highlights/AgentOdyssey.jpg
+  video: images/highlights/AgentOdyssey.mp4
+  fit: contain
+  venue: NeurIPS
+  date: 2026-12-06
+  authors: Zhang
+
+- title: "3D-Belief: Embodied Belief Inference via Generative 3D World Modeling"
+  link: https://3d-belief.github.io/
+  image: images/highlights/3D-Belief.jpg
+  video: images/highlights/3D-Belief.mp4
+  fit: contain
+  venue: arXiv
+  date: 2026-05-12
+  authors: Yin
+
+- title: "AutoToM: Scaling Model-based Mental Inference via Automated Agent Modeling"
+  link: https://chuanyangjin.com/AutoToM/
+  image: images/publications/AutoToM.jpg
+  fit: contain
+  venue: NeurIPS
+  date: 2025-12-02
+  authors: Zhang, Jin
+  award: Spotlight
+
+- title: "SimWorld: An Open-ended Simulator for Agents in Physical and Social Worlds"
+  link: https://simworld.org/
+  image: images/highlights/SimWorld.jpg
+  video: images/highlights/SimWorld.mp4
+  venue: NeurIPS
+  date: 2025-12-02
+  authors: Ye, Ren
+  award: Spotlight
+
+- title: "MMToM-QA: Multimodal Theory of Mind Question Answering"
+  link: https://chuanyangjin.com/mmtom-qa
+  image: images/highlights/MMToM-QA.jpg
+  video: images/highlights/MMToM-QA.mp4
+  fit: contain
+  venue: ACL
+  date: 2024-08-01
+  authors: Jin
+  award: Outstanding Paper
+
+- title: "MindZero: Learning Online Mental Reasoning With Zero Annotations"
+  link: https://scai.cs.jhu.edu/MindZero
+  image: images/highlights/MindZero.png
+  fit: contain
+  venue: ICML
+  date: 2026-07-06
+  authors: Zhang, Lu, Jin
+
+- title: "ComposeCL: Continual Learning Mechanisms Compose for Long-Horizon Memorization"
+  link: https://compose-cl.github.io/
+  image: images/highlights/ComposeCL.png
+  fit: contain
+  venue: arXiv
+  date: 2026-09-07
+  authors: Zhang

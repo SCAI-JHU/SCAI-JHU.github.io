@@ -167,8 +167,8 @@
   - Jianwen Xie
   - Daniel Khashabi
   - Tianmin Shu
-  date: 'Preprint'
-  publisher: Preprint
+  date: '2026-12-06'
+  publisher: NeurIPS 2026
   image: https://agentodyssey.github.io/img/doc/teaser_web.png
   buttons:
   - type: paper
@@ -479,7 +479,7 @@
   - type: paper
     link: https://arxiv.org/abs/2409.10849
   - type: website
-    link: https://www.lanceying.com/siftom
+    link: https://www.lanceying.com/siftom.html
   - type: code
     link: https://github.com/lance-ying/siftom
   tags:

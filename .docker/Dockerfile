@@ -12,8 +12,17 @@ RUN VERSION=$(grep -A 1 'BUNDLED WITH' Gemfile.lock | tail -n 1 | xargs); \
     gem install bundler --version ${VERSION} && \
     bundle _${VERSION}_ install
 
+# keep the lockfile resolved for this image's platform outside the mounted repo,
+# so the repo's Gemfile.lock (mounted over the working dir at runtime) can't
+# disagree with the gems actually installed in the image
+RUN mkdir -p /var/bundle && cp Gemfile Gemfile.lock /var/bundle/
+ENV BUNDLE_GEMFILE=/var/bundle/Gemfile
+
 # install python
-RUN apt update && apt install -y python3 python3-pip
+# (base image is debian bullseye, which is end-of-life: its security repo index
+# points at packages that no longer exist, so drop it before installing)
+RUN sed -i "/debian-security/d" /etc/apt/sources.list && \
+    apt update && apt install -y python3 python3-pip
 
 # install python packages
 RUN python3 -m pip install --no-cache-dir --upgrade --requirement requirements.txt

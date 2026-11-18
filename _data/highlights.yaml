@@ -81,6 +81,7 @@
 - title: "ComposeCL: Continual Learning Mechanisms Compose for Long-Horizon Memorization"
   link: https://compose-cl.github.io/
   image: images/highlights/ComposeCL.png
+  video: images/highlights/ComposeCL.mp4
   fit: contain
   venue: arXiv
   date: 2026-09-07

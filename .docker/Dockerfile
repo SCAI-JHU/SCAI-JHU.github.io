@@ -1,5 +1,5 @@
 # start with official ruby docker image as base
-FROM ruby:3.1.2
+FROM ruby:3.3
 
 # set working directory within container
 WORKDIR /usr/src/app
@@ -19,12 +19,12 @@ RUN mkdir -p /var/bundle && cp Gemfile Gemfile.lock /var/bundle/
 ENV BUNDLE_GEMFILE=/var/bundle/Gemfile
 
 # install python
-# (base image is debian bullseye, which is end-of-life: its security repo index
-# points at packages that no longer exist, so drop it before installing)
-RUN sed -i "/debian-security/d" /etc/apt/sources.list && \
-    apt update && apt install -y python3 python3-pip
+RUN apt update && apt install -y python3 python3-pip
 
 # install python packages
+# (debian marks its python as externally managed; this container is the only
+# user of it, so installing into it directly is fine)
+ENV PIP_BREAK_SYSTEM_PACKAGES=1
 RUN python3 -m pip install --no-cache-dir --upgrade --requirement requirements.txt
 
 # install python package for listening for file changes

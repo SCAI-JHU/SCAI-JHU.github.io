@@ -29,6 +29,9 @@ jobs:
 
       - name: Install Ruby via ruby-build
         run: |
+          # ruby >= 3.2 no longer bundles libyaml, which psych needs
+          sudo apt-get update
+          sudo apt-get install -y libyaml-dev
           git clone https://github.com/rbenv/ruby-build.git /tmp/ruby-build
           sudo /tmp/ruby-build/install.sh
           ruby-build 3.3.13 /opt/hostedtoolcache/Ruby/3.3.13/x64

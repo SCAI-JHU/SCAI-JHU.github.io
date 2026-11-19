@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["alumni.scss"],"names":[],"mappings":"AACA;EACE;EACA;EACA","sourcesContent":["// alumni names on the people page: one short line each, tightly spaced\n.alumni-list p {\n  margin: 2px 0;\n  line-height: 1.5;\n  text-align: left;\n}\n"],"file":"alumni.css"}

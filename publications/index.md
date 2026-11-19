@@ -15,6 +15,6 @@ nav:
 
 {% include search-info.html %}
 
-<p class="author-notes">* Equal contribution &nbsp;&nbsp; † Co-senior authors</p>
+<p class="author-notes">* Equal contribution &nbsp;&nbsp; † Equal advising</p>
 
 {% include list.html data="citations" component="citation" style="rich" %}

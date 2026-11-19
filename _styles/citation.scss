@@ -8,6 +8,14 @@ $wrap: 800px;
   container-type: inline-size;
 }
 
+// key for the author markers, shown above the list
+.author-notes {
+  margin: 0;
+  color: var(--dark-gray);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
 // year headings between groups of entries (from list.html), kept compact
 .list-year {
   margin: 24px 0 8px 0;
@@ -15,7 +23,7 @@ $wrap: 800px;
 
 .citation {
   display: flex;
-  margin: 10px 0;
+  margin: 8px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -43,11 +51,10 @@ $wrap: 800px;
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 4px 10px;
   max-width: 100%;
   height: min-content;
-  padding: 5px;
-  padding-left: 15px;
+  padding: 8px 12px 8px 15px;
   text-align: left;
   overflow-wrap: break-word;
   z-index: 0;
@@ -62,6 +69,15 @@ $wrap: 800px;
 
 .citation-title {
   font-weight: var(--semi-bold);
+  line-height: 1.4;
+}
+
+// secondary lines a little smaller and tighter, still easy to read
+.citation-authors,
+.citation-details,
+.citation-description {
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 
 .citation-text > .icon {
@@ -85,17 +101,26 @@ $wrap: 800px;
 .citation-buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 2px 8px;
 }
 
 .citation-buttons .button {
   margin: 0;
+  padding: 2px 4px;
+  font-size: 0.85rem;
 }
 
+// compact topic tags so they fit beside the buttons on one row
 .citation-text > .tags {
   display: inline-flex;
   justify-content: flex-start;
+  gap: 5px;
   margin: 0;
+}
+
+.citation-text > .tags .tag {
+  padding: 1px 8px;
+  font-size: 0.8rem;
 }
 
 @container (max-width: #{$wrap}) {

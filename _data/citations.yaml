@@ -3,8 +3,8 @@
   - Binze Li
   - Zihuan Zhang
   - Seokhyun Baek
-  - Gillian K. Hadfield
-  - Tianmin Shu
+  - Gillian K. Hadfield†
+  - Tianmin Shu†
   date: '2026-11-05'
   publisher: arXiv preprint
   image: ./images/publications/NormGym.jpg
@@ -99,8 +99,8 @@
   - Jian-Qiao Zhu
   - Thomas L. Griffiths
   - Tobias Gerstenberg
-  - Kevin Smith
-  - Joshua B. Tenenbaum
+  - Kevin Smith†
+  - Joshua B. Tenenbaum†
   date: '2026-09-18'
   publisher: arXiv preprint
   image: http://scai.cs.jhu.edu/images/publications/CogGym.png
@@ -262,13 +262,13 @@
 
 - title: "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents"
   authors:
-  - Zheyuan Zhang
-  - Zehao Wen
+  - Zheyuan Zhang\*
+  - Zehao Wen\*
   - Alvin Zhang
   - Andrew Wang
   - Jianwen Xie
-  - Daniel Khashabi
-  - Tianmin Shu
+  - Daniel Khashabi†
+  - Tianmin Shu†
   date: '2026-12-06'
   publisher: NeurIPS 2026
   image: ./images/publications/AgentOdyssey.jpg
@@ -616,9 +616,9 @@
   - Rajiv Mandya Nagaraju
   - Dhruv Vivek Sharma
   - Ziqiao Ma
-  - Tianmin Shu
-  - Zhiting Hu
-  - Lianhui Qin
+  - Tianmin Shu†
+  - Zhiting Hu†
+  - Lianhui Qin†
   date: '2025-12-02'
   publisher: NeurIPS 2025 (<span style="color:red">Spotlight</span>)
   image: ./images/highlights/SimWorld.jpg
@@ -634,8 +634,8 @@
 - title: "SimWorld-Robotics: Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration"
   authors:
   - Yan Zhuang
-  - Jiawei Ren
-  - Xiaokang Ye
+  - Jiawei Ren\*
+  - Xiaokang Ye\*
   - Jianzhi Shen
   - Ruixuan Zhang
   - Tianai Yue
@@ -643,9 +643,9 @@
   - Xuhong He
   - Xiyan Zhang
   - Ziqiao Ma
-  - Lianhui Qin
-  - Zhiting Hu
-  - Tianmin Shu
+  - Lianhui Qin†
+  - Zhiting Hu†
+  - Tianmin Shu†
   date: '2025-12-02'
   publisher: NeurIPS 2025
   image: ./images/publications/SimWorld-MMNav.jpg

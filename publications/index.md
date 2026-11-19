@@ -5,7 +5,7 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Publications
+# Publications
 
 {% include section.html %}
 
@@ -15,6 +15,6 @@ nav:
 
 {% include search-info.html %}
 
-<!-- \* indicates equal contribution -->
+<p class="author-notes">* Equal contribution &nbsp;&nbsp; † Co-senior authors</p>
 
 {% include list.html data="citations" component="citation" style="rich" %}

@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 20px;
+  margin: 15px;
   width: 160px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
@@ -69,6 +69,12 @@
 .portrait-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+}
+
+// secondary line under the role, e.g. "Co-advised with ..."
+.portrait-affiliation {
+  color: var(--dark-gray);
+  font-size: 0.85em;
 }
 
 .portrait[data-style="tiny"] {

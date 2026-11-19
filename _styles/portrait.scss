@@ -28,30 +28,6 @@
   text-align: left;
 }
 
-.portrait .icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: calc(20px + 10%);
-  aspect-ratio: 1 / 1;
-  border-radius: 999px;
-  background: var(--background);
-  box-shadow: var(--shadow);
-  transform: translate(14%, 14%);
-}
-
-.portrait[data-style="small"] .icon {
-  left: -2px;
-  top: -2px;
-}
-
-.portrait[data-style="tiny"] .icon {
-  display: none;
-}
-
 .portrait-image {
   width: 100%;
   margin-bottom: 0px;

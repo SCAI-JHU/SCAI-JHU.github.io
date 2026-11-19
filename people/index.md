@@ -28,6 +28,8 @@ nav:
 
 <!-- {% include list.html data="members" component="portrait" filters="group: alumni" %} -->
 
+<div class="alumni-list" markdown="1">
+
 Aydan Huang, Undergraduate Student, 2026
 
 Haojun Shi, Undergraduate Student, 2026 (next: PhD at Yale)
@@ -65,3 +67,5 @@ Yizirui Fang, Master's Student, 2024 (next: Amazon)
 Zhengtao Han, Intern, 2024
 
 Zhining Zhang, Intern, 2024 (next: PhD at UC Berkeley)
+
+</div>

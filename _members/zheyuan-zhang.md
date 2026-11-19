@@ -1,7 +1,8 @@
 ---
-name: Zheyuan Zhang
+name: Zheyuan (Brian) Zhang
 image: images/members/ZheyuanZhang.jpg
 role: phd
+affiliation: Co-advised with Daniel Khashabi
 group: current
 links:
   home-page: https://cozheyuanzhangde.github.io/

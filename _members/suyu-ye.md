@@ -1,7 +1,8 @@
 ---
-name: Suyu Ye
+name: Suyu (Michael) Ye
 image: images/members/SuyuYe.jpg
 role: phd
+affiliation: Co-advised with Homanga Bharadhwaj
 group: current
 links:
   home-page: https://suyuye.com/

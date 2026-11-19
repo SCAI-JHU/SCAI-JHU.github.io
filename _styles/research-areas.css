@@ -7,8 +7,8 @@
 
 .area {
   display: flex;
-  align-items: center;
-  gap: 40px;
+  align-items: flex-start;
+  gap: 24px;
   scroll-margin-top: 80px;
 }
 
@@ -19,7 +19,7 @@
 .area-media {
   flex-shrink: 0;
   display: block;
-  width: 42%;
+  width: 33%;
   aspect-ratio: 16/9;
   border-radius: var(--rounded);
   background: var(--background-alt);
@@ -51,6 +51,7 @@
   flex-grow: 1;
   min-width: 0;
   text-align: left;
+  container-type: inline-size;
 }
 
 .area-text > * {
@@ -59,8 +60,9 @@
 
 .area-title {
   margin: 0 0 10px 0;
-  font-size: 1.3rem;
+  font-size: min(1.5rem, 3.4cqi);
   line-height: var(--compact);
+  white-space: nowrap;
 }
 
 .area-description {
@@ -111,6 +113,12 @@
   }
   .area-media {
     width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .area-title {
+    font-size: 1.2rem;
+    white-space: normal;
   }
 }
 

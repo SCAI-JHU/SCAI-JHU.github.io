@@ -1,12 +1,12 @@
 /*
-  loops research highlight teaser videos silently while they are on screen,
+  loops teaser videos (research highlights, areas, publications) silently while they are on screen,
   and pauses them when scrolled away.
 */
 
 {
   const onLoad = () => {
     const videos = document.querySelectorAll(
-      ".gallery-card video, .area-media video"
+      ".gallery-card video, .area-media video, .citation-image video"
     );
     if (!videos.length) return;
 

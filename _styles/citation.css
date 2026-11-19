@@ -2,9 +2,13 @@
   container-type: inline-size;
 }
 
+.list-year {
+  margin: 24px 0 8px 0;
+}
+
 .citation {
   display: flex;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -17,7 +21,8 @@
   flex-shrink: 0;
 }
 
-.citation-image img {
+.citation-image img,
+.citation-image video {
   position: absolute;
   inset: 0;
   padding-left: 10px;

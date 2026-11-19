@@ -13,8 +13,8 @@ $wrap: 800px;
 
 .area {
   display: flex;
-  align-items: center;
-  gap: 40px;
+  align-items: flex-start;
+  gap: 24px;
   scroll-margin-top: 80px;
 }
 
@@ -25,7 +25,7 @@ $wrap: 800px;
 .area-media {
   flex-shrink: 0;
   display: block;
-  width: 42%;
+  width: 33%;
   aspect-ratio: 16 / 9;
   border-radius: var(--rounded);
   background: var(--background-alt);
@@ -61,16 +61,20 @@ $wrap: 800px;
   flex-grow: 1;
   min-width: 0;
   text-align: left;
+  container-type: inline-size;
 }
 
 .area-text > * {
   margin: 0;
 }
 
+// keep each title on one line, shrinking it when the column is too narrow
+// for the longest title at full size
 .area-title {
   margin: 0 0 10px 0;
-  font-size: 1.3rem;
+  font-size: min(1.5rem, 3.4cqi);
   line-height: var(--compact);
+  white-space: nowrap;
 }
 
 .area-description {
@@ -122,5 +126,13 @@ $wrap: 800px;
 
   .area-media {
     width: 100%;
+  }
+}
+
+// on phones one line would make the longest titles too small to read
+@media (max-width: 600px) {
+  .area-title {
+    font-size: 1.2rem;
+    white-space: normal;
   }
 }

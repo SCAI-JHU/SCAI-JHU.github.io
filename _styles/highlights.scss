@@ -2,7 +2,9 @@
 ---
 
 // section heading with a "view all" link on the right
+// (no top margin: it opens its section, whose padding already spaces it)
 .gallery-heading {
+  margin-top: 0;
   display: flex;
   justify-content: space-between;
   align-items: baseline;

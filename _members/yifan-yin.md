@@ -2,6 +2,7 @@
 name: Yifan Yin
 image: images/members/YifanYin.jpg
 role: phd
+description: 2024–
 group: current
 links:
   home-page: https://yifanyin11.github.io/

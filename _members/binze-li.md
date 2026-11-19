@@ -3,6 +3,7 @@ name: Binze Li
 image: images/members/BinzeLi.jpg
 # image: https://binzeli.github.io/assets/img/picture.jpg
 role: phd
+description: 2025–
 affiliation: Co-advised with Gillian Hadfield
 group: current
 links:

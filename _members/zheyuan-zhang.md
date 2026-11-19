@@ -2,6 +2,7 @@
 name: Zheyuan (Brian) Zhang
 image: images/members/ZheyuanZhang.jpg
 role: phd
+description: 2025–
 affiliation: Co-advised with Daniel Khashabi
 group: current
 links:

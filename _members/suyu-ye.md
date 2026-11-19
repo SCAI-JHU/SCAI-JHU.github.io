@@ -2,6 +2,7 @@
 name: Suyu (Michael) Ye
 image: images/members/SuyuYe.jpg
 role: phd
+description: 2026–
 affiliation: Co-advised with Homanga Bharadhwaj
 group: current
 links:

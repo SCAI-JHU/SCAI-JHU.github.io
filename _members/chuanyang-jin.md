@@ -2,6 +2,7 @@
 name: Chuanyang Jin
 image: https://chuanyangjin.com/assets/img/me.jpg
 role: phd
+description: 2024–
 group: current
 links:
   home-page: https://chuanyangjin.com/

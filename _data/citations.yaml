@@ -1,4 +1,25 @@
-# Preprints
+- title: "NormGym: Evaluating Normative Competence through Social Interaction"
+  authors:
+  - Binze Li
+  - Zihuan Zhang
+  - Seokhyun Baek
+  - Gillian K. Hadfield
+  - Tianmin Shu
+  date: '2026-11-05'
+  publisher: arXiv preprint
+  image: ./images/publications/NormGym.jpg
+  video: ./images/publications/NormGym.mp4
+  buttons:
+  - type: paper
+    link: https://arxiv.org/abs/2611.08613
+  - type: website
+    link: https://normgym.github.io/normgym-page/
+  - type: code
+    link: https://github.com/binzeli/normGym
+  tags:
+  - Social Learning
+  - Social Cognition
+
 - title: "Watch, Infer, Coordinate: Inferring Robot Partner Constraints for Zero-Shot Coordination"
   authors:
   - Suyu Ye
@@ -9,9 +30,10 @@
   - Tianmin Shu
   - Homanga Bharadhwaj
   - Nakul Agarwal
-  date: 'Preprint'
+  date: '2026-10-01'
   publisher: arXiv preprint
-  image: https://watch-infer-coordinate.github.io/static/images/og.jpg
+  image: ./images/publications/WatchInferCoordinate.jpg
+  video: ./images/publications/WatchInferCoordinate.mp4
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2610.02170
@@ -79,7 +101,7 @@
   - Tobias Gerstenberg
   - Kevin Smith
   - Joshua B. Tenenbaum
-  date: 'Preprint'
+  date: '2026-09-18'
   publisher: arXiv preprint
   image: http://scai.cs.jhu.edu/images/publications/CogGym.png
   buttons:
@@ -111,7 +133,7 @@
   - Tianmin Shu
   - Zhiting Hu
   - Zhen Wang
-  date: 'Preprint'
+  date: '2026-09-14'
   publisher: arXiv preprint
   image: https://wannabeyourfriend.github.io/mind2dialogue/assets/overview.png
   buttons:
@@ -142,9 +164,10 @@
   - Jianwen Xie
   - Ayush Tewari
   - Tianmin Shu
-  date: 'Preprint'
+  date: '2026-05-12'
   publisher: arXiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/3D-Belief.jpg
+  image: ./images/publications/3D-Belief-poster.jpg
+  video: ./images/publications/3D-Belief.mp4
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2605.11367
@@ -157,30 +180,6 @@
   tags:
   - Embodied AI
 
-- title: "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents"
-  authors:
-  - Zheyuan Zhang
-  - Zehao Wen
-  - Alvin Zhang
-  - Andrew Wang
-  - Jianwen Xie
-  - Daniel Khashabi
-  - Tianmin Shu
-  date: '2026-12-06'
-  publisher: NeurIPS 2026
-  image: https://agentodyssey.github.io/img/doc/teaser_web.png
-  buttons:
-  - type: paper
-    link: https://agentodyssey.github.io/paper.pdf
-  - type: website
-    link: https://agentodyssey.github.io/
-  - type: code
-    link: https://github.com/agentodyssey/agentodyssey
-  - type: docs
-    link: https://agentodyssey.github.io/docs
-  tags:
-  - Embodied AI
-
 - title: "Grounding Social Perception in Intuitive Physics"
   authors:
   - Lance Ying\*
@@ -190,7 +189,7 @@
   - Boris Katz
   - Joshua B. Tenenbaum
   - Tianmin Shu
-  date: 'Preprint'
+  date: '2026-03-28'
   publisher: arXiv preprint
   image: ./images/publications/SIMPLE.jpg
   buttons:
@@ -199,22 +198,6 @@
   tags:
   - Social Cognition
   - Embodied AI
-
-- title: "Bottom-up and generative computations uniquely explain neural responses across the social brain"
-  authors:
-  - Manasi Malik
-  - Minjae Kim
-  - Tianmin Shu
-  - Shari Liu
-  - Leyla Isik
-  date: 'Preprint'
-  publisher: bioRxiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/Bottom-up.jpg
-  buttons:
-  - type: paper
-    link: https://www.biorxiv.org/content/10.64898/2026.02.20.707082v2
-  tags:
-  - Social Cognition
 
 - title: "Safe and Interpretable Multimodal Path Planning for Multi-Agent Cooperation"
   authors:
@@ -226,7 +209,7 @@
   - Daniel Khashabi
   - Chien-Ming Huang
   - Tianmin Shu
-  date: 'Preprint'
+  date: '2026-02-22'
   publisher: arXiv preprint
   image: http://scai.cs.jhu.edu/images/publications/CaPE.png
   buttons:
@@ -237,6 +220,22 @@
   tags:
   - Embodied AI
   - Human-AI Cooperation
+
+- title: "Bottom-up and generative computations uniquely explain neural responses across the social brain"
+  authors:
+  - Manasi Malik
+  - Minjae Kim
+  - Tianmin Shu
+  - Shari Liu
+  - Leyla Isik
+  date: '2026-02-20'
+  publisher: bioRxiv preprint
+  image: http://scai.cs.jhu.edu/images/publications/Bottom-up.jpg
+  buttons:
+  - type: paper
+    link: https://www.biorxiv.org/content/10.64898/2026.02.20.707082v2
+  tags:
+  - Social Cognition
 
 - title: "On Benchmarking Human-Like Intelligence in Machines"
   authors:
@@ -249,7 +248,7 @@
   - Tianmin Shu
   - Thomas L. Griffiths
   - Joshua B. Tenenbaum
-  date: 'Preprint'
+  date: '2025-02-27'
   publisher: arXiv preprint
   image: http://scai.cs.jhu.edu/images/publications/human-like-intelligence.jpg
   buttons:
@@ -260,6 +259,32 @@
 
 
 # Publicaions
+
+- title: "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents"
+  authors:
+  - Zheyuan Zhang
+  - Zehao Wen
+  - Alvin Zhang
+  - Andrew Wang
+  - Jianwen Xie
+  - Daniel Khashabi
+  - Tianmin Shu
+  date: '2026-12-06'
+  publisher: NeurIPS 2026
+  image: ./images/publications/AgentOdyssey.jpg
+  video: ./images/publications/AgentOdyssey.mp4
+  buttons:
+  - type: paper
+    link: https://agentodyssey.github.io/paper.pdf
+  - type: website
+    link: https://agentodyssey.github.io/
+  - type: code
+    link: https://github.com/agentodyssey/agentodyssey
+  - type: docs
+    link: https://agentodyssey.github.io/docs
+  tags:
+  - Embodied AI
+
 - title: "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts"
   authors:
   - Zheyuan Zhang
@@ -474,7 +499,7 @@
   - Tianmin Shu
   date: '2026-06-01'
   publisher: ICRA 2026
-  image: http://scai.cs.jhu.edu/images/publications/SIFToM.jpg
+  image: ./images/highlights/SIFToM.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2409.10849

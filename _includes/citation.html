@@ -18,12 +18,26 @@
         class="citation-image"
         aria-label="{{ citation.title | default: "citation link" }}"
       >
-        <img
-          src="{{ citation.image | relative_url }}"
-          alt="{{ citation.title | default: "citation image" }}"
-          loading="lazy"
-          {% include fallback.html %}
-        >
+        {% if citation.video %}
+          <video
+            src="{{ citation.video | relative_url }}"
+            {% if citation.image %}
+              poster="{{ citation.image | relative_url }}"
+            {% endif %}
+            muted
+            loop
+            playsinline
+            preload="none"
+            aria-label="{{ citation.title }} teaser video"
+          ></video>
+        {% else %}
+          <img
+            src="{{ citation.image | relative_url }}"
+            alt="{{ citation.title | default: "citation image" }}"
+            loading="lazy"
+            {% include fallback.html %}
+          >
+        {% endif %}
       </a>
     {% endif %}
 

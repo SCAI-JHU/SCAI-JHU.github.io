@@ -8,9 +8,14 @@ $wrap: 800px;
   container-type: inline-size;
 }
 
+// year headings between groups of entries (from list.html), kept compact
+.list-year {
+  margin: 24px 0 8px 0;
+}
+
 .citation {
   display: flex;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -24,7 +29,8 @@ $wrap: 800px;
   // box-shadow: var(--shadow);
 }
 
-.citation-image img {
+.citation-image img,
+.citation-image video {
   position: absolute;
   inset: 0;
   padding-left: 10px;

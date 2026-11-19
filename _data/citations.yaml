@@ -156,7 +156,6 @@
     link: https://huggingface.co/datasets/SCAI-JHU/3d-belief
   tags:
   - Embodied AI
-  - Theory of Mind
 
 - title: "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents"
   authors:
@@ -193,7 +192,7 @@
   - Tianmin Shu
   date: 'Preprint'
   publisher: arXiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/SIMPLE.jpg
+  image: ./images/publications/SIMPLE.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2603.27410
@@ -318,6 +317,7 @@
   - Renjie Zhao
   date: '2026-09-30'
   publisher: IMWUT 2026
+  image: ./images/publications/RF-HOI.jpg
   buttons:
   - type: paper
     link: https://doi.org/10.1145/3831638
@@ -548,7 +548,7 @@
   - Chien-Ming Huang
   date: '2026-01-01'
   publisher: TMLR 2026
-  image: 
+  image: ./images/publications/AugmentedVLM.png
   buttons:
   - type: paper
     link: https://openreview.net/pdf?id=DFnPi77v6J
@@ -596,7 +596,8 @@
   - Lianhui Qin
   date: '2025-12-02'
   publisher: NeurIPS 2025 (<span style="color:red">Spotlight</span>)
-  image: ./images/projects/SimWorld.gif
+  image: ./images/highlights/SimWorld.jpg
+  video: ./images/highlights/SimWorld.mp4
   buttons:
   - type: paper
     link: https://openreview.net/pdf?id=FxCy8TvQHO
@@ -622,7 +623,8 @@
   - Tianmin Shu
   date: '2025-12-02'
   publisher: NeurIPS 2025
-  image: ./images/projects/SimWorld.gif
+  image: ./images/publications/SimWorld-MMNav.jpg
+  video: ./images/publications/SimWorld-MMNav.mp4
   buttons:
   - type: paper
     link: https://scai.cs.jhu.edu/projects/SimWorldRobotics/static/pdfs/SimWorld_Robotics.pdf
@@ -1319,6 +1321,8 @@
   buttons:
   - type: paper
     link: https://www.sciencedirect.com/science/article/pii/S0042698920301656?dgcid=coauthor
+  tags:
+  - Social Cognition
 
 - title: "Adventures in Flatland: Perceiving Social Interactions Under Physical Dynamics"
   authors:
@@ -1333,6 +1337,9 @@
   - type: paper
     link: https://www.tshu.io/HeiderSimmel/CogSci20/Flatland_CogSci20.pdf
   - Social Scene Understanding
+  - Theory of Mind
+  - Social Cognition
+  tags:
   - Theory of Mind
   - Social Cognition
 
@@ -1394,3 +1401,237 @@
     link: https://www.tshu.io/papers/PR_Infer.pdf
   tags:
   - Theory of Mind
+
+- title: "M^3RL: Mind-aware Multi-agent Management Reinforcement Learning"
+  authors:
+  - Tianmin Shu
+  - Yuandong Tian
+  date: '2019-05-06'
+  publisher: ICLR 2019
+  image: https://www.tshu.io/M3RL/m3rl.png
+  buttons:
+  - type: paper
+    link: https://openreview.net/pdf?id=BkzeUiRcY7
+  - type: code
+    link: https://github.com/facebookresearch/M3RL
+  tags:
+  - Theory of Mind
+  - Multi-Agent Cooperation
+
+- title: "Partitioning the Perception of Physical and Social Events Within a Unified Psychological Space"
+  authors:
+  - Tianmin Shu
+  - Yujia Peng
+  - Hongjing Lu
+  - Song-Chun Zhu
+  date: '2019-07-24'
+  publisher: CogSci 2019 (<span style="color:red">Oral</span>)
+  image: https://www.tshu.io/HeiderSimmel/CogSci19/intro.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/HeiderSimmel/CogSci19/HeiderSimmel_CogSci19.pdf
+  - type: website
+    link: https://www.tshu.io/HeiderSimmel/CogSci19/
+  tags:
+  - Social Cognition
+
+- title: "VRKitchen: an Interactive 3D Environment for Learning Real Life Cooking Tasks"
+  authors:
+  - Xiaofeng Gao
+  - Ran Gong
+  - Tianmin Shu
+  - Xu Xie
+  - Shu Wang
+  - Song-Chun Zhu
+  date: '2019-06-14'
+  publisher: ICML 2019 Workshop on Reinforcement Learning for Real Life
+  image: https://xfgao.github.io/imgs/dish_fluent_small.gif
+  buttons:
+  - type: paper
+    link: https://openreview.net/pdf?id=rygmCx3vjE
+  - type: website
+    link: https://sites.google.com/view/vr-kitchen
+  - type: code
+    link: https://github.com/xfgao/VRKitchen
+  tags:
+  - Embodied AI
+
+- title: "Hierarchical and Interpretable Skill Acquisition in Multi-task Reinforcement Learning"
+  authors:
+  - Tianmin Shu
+  - Caiming Xiong
+  - Richard Socher
+  date: '2018-04-30'
+  publisher: ICLR 2018
+  image: https://www.tshu.io/HRL_ICLR/intro1.png
+  buttons:
+  - type: paper
+    link: https://openreview.net/pdf?id=SJJQVZW0b
+  tags:
+  - Embodied AI
+
+- title: "Learning and Inferring “Dark Matter” and Predicting Human Intents and Trajectories in Videos"
+  authors:
+  - Dan Xie
+  - Tianmin Shu
+  - Sinisa Todorovic
+  - Song-Chun Zhu
+  date: '2018-07-01'
+  publisher: TPAMI 2018
+  image: https://www.tshu.io/DarkMatter/intro.png
+  buttons:
+  - type: paper
+    link: https://doi.org/10.1109/TPAMI.2017.2728788
+  tags:
+  - Theory of Mind
+
+- title: "Interactive Agent Modeling by Learning to Probe"
+  authors:
+  - Tianmin Shu
+  - Caiming Xiong
+  - Ying Nian Wu
+  - Song-Chun Zhu
+  date: '2018-12-07'
+  publisher: NeurIPS 2018 Deep Reinforcement Learning Workshop
+  image: https://www.tshu.io/images/probing_DRL_intro.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/1810.00510.pdf
+  tags:
+  - Theory of Mind
+  - Social Learning
+
+- title: "Where and Why Are They Looking? Jointly Inferring Human Attention and Intentions in Complex Tasks"
+  authors:
+  - Ping Wei
+  - Yang Liu
+  - Tianmin Shu
+  - Nanning Zheng
+  - Song-Chun Zhu
+  date: '2018-06-18'
+  publisher: CVPR 2018
+  image: https://www.tshu.io/HAO/intro.png
+  buttons:
+  - type: paper
+    link: https://openaccess.thecvf.com/content_cvpr_2018/papers/Wei_Where_and_Why_CVPR_2018_paper.pdf
+  tags:
+  - Theory of Mind
+
+- title: "Perception of Human Interaction Based on Motion Trajectories: from Aerial Videos to Decontextualized Animations"
+  authors:
+  - Tianmin Shu\*
+  - Yujia Peng\*
+  - Lifeng Fan
+  - Hongjing Lu
+  - Song-Chun Zhu
+  date: '2018-01-01'
+  publisher: Topics in Cognitive Science 2018
+  image: https://www.tshu.io/HeiderSimmel/CogSci17/stimuli.png
+  buttons:
+  - type: paper
+    link: http://rdcu.be/Gfoj
+  tags:
+  - Social Cognition
+
+- title: "Inferring Human Interaction from Motion Trajectories in Aerial Videos"
+  authors:
+  - Tianmin Shu\*
+  - Yujia Peng\*
+  - Lifeng Fan
+  - Hongjing Lu
+  - Song-Chun Zhu
+  date: '2017-07-26'
+  publisher: CogSci 2017 (<span style="color:red">Computational Modeling Prize</span>)
+  image: https://www.tshu.io/HeiderSimmel/CogSci17/cover_fig_CIF.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/HeiderSimmel/CogSci17/CogSci17_Camera_Ready.pdf
+  - type: website
+    link: https://www.tshu.io/HeiderSimmel/CogSci17/
+  tags:
+  - Social Cognition
+
+- title: "CERN: Confidence-Energy Recurrent Network for Group Activity Recognition"
+  authors:
+  - Tianmin Shu
+  - Sinisa Todorovic
+  - Song-Chun Zhu
+  date: '2017-07-21'
+  publisher: CVPR 2017
+  image: https://www.tshu.io/CERN/intro1.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/CERN/CERN.pdf
+  tags:
+  - Social Scene Understanding
+
+- title: "Learning Social Affordance Grammar from Videos: Transferring Human Interactions to Human-Robot Interactions"
+  authors:
+  - Tianmin Shu
+  - Xiaofeng Gao
+  - Michael S. Ryoo
+  - Song-Chun Zhu
+  date: '2017-05-29'
+  publisher: ICRA 2017
+  image: https://www.tshu.io/SocialAffordanceGrammar/intro.png
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/1703.00503.pdf
+  - type: website
+    link: https://www.tshu.io/SocialAffordanceGrammar/
+  tags:
+  - Human-AI Cooperation
+  - Social Learning
+  - Embodied AI
+
+- title: "Critical Features of Joint Actions that Signal Human Interaction"
+  authors:
+  - Tianmin Shu\*
+  - Steven Thurman\*
+  - Dawn Chen
+  - Song-Chun Zhu
+  - Hongjing Lu
+  date: '2016-08-10'
+  publisher: CogSci 2016
+  image: https://www.tshu.io/CriticalFeaturesCogSci/confusing.png
+  buttons:
+  - type: paper
+    link: https://escholarship.org/uc/item/10s2k81t
+  tags:
+  - Social Cognition
+
+- title: "Learning Social Affordance for Human-Robot Interaction"
+  authors:
+  - Tianmin Shu
+  - Michael S. Ryoo
+  - Song-Chun Zhu
+  date: '2016-07-09'
+  publisher: IJCAI 2016
+  image: https://www.tshu.io/SocialAffordance/Shake_Hands.gif
+  buttons:
+  - type: paper
+    link: https://arxiv.org/pdf/1604.03692v2.pdf
+  - type: website
+    link: https://www.tshu.io/SocialAffordance/
+  tags:
+  - Human-AI Cooperation
+  - Social Learning
+  - Embodied AI
+
+- title: "Joint Inference of Groups, Events and Human Roles in Aerial Videos"
+  authors:
+  - Tianmin Shu
+  - Dan Xie
+  - Brandon Rothrock
+  - Sinisa Todorovic
+  - Song-Chun Zhu
+  date: '2015-06-07'
+  publisher: CVPR 2015 (<span style="color:red">Oral</span>)
+  image: https://www.tshu.io/front.png
+  buttons:
+  - type: paper
+    link: https://www.tshu.io/AerialVideo/Aerial_Video.pdf
+  - type: website
+    link: https://www.tshu.io/AerialVideo/AerialVideo.html
+  tags:
+  - Social Scene Understanding

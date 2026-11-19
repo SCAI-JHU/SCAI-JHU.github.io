@@ -18,5 +18,3 @@ nav:
 <!-- \* indicates equal contribution -->
 
 {% include list.html data="citations" component="citation" style="rich" %}
-
-<h4>For papers published before 2020, please check out <a href="https://www.tshu.io/publications.html">here</a>.</h4>

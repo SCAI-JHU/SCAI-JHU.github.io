@@ -5,7 +5,7 @@ nav:
   tooltip: 
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %} Join us
+# Join us
 
 We are actively recruiting highly motivated students to join our lab.
 

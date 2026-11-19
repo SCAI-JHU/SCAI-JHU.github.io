@@ -44,7 +44,10 @@ h6 {
   font-size: 1rem;
 }
 
-:where(h1, h2, h3, h4, h5, h6) > .icon {
+// spacing after a decorative icon at the start of a heading; not the hidden
+// "link to this section" anchor at the end, whose margin would push centered
+// headings off-center
+:where(h1, h2, h3, h4, h5, h6) > .icon:not(.anchor) {
   margin-right: 1em;
   color: var(--light-gray);
 }

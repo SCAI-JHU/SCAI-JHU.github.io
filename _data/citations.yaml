@@ -103,7 +103,7 @@
   - Joshua B. Tenenbaum†
   date: '2026-09-18'
   publisher: arXiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/CogGym.png
+  image: ./images/publications/CogGym.png
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2609.21259
@@ -211,7 +211,7 @@
   - Tianmin Shu
   date: '2026-02-22'
   publisher: arXiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/CaPE.png
+  image: ./images/publications/CaPE.png
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2602.19304v1
@@ -230,7 +230,7 @@
   - Leyla Isik
   date: '2026-02-20'
   publisher: bioRxiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/Bottom-up.jpg
+  image: ./images/publications/Bottom-up.jpg
   buttons:
   - type: paper
     link: https://www.biorxiv.org/content/10.64898/2026.02.20.707082v2
@@ -250,7 +250,7 @@
   - Joshua B. Tenenbaum
   date: '2025-02-27'
   publisher: arXiv preprint
-  image: http://scai.cs.jhu.edu/images/publications/human-like-intelligence.jpg
+  image: ./images/publications/human-like-intelligence.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2502.20502
@@ -359,7 +359,7 @@
   - Tianmin Shu
   date: '2026-07-17'
   publisher: Open Mind
-  image: http://scai.cs.jhu.edu/images/publications/POPKI.jpg
+  image: ./images/publications/POPKI.jpg
   buttons:
   - type: paper
     link: https://direct.mit.edu/opmi/article/doi/10.1162/OPMI.a.375/138310
@@ -380,7 +380,8 @@
   - Tianmin Shu
   date: '2026-07-06'
   publisher: RLxF Workshop at ICML 2026 (<span style="color:red">Best Paper Award</span>)
-  image: http://scai.cs.jhu.edu/images/publications/ThoughtTrace.gif
+  image: ./images/publications/ThoughtTrace-poster.jpg
+  video: ./images/publications/ThoughtTrace-slides.mp4
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2605.20087
@@ -406,7 +407,7 @@
   - Tianmin Shu
   date: '2026-07-06'
   publisher: ICML 2026
-  image: https://github.com/SCAI-JHU/MindZero/raw/main/assets/framework.png
+  image: ./images/highlights/MindZero.png
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2606.00240
@@ -457,7 +458,7 @@
   - Alan Yuille
   date: '2026-06-11'
   publisher: CVPR 2026 Findings
-  image: http://scai.cs.jhu.edu/images/publications/Unreal3DSpace.jpg
+  image: ./images/publications/Unreal3DSpace.jpg
   buttons:
   - type: paper
     link: https://openaccess.thecvf.com/content/CVPR2026F/papers/Ma_UnrealSpace_Analyzing_Spatial_Understanding_and_Reasoning_in_Controllable_Simulation_CVPRF_2026_paper.pdf
@@ -479,7 +480,7 @@
   - Alan Yuille
   date: '2026-06-11'
   publisher: CVPR 2026 Findings
-  image: http://scai.cs.jhu.edu/images/publications/FoundationDeOcclusion.jpg
+  image: ./images/publications/FoundationDeOcclusion.jpg
   buttons:
   - type: paper
     link: https://openaccess.thecvf.com/content/CVPR2026F/papers/Chen_Fast_Generative_DeOcclusion_for_Visual_Geometry_and_Robotics_CVPRF_2026_paper.pdf
@@ -554,7 +555,7 @@
   - Tianmin Shu
   date: '2026-01-20'
   publisher: AAAI 2026
-  image: http://scai.cs.jhu.edu/images/publications/RealWebAssist.jpg
+  image: ./images/publications/RealWebAssist.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2504.10445
@@ -589,7 +590,7 @@
   - Tianmin Shu
   date: '2025-12-02'
   publisher: NeurIPS 2025 (<span style="color:red">Spotlight</span>)
-  image: http://scai.cs.jhu.edu/images/publications/AutoToM.jpg
+  image: ./images/publications/AutoToM.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2502.15676
@@ -669,7 +670,7 @@
   - Jeremias Sulam
   date: '2025-11-23'
   publisher: AAAI Symposium Series
-  image: http://scai.cs.jhu.edu/images/publications/Adaptive.jpg
+  image: ./images/publications/Adaptive.jpg
   buttons:
   - type: paper
     link: https://ojs.aaai.org/index.php/AAAI-SS/article/view/36940
@@ -727,7 +728,7 @@
   - Tianmin Shu 
   date: '2025-07-21'
   publisher: RSS 2025
-  image: http://scai.cs.jhu.edu/images/publications/PartInstruct.jpg
+  image: ./images/publications/PartInstruct.jpg
   buttons:
   - type: paper
     link: https://openreview.net/pdf?id=Kb4fDvJBlj
@@ -753,7 +754,7 @@
   - Jieneng Chen
   date: '2025-04-24'
   publisher: ICLR 2025
-  image: http://scai.cs.jhu.edu/images/publications/Genex.jpg
+  image: ./images/publications/Genex.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2412.09624
@@ -801,7 +802,7 @@
   - Tianmin Shu
   date: '2025-02-25'
   publisher: AAAI 2025 (<span style="color:red">Oral</span>)
-  image: http://scai.cs.jhu.edu/images/publications/MuMA-ToM.jpg
+  image: ./images/publications/MuMA-ToM.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2408.12574
@@ -823,7 +824,7 @@
   - Pulkit Agrawal
   date: '2024-12-10'
   publisher: NeurIPS 2024
-  image: http://scai.cs.jhu.edu/images/publications/FTL-IGM.jpg
+  image: ./images/publications/FTL-IGM.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2411.04987
@@ -850,7 +851,7 @@
   - Chuang Gan
   date: '2024-12-10'
   publisher: NeurIPS 2024
-  image: http://scai.cs.jhu.edu/images/publications/CHAIC.jpg
+  image: ./images/publications/CHAIC.jpg
   buttons:
   - type: paper
     link: https://arxiv.org/abs/2411.01796
@@ -899,7 +900,8 @@
   - Tianmin Shu
   publisher: ACL 2024 (<span style="color:red">Outstanding Paper Award</span>)
   date: '2024-08-01'
-  image: ./images/projects/MMToMQA.gif
+  image: ./images/publications/MMToMQA-poster.jpg
+  video: ./images/publications/MMToMQA.mp4
   buttons:
   - type: paper
     link: https://arxiv.org/pdf/2401.08743

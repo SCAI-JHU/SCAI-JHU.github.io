@@ -1,6 +1,6 @@
 ---
 name: Tianmin Shu
-image: https://www.tshu.io/portrait_2018.jpg
+image: images/members/TianminShu.jpg
 role: pi
 aliases:
   - T. Shu

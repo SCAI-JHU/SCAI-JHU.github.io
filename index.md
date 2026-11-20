@@ -8,7 +8,7 @@ Welcome to the Social Cognitive AI (SCAI, pronounced “sky”) Lab at Johns Hop
 {% include section.html %}
 
 <h2 id="research-highlights" class="gallery-heading">
-  <span>Recent Publications</span>
+  <span>Selected Publications</span>
   <a href="{{ "/publications" | relative_url }}" class="gallery-heading-link">{% include icon.html icon="fa-solid fa-arrow-right" %} view all</a>
 </h2>
 
